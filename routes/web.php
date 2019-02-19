@@ -20,6 +20,7 @@ Route::view('/services', 'services');
 Route::view('/courses', 'courses');
 Route::view('/contacts', 'contacts');
 Route::view('/aboutus', 'aboutus');
+Route::view('/admin', 'admin');
 
 Auth::routes();
 

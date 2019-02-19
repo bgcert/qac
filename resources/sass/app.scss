@@ -27,7 +27,7 @@
     .title {
       color: #fff;
       font-size: 2.6em;
-      border: 2px solid rgba(255, 255, 255, 0.5);
+      border: 1px solid #fff;
       padding: 8px;
       font-weight: 600;
     }
@@ -39,6 +39,19 @@
   text-align: center;
   .service {
     margin-bottom: 40px;
+    .circle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+      width: 100px;
+      background-color: #75704E;
+      border-radius: 50%;
+    }
+    ion-icon {
+      font-size: 40px;
+      color: #fff;
+    }
     .title {
       font-size: 1.4em;
     }

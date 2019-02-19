@@ -18,7 +18,9 @@
         <div class="row services">
             <div class="service col-4">
                 <div>
-                    <ion-icon name="help-buoy"></ion-icon>
+                    <div class="circle">
+                        <ion-icon name="help-buoy"></ion-icon>
+                    </div>
                 </div>
                 <div class="title">
                 Експертна подкрепа и бизнес консултации
@@ -26,7 +28,9 @@
             </div>
             <div class="service col-4">
                 <div>
-                    <ion-icon name="ribbon"></ion-icon>
+                    <div class="circle">
+                        <ion-icon name="ribbon"></ion-icon>
+                    </div>
                 </div>
                 <div class="title">
                 Сертификация
@@ -34,6 +38,9 @@
             </div>
             <div class="service col-4">
                 <div>
+                    <div class="circle">
+                        <ion-icon name="pricetag"></ion-icon>
+                    </div>
                     <ion-icon name="pricetag"></ion-icon>
                 </div>
                 <div class="title">
@@ -42,6 +49,9 @@
             </div>
             <div class="service col-4">
                 <div>
+                    <div class="circle">
+                        <ion-icon name="wallet"></ion-icon>
+                    </div>
                     <ion-icon name="wallet"></ion-icon>
                 </div>
                 <div class="title">

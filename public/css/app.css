@@ -21,11 +21,6 @@
   text-transform: uppercase;
 }
 
-.segment ion-icon {
-  font-size: 56px;
-  color: #011936;
-}
-
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10699,7 +10694,7 @@ a.text-dark:focus {
 .hero .hero_centered_content .title {
   color: #fff;
   font-size: 2.6em;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid #fff;
   padding: 8px;
   font-weight: 600;
 }
@@ -10710,6 +10705,21 @@ a.text-dark:focus {
 
 .services .service {
   margin-bottom: 40px;
+}
+
+.services .service .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: #75704E;
+  border-radius: 50%;
+}
+
+.services .service ion-icon {
+  font-size: 40px;
+  color: #fff;
 }
 
 .services .service .title {

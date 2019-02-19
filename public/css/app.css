@@ -10707,6 +10707,12 @@ a.text-dark:focus {
   margin-bottom: 40px;
 }
 
+.services .service .service__icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 .services .service .circle {
   display: flex;
   align-items: center;

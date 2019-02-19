@@ -39,6 +39,11 @@
   text-align: center;
   .service {
     margin-bottom: 40px;
+    .service__icon {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
     .circle {
       display: flex;
       align-items: center;

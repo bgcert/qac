@@ -85,9 +85,10 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
     </div>
+    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
 </body>
 </html>

@@ -5,10 +5,42 @@
 // Variables
 @import 'variables';
 
+// Segments
+@import 'segments';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.hero {
+  background: #ED254E;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
+  .hero_centered_content {
+    .title {
+      color: #fff;
+      font-size: 2.6em;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      padding: 8px;
+      font-weight: 600;
+    }
+
+  }
+}
+
+.services {
+  text-align: center;
+  .service {
+    margin-bottom: 40px;
+    .title {
+      font-size: 1.4em;
+    }
+  }
 }

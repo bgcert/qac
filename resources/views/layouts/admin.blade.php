@@ -98,13 +98,13 @@
                             <a class="nav-link" href="#">Начало</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link active" href="/services">Услуги</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link active" href="/pages">Страници</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Услуги</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Запитвания</a>
+                            <a class="nav-link" href="/inquiries">Запитвания</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>

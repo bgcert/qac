@@ -2,7 +2,8 @@
 
 @section('content')
 
-<form>
+<form method="POST" action="{{ route('pages.store') }}">
+    @csrf
   <div class="form-group">
     <label for="title">Заглавие</label>
     <input type="text" class="form-control" id="title" placeholder="Заглавие">

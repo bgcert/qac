@@ -125,10 +125,4 @@
     </div>
 </div>
 
-<div class="segment footer">
-    <div class="container">
-        footer
-    </div>
-</div>
-
 @endsection

@@ -23,11 +23,13 @@
             <img src="/img/business1.png" class="img-fluid" alt="">
         </div>
     </div>
+
+    <div class="text-center">
+        <p class="h1">Обхват на основните дейности</p>
+    </div>
     
     <div class="row my-4">
-        <div class="col-4">
-            <img src="/img/business4.jpeg" class="img-fluid rounded" alt="">
-        </div>
+        
         <div class="col-8">
             <h3 class="mb-3">Основни дейности</h3>
             <p>
@@ -37,9 +39,15 @@
                 и стандарти като Медицинска директива, Директива за плавателни съдове за отдих и други.
             </p>
         </div>
+        <div class="col-4">
+            <img src="/img/business4.jpeg" class="img-fluid rounded" alt="">
+        </div>
     </div>
 
     <div class="row my-4">
+        <div class="col-4">
+            <img src="/img/business3.jpeg" class="img-fluid rounded" alt="">
+        </div>
         <div class="col-8">
             <h3 class="mb-3">Европейски проекти</h3>
             <p>
@@ -47,9 +55,7 @@
                 прави "Кю Ей Си" ООД предпочитан партньор или изпълнител на тези специализирани услуги.
             </p>
         </div>
-        <div class="col-4">
-            <img src="/img/business3.jpeg" class="img-fluid rounded" alt="">
-        </div>
+        
     </div>
 
     <div class="row my-4">

@@ -20,8 +20,13 @@ Route::view('/services', 'services');
 Route::view('/courses', 'courses');
 Route::view('/contacts', 'contacts');
 Route::view('/aboutus', 'aboutus');
-Route::view('/admin', 'admin');
+
+
+
+Route::view('/admin', 'pages.index');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('pages', 'PageController');

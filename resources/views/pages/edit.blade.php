@@ -14,6 +14,16 @@
     <input type="text" name="slug" class="form-control" id="slug" aria-describedby="slugHelp" placeholder="Slug" value="{{ $page->slug }}">
     <small id="slugHelp" class="form-text text-muted">Трябва да съдържа само думи на латиница разделени с " - ".</small>
   </div>
+
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="menu_item" id="menu-item" {{ ($page->menu_item) ? 'checked' : '' }}>
+      <label class="form-check-label" for="menu_item">
+        Визуализиране в основно меню
+      </label>
+    </div>
+  </div>
+
   <div class="form-group">
     <label for="priority">Приоритет</label>
     <input type="number" name="priority" class="form-control" id="priority" value="{{ $page->priority }}">

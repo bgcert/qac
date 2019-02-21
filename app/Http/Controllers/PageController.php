@@ -13,7 +13,7 @@ class PageController extends Controller
      */
     public function index()
     {
-        $pages = \App\Page::all();
+        $pages = \App\Page::orderBy('priority', 'asc')->get();
         return view('pages.index', compact('pages'));
     }
 
@@ -35,15 +35,19 @@ class PageController extends Controller
      */
     public function store(Request $request)
     {
+        if ( $request->has('menu_item')) {
+            $request->merge([ 'menu_item' => true ]);
+        }
+
         $request->validate([
-            'title'=>'required',
+            'title'=>'required|string',
             'slug'=>'required',
-            'priority' => 'required|integer',
+            'menu_item' => 'sometimes|boolean',
+            'priority' => 'integer',
             'body'=> 'required'
         ]);
 
         \App\Page::create($request->all());
-        // return redirect()->back()->withInput();
         return redirect('/pages')->with('success', 'Страницата е добавена');
     }
 
@@ -53,9 +57,10 @@ class PageController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($slug)
     {
-        //
+        $page = \App\Page::where('slug', $slug)->first();
+        return view('pages.show', compact('page'));
     }
 
     /**
@@ -79,9 +84,18 @@ class PageController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $request->merge([ 'menu_item' => $request->has('menu_item') ? true : false ]);
+
+        $request->validate([
+            'title'=>'required|string',
+            'slug'=>'required',
+            'menu_item' => 'sometimes|boolean',
+            'priority' => 'integer',
+            'body'=> 'required'
+        ]);
+
         $page = \App\Page::find($id);
         $page->update($request->all());
-        //\App\Page::create($request->all());
         return redirect('/pages')->with('success', 'Страницата е обновена');
     }
 

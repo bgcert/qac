@@ -12,14 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('homepage');
-    // return view('home');
+    $pages = \App\Page::orderBy('priority', 'asc')->get();
+    return view('homepage', compact('pages'));
 });
 
 Route::view('/services', 'services');
 Route::view('/courses', 'courses');
 Route::view('/contacts', 'contacts');
 Route::view('/aboutus', 'aboutus');
+
+Route::get('{slug}', 'PageController@show');
 
 
 

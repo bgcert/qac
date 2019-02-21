@@ -18,7 +18,8 @@ class CreatePagesTable extends Migration
             $table->string('title');
             $table->string('slug');
             $table->longText('body');
-            $table->integer('priority');
+            $table->boolean('menu_item')->default(0);
+            $table->integer('priority')->default(0);
             $table->timestamps();
         });
     }

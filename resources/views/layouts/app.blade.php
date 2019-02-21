@@ -60,6 +60,18 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/courses">Обучения</a>
                         </li>
+
+                        @php
+
+                        $menu_items = \App\Page::where('menu_item', 1)->get();
+
+                        @endphp
+
+                        @foreach($menu_items as $item)
+                        <li class="nav-item">
+                            <a class="nav-link" href="/{{ $item->slug }}">{{ $item->title }}</a>
+                        </li>
+                        @endforeach
                     </ul>
 
                     <!-- Right Side Of Navbar -->

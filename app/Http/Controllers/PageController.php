@@ -35,7 +35,16 @@ class PageController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request);
+        $request->validate([
+            'title'=>'required',
+            'slug'=>'required',
+            'priority' => 'required|integer',
+            'body'=> 'required'
+        ]);
+
+        \App\Page::create($request->all());
+        // return redirect()->back()->withInput();
+        return redirect('/pages')->with('success', 'Страницата е добавена');
     }
 
     /**
@@ -57,7 +66,8 @@ class PageController extends Controller
      */
     public function edit($id)
     {
-        //
+        $page = \App\Page::find($id);
+        return view('pages.edit', compact('page'));
     }
 
     /**
@@ -69,7 +79,10 @@ class PageController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $page = \App\Page::find($id);
+        $page->update($request->all());
+        //\App\Page::create($request->all());
+        return redirect('/pages')->with('success', 'Страницата е обновена');
     }
 
     /**

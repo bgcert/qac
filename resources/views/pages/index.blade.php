@@ -20,7 +20,7 @@
                 <tr>
                     <th scope="row">{{ $page->id }}</th>
                     <td>{{ $page->title }}</td>
-                    <td>1</td>
+                    <td>{{ $page->priority }}</td>
                     <td>
                         <div class="btn-group" role="group" aria-label="Basic example">
                             <a href="{{ route('pages.edit', $page->id) }}" class="btn btn-warning btn-outline">edit</a>

@@ -91,6 +91,7 @@
         <div class="container">
             <h1>Admin</h1>
             <hr>
+            
             <div class="row">
                 <div class="col-2">
                     <ul class="nav flex-column">
@@ -112,6 +113,15 @@
                     </ul>
                 </div>
                 <div class="col-10">
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
                     @yield('content')
                 </div>
             </div>

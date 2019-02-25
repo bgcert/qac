@@ -18,7 +18,7 @@ class CreateClientsTable extends Migration
             $table->string('name');
             $table->string('logo')->nullable();
             $table->integer('priority')->defautl(0);
-            $table->boolean('visible');
+            $table->boolean('visible')->defautl(1);
             $table->timestamps();
         });
     }

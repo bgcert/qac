@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,700);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,700,900);@import url(https://fonts.googleapis.com/css?family=Montserrat:400,600,700);@charset "UTF-8";
 
 .segment {
   padding: 40px 0;
@@ -10676,9 +10676,15 @@ a.text-dark:focus {
   }
 }
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+.header {
+  position: relative;
+}
+
+.navbar-homepage {
+  background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
 }
 
 .nav-link {
@@ -10709,6 +10715,7 @@ a.text-dark:focus {
 
 .services .service {
   margin-bottom: 40px;
+  text-decoration: none;
 }
 
 .services .service .service__icon {
@@ -10734,5 +10741,50 @@ a.text-dark:focus {
 
 .services .service .title {
   font-size: 1.4em;
+}
+
+.slider-image {
+  background-image: url("/img/1.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 420px;
+  overflow: hidden;
+  -webkit-filter: grayscale(64%) !important;
+          filter: grayscale(64%) !important;
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.slider__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.slider__content .primary-text {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: bold;
+  line-height: 0.5;
+}
+
+.slider__content .secondary-text {
+  font-weight: lighter;
+}
+
+.content__container {
+  width: 50%;
 }
 

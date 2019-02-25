@@ -11,16 +11,21 @@
 |
 */
 
-Route::get('/', function () {
-    $pages = \App\Page::orderBy('priority', 'asc')->get();
-    return view('homepage', compact('pages'));
-});
+// Route::get('/', function () {
+//     $pages = \App\Page::orderBy('priority', 'asc')->get();
+//     return view('homepage', compact('pages'));
+// });
 
-Route::view('/services', 'services');
+Route::get('/', 'HomeController@index');
+
+Route::view('/admin', 'pages.index');
+
+// Route::view('/services', 'services');
 Route::view('/courses', 'courses');
 Route::view('/contacts', 'contacts');
 Route::view('/aboutus', 'aboutus');
 Route::get('/clients', 'ClientController@index');
+Route::get('/services/{slug}', 'ServiceController@show');
 
 Route::view('/admin', 'pages.index');
 

@@ -2,6 +2,44 @@
 
 @section('content')
 
+<section class="header">
+    @include('partials.navbar-alt')
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slider-image" style="background-image: url('/img/3.jpeg');" alt="First slide">
+                    <div class="image-overlay">
+                        <div class="slider__content d-flex justify-content-center align-items-center">
+                            <div class="content__container">
+                                <div class="primary-text">Качеството - реално бъдеще</div>
+                                <div class="secondary-text">някакво подзаглавие</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slider-image" style="background-image: url('/img/2.jpeg');" alt="First slide">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slider-image" style="background-image: url('/img/4.jpeg');" alt="First slide">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
 <section class="hero">
     <div class="hero_centered_content">
         <div class="title">
@@ -39,7 +77,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <img src="https://placeimg.com/640/380/arch" alt="https://placeimg.com/640/380/arch">
+                <img src="/img/1.jpeg" class="img-fluid rounded" alt="Качеството - реално бъдеще!">
             </div>
         </div>
     </div>
@@ -52,14 +90,16 @@
         </div>
         <div class="row services">
             <div class="service col-4">
+                @foreach($services as $service)
                 <div class="service__icon">
                     <div class="circle">
                         <ion-icon name="help-buoy"></ion-icon>
                     </div>
                 </div>
                 <div class="title">
-                Експертна подкрепа и бизнес консултации
+                    {{ $service->title }}
                 </div>
+                @endforeach
             </div>
             <div class="service col-4">
                 <div class="service__icon">
@@ -68,7 +108,7 @@
                     </div>
                 </div>
                 <div class="title">
-                Сертификация
+                    Сертификация
                 </div>
             </div>
             <div class="service col-4">
@@ -78,7 +118,7 @@
                     </div>
                 </div>
                 <div class="title">
-                Маркировка СЕ
+                    Маркировка СЕ
                 </div>
             </div>
             <div class="service col-4">
@@ -88,7 +128,7 @@
                     </div>
                 </div>
                 <div class="title">
-                Европейски фондове
+                    Европейски фондове
                 </div>
             </div>
             <div class="service col-4">
@@ -108,7 +148,7 @@
                     </div>
                 </div>
                 <div class="title">
-                Обучение
+                    Обучение
                 </div>
             </div>
             <div class="service col-4">
@@ -118,7 +158,7 @@
                     </div>
                 </div>
                 <div class="title">
-                Консултации и подготовка на документи и защита при проверки от "Надзор на пазара" и КЗП
+                    Консултации и подготовка на документи и защита при проверки от "Надзор на пазара" и КЗП
                 </div>
             </div>
         </div>
@@ -131,4 +171,4 @@
     </div>
 </div>
 
-@endsection
+@endsection 

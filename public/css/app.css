@@ -10721,8 +10721,8 @@ a.text-dark:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
-  width: 100px;
+  height: 85px;
+  width: 85px;
   background-color: #75704E;
   border-radius: 50%;
 }

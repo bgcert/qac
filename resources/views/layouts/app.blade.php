@@ -61,6 +61,10 @@
                             <a class="nav-link" href="/courses">Обучения</a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="/clients">Клиенти</a>
+                        </li>
+
                         @php
 
                         $menu_items = \App\Page::where('menu_item', 1)->get();

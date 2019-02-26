@@ -99,10 +99,16 @@
                             <a class="nav-link" href="#">Начало</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/services">Услуги</a>
+                            <a class="nav-link active" href="{{ route('admin.services.index') }}">Услуги</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="/pages">Страници</a>
+                            <a class="nav-link active" href="{{ route('admin.pages.index') }}">Страници</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{{ route('admin.slides.index') }}">Слайдове</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="{{ route('admin.clients.index') }}">Клиенти</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/inquiries">Запитвания</a>

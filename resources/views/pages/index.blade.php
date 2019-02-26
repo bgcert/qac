@@ -4,7 +4,7 @@
     <h3>Страници</h3>
 
     <div class="text-right">
-        <a href="{{ route('pages.create') }}" class="btn btn-link">Добави</a>
+        <a href="{{ route('admin.pages.create') }}" class="btn btn-link">Добави</a>
     </div>
     <table class="table">
         <thead>
@@ -23,8 +23,8 @@
                     <td>{{ $page->priority }}</td>
                     <td>
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <a href="{{ route('pages.edit', $page->id) }}" class="btn btn-warning btn-outline">edit</a>
-                            <a href="{{ route('pages.destroy', $page->id) }}" class="btn btn-danger">delete</a>
+                            <a href="{{ route('admin.pages.edit', $page->id) }}" class="btn btn-warning btn-outline">edit</a>
+                            <a href="{{ route('admin.pages.destroy', $page->id) }}" class="btn btn-danger">delete</a>
                         </div>
                     </td>
                 </tr>

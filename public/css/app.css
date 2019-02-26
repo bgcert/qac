@@ -10680,33 +10680,19 @@ a.text-dark:focus {
   position: relative;
 }
 
-.navbar-homepage {
-  background-color: transparent;
+.main-nav {
+  background-color: transparent !important;
+  text-transform: uppercase;
   position: absolute;
   z-index: 1;
   width: 100%;
+  font-weight: bold;
 }
 
-.nav-link {
-  text-transform: capitalize;
-}
-
-.hero {
-  background: #ED254E;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-}
-
-.hero .hero_centered_content .title {
-  color: #fff;
-  font-size: 2.6em;
-  border: 1px solid #fff;
-  padding: 8px;
-  font-weight: 600;
+.main-nav .nav-link {
+  text-transform: uppercase !important;
+  border-right: 1px solid #fff;
+  padding: 0 0.6rem !important;
 }
 
 .services {
@@ -10715,7 +10701,8 @@ a.text-dark:focus {
 
 .services .service {
   margin-bottom: 40px;
-  text-decoration: none;
+  text-decoration: inherit;
+  color: inherit;
 }
 
 .services .service .service__icon {
@@ -10740,7 +10727,7 @@ a.text-dark:focus {
 }
 
 .services .service .title {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 .slider-image {
@@ -10770,18 +10757,35 @@ a.text-dark:focus {
   align-items: center;
   height: 100%;
   color: #fff;
-  font-size: 48px;
   text-transform: uppercase;
 }
 
 .slider__content .primary-text {
   font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: 3em;
   font-weight: bold;
-  line-height: 0.5;
+  line-height: 1;
 }
 
 .slider__content .secondary-text {
+  font-size: 2.4em;
   font-weight: lighter;
+  line-height: 1.2;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.slider__content .slider__action {
+  text-align: right;
+  margin-top: 4em;
+}
+
+.slider__content .slider__action a {
+  border: 2px double #8494cf;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 22px;
+  font-size: 1.4em;
 }
 
 .content__container {

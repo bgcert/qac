@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class ServiceController extends Controller
+class SlideController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +14,7 @@ class ServiceController extends Controller
      */
     public function index()
     {
-        $services = \App\Service::orderBy('priority', 'asc')->get();
-        return view('services.index', compact('services'));
+        //
     }
 
     /**
@@ -44,10 +44,9 @@ class ServiceController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($slug)
+    public function show($id)
     {
-        $service = \App\Service::where('slug', $slug)->first();
-        return view('services.show', compact('service'));
+        //
     }
 
     /**

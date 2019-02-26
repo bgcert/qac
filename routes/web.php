@@ -20,12 +20,12 @@ Route::get('/', 'HomeController@index');
 
 Route::view('/admin', 'pages.index');
 
-// Route::view('/services', 'services');
+Route::view('/services', 'services');
 Route::view('/courses', 'courses');
 Route::view('/contacts', 'contacts');
 Route::view('/aboutus', 'aboutus');
-Route::get('/clients', 'ClientController@index');
-Route::get('/services/{slug}', 'ServiceController@show');
+// Route::get('/clients', 'ClientController@index');
+// Route::get('/services/{slug}', 'ServiceController@show');
 
 Route::view('/admin', 'pages.index');
 
@@ -33,6 +33,17 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('pages', 'PageController');
+// Route::resource('pages', 'PageController');
 
-Route::get('{slug}', 'PageController@show');
+// Route::get('{slug}', 'PageController@show');
+
+Route::namespace('Admin')
+    ->prefix('admin')
+    ->name('admin.')
+    ->group(function () {
+        Route::view('/', 'admin.index');
+        Route::resource('services', 'ServiceController');
+        Route::resource('pages', 'PageController');
+        Route::resource('slides', 'SlideController');
+        Route::resource('clients', 'ClientController');
+    });

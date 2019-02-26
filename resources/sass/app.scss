@@ -19,49 +19,47 @@
 
 .header {
   position: relative;
-
 }
 
-.navbar-homepage {
-  background-color: transparent;
+.main-nav {
+  background-color: transparent !important;
+  text-transform: uppercase;
   position: absolute;
   z-index: 1;
   width: 100%;
-}
-
-// .carousel.slide {
-//   position: absolute;
-//   top: 0;
-// }
-
-.nav-link {
-  text-transform: capitalize;
-}
-
-.hero {
-  background: #ED254E;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
-  .hero_centered_content {
-    .title {
-      color: #fff;
-      font-size: 2.6em;
-      border: 1px solid #fff;
-      padding: 8px;
-      font-weight: 600;
-    }
-
+  font-weight: bold;
+  .nav-link {
+    text-transform: uppercase !important;
+    border-right: 1px solid #fff;
+    padding: 0  0.6rem !important;
   }
 }
+
+// .hero {
+//   background: #ED254E;
+//   height: 500px;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   clip-path: polygon(0 0,100% 0,100% 90%,0 100%);
+//   .hero_centered_content {
+//     .title {
+//       color: #fff;
+//       font-size: 2.6em;
+//       border: 1px solid #fff;
+//       padding: 8px;
+//       font-weight: 600;
+//     }
+
+//   }
+// }
 
 .services {
   text-align: center;
   .service {
     margin-bottom: 40px;
-    text-decoration: none;
+    text-decoration: inherit;
+    color: inherit;
     .service__icon {
       display: flex;
       justify-content: center;
@@ -81,7 +79,7 @@
       color: #fff;
     }
     .title {
-      font-size: 1.4em;
+      font-size: 1.3em;
     }
   }
 }
@@ -112,17 +110,34 @@
   align-items: center;
   height: 100%;
   color: #fff;
-  font-size: 48px;
   text-transform: uppercase;
   .primary-text {
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 3em;
     font-weight: bold;
-    line-height: 0.5;
+    line-height: 1;
   }
 
   .secondary-text {
+    font-size: 2.4em;
     font-weight: lighter;
+    line-height: 1.2;
+    font-style: italic;
+    text-transform: capitalize;
   }
+
+  .slider__action {
+    text-align: right;
+    margin-top: 4em;
+    a {
+      border: 2px double #8494cf;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 22px;
+      font-size: 1.4em;
+    }
+  }
+    
 }
 
 .content__container {

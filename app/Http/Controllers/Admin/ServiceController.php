@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class ClientController extends Controller
+class ServiceController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +14,8 @@ class ClientController extends Controller
      */
     public function index()
     {
-        $clients = \App\Client::orderBy('priority', 'asc')->get();
-        return view('clients.index', compact('clients'));
+        $services = \App\Service::orderBy('priority', 'asc')->get();
+        return view('services.index', compact('services'));
     }
 
     /**
@@ -44,9 +45,10 @@ class ClientController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($slug)
     {
-        //
+        $service = \App\Service::where('slug', $slug)->first();
+        return view('services.show', compact('service'));
     }
 
     /**

@@ -41,11 +41,14 @@
 </head>
 <body>
     <div id="app">
-        @include('partials.nav-top')
+        <section class="header">
+            @include('partials.nav-top')
+            @include('partials.navbar')
 
-        <main>
-            @yield('content')
-        </main>
+            <main>
+                @yield('content')
+            </main>
+        </section>
     </div>
     <div class="segment footer">
         <div class="container">

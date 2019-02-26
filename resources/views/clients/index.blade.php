@@ -1,26 +1,42 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
 
-    <div class="container">
-        <h3>Клиенти</h3>
+    <h3>Клиенти</h3>
 
-        <div class="row">
-
-            @foreach($clients as $client)
-                <div class="col-2 my-3">
-                    <!-- Card -->
-                    <div class="card">
-
-                        <!-- Card image -->
-                        <img src="{{ $client->logo }}" class="card-img-top" alt="{{ $client->name }}" title="{{ $client->name }}">
-
-                    </div>
-                    <!-- Card -->
-                </div>
-            @endforeach
-            
-        </div>
+    <div class="text-right">
+        <a href="{{ route('admin.clients.create') }}" class="btn btn-link">Добави</a>
     </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Лого</th>
+                <th scope="col">Фирма</th>
+                <th scope="col">Приоритет</th>
+                <th scope="col">Визуализирана</th>
+                <th scope="col">Инструменти</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach($clients as $client)
+                <tr>
+                    <th scope="row">{{ $client->id }}</th>
+                    <td>
+                        <img src="{{ $client->logo }}" alt="{{ $client->name }}" width="75">
+                    </td>
+                    <td>{{ $client->name }}</td>
+                    <td>{{ $client->priority }}</td>
+                    <td>{{ $client->visible }}</td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Basic example">
+                            <a href="{{ route('admin.clients.edit', $client->id) }}" class="btn btn-warning btn-outline">edit</a>
+                            <a href="{{ route('admin.clients.destroy', $client->id) }}" class="btn btn-danger">delete</a>
+                        </div>
+                    </td>
+                </tr>
+            @endforeach
+        </tbody>
+    </table>
 
 @endsection

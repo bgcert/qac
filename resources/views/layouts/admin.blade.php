@@ -96,7 +96,7 @@
                 <div class="col-2">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Начало</a>
+                            <a class="nav-link" href="/admin">Начало</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="{{ route('admin.services.index') }}">Услуги</a>

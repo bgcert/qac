@@ -4,31 +4,23 @@
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="slider-image" style="background-image: url('/img/3.jpeg');" alt="First slide">
+        @foreach($slides as $slide)
+        <div class="carousel-item @if($loop->index == 0) active @endif">
+            <div class="slider-image" style="background-image: url('/img/{{ $slide->cover }}?id={{ $slide->id }}');" alt="{{ $slide->title }}">
                 <div class="image-overlay">
                     <div class="slider__content d-flex justify-content-center align-items-center">
                         <div class="content__container">
-                            <div class="primary-text">Качеството - реално бъдеще</div>
-                            <div class="secondary-text">някакво подзаглавие</div>
+                            <div class="primary-text">{{ $slide->title }}</div>
+                            <div class="secondary-text">{{ $slide->subtitle }}</div>
                             <div class="slider__action">
-                                <a href="#">Прочетете още</a>
+                                <a href="/{{ $slide->action }}">Прочетете още</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="carousel-item">
-            <div class="slider-image" style="background-image: url('/img/2.jpeg');" alt="First slide">
-                <div class="image-overlay"></div>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="slider-image" style="background-image: url('/img/4.jpeg');" alt="First slide">
-                <div class="image-overlay"></div>
-            </div>
-        </div>
+        @endforeach
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -51,7 +43,7 @@
 <div class="segment alt">
     <div class="container">
         <div class="segment__title">
-            За нас
+            Кю Ей Си ООД
         </div>
         <div class="row">
             <div class="col-6">
@@ -73,7 +65,7 @@
                     и стандарти като Медицинска директива, Директива за плавателни съдове за отдих и други.
                 </p>
                 <div class="text-right">
-                    <a href="/aboutus" class="btn btn-link">Научете повече <span>&#187;</span></a>
+                    <a href="/about-us" class="btn btn-link">Научете повече <span>&#187;</span></a>
                 </div>
             </div>
             <div class="col-6">
@@ -90,7 +82,7 @@
         </div>
         <div class="row services">
             @foreach($services as $service)
-            <a href="/services/{{ $service->slug }}" class="service col-4">    
+            <a href="/services/{{ $service->slug }}" class="service col-4">
                 <div class="service__icon">
                     <div class="circle">
                         <ion-icon name="help-buoy"></ion-icon>
@@ -107,7 +99,31 @@
 
 <div class="segment alt">
     <div class="container">
-        segment alt
+        <div class="segment__title">
+            Нашите клиенти
+        </div>
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="10000">
+                    @for($i = 0; $i <= 4; $i++)
+                    <img src="{{ $clients[$i]->logo }}" alt="{{ $clients[$i]->name }}">
+                    @endfor
+                </div>
+                <div class="carousel-item" data-interval="10000">
+                    @for($i = 4; $i <= 8; $i++)
+                    <img src="{{ $clients[$i]->logo }}" alt="{{ $clients[$i]->name }}">
+                    @endfor
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
 </div>
 

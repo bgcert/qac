@@ -2,6 +2,9 @@
 
 @section('content')
 <div class="container">
-    <h1>Services</h1>
+    <h1>{{ $service->title }}</h1>
+    <p>
+        {{ $service->body }}
+    </p>
 </div>
 @endsection

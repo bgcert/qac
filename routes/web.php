@@ -16,18 +16,18 @@
 //     return view('homepage', compact('pages'));
 // });
 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'PublicController@index');
 
-Route::view('/admin', 'pages.index');
+// Route::view('/admin', 'pages.index');
 
 Route::view('/services', 'services');
 Route::view('/courses', 'courses');
 Route::view('/contacts', 'contacts');
-Route::view('/aboutus', 'aboutus');
-// Route::get('/clients', 'ClientController@index');
-// Route::get('/services/{slug}', 'ServiceController@show');
+Route::view('/about-us', 'aboutus');
+Route::get('/clients', 'PublicController@clientIndex');
+Route::get('/services/{slug}', 'PublicController@serviceShow');
 
-Route::view('/admin', 'pages.index');
+// Route::view('/admin', 'pages.index');
 
 Auth::routes();
 

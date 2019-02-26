@@ -21,16 +21,16 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
-    {
+    // public function index()
+    // {
 
-        $pages = \App\Page::orderBy('priority', 'asc')->get();
-        $services = \App\Service::orderBy('priority', 'asc')->get();
+    //     $pages = \App\Page::orderBy('priority', 'asc')->get();
+    //     $services = \App\Service::orderBy('priority', 'asc')->get();
 
-        // return view('homepage', compact('pages'));
+    //     // return view('homepage', compact('pages'));
 
         
-        // dd($service);
-        return view('homepage', compact('pages', 'services'));
-    }
+    //     // dd($service);
+    //     return view('homepage', compact('pages', 'services'));
+    // }
 }

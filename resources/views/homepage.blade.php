@@ -103,17 +103,23 @@
             Нашите клиенти
         </div>
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                @for($i = 0; $i < (int) ($clients->count() / 6); $i++)
+                <li data-target="#carouselExampleInterval" data-slide-to="{{ $i }}" @if($i == 0) class="active" @endif></li>
+                @endfor
+            </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="10000">
-                    @for($i = 0; $i <= 4; $i++)
-                    <img src="{{ $clients[$i]->logo }}" alt="{{ $clients[$i]->name }}">
-                    @endfor
+                @for($i = 0; $i < (int) ($clients->count() / 6); $i++)
+                <div class="carousel-item @if($i == 1) active @endif" data-interval="2500">
+                    <div class="row">
+                        @for($id = $i; $id <= $i + 5; $id++)
+                        <div class="col-2">
+                            <img src="{{ $clients[$id]->logo }}?id={{ $i + $id }}" class="img-fluid" alt="{{ $clients[$id]->name }}">
+                        </div>
+                        @endfor
+                    </div>
                 </div>
-                <div class="carousel-item" data-interval="10000">
-                    @for($i = 4; $i <= 8; $i++)
-                    <img src="{{ $clients[$i]->logo }}" alt="{{ $clients[$i]->name }}">
-                    @endfor
-                </div>
+                @endfor
             </div>
             <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

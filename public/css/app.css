@@ -10764,15 +10764,15 @@ a.text-dark:focus {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: 3em;
   font-weight: bold;
-  line-height: 1.6;
+  line-height: 1;
 }
 
 .slider__content .secondary-text {
   font-size: 1.8em;
   font-weight: lighter;
-  line-height: 1.2;
-  font-style: italic;
+  line-height: 1;
   text-transform: initial;
+  margin: 0.7em 0;
 }
 
 .slider__content .slider__action {

@@ -15,16 +15,20 @@ class CreatePagesTable extends Migration
     {
         Schema::create('pages', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('category_id')->unsigned()->nullable();
             $table->string('title');
             $table->string('slug');
             $table->longText('body');
             $table->boolean('menu_item')->default(0);
             $table->integer('priority')->default(0);
             $table->timestamps();
+
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
         });
 
         DB::table('pages')->insert([
             [
+                'category_id' => 1,
                 'title' => 'Страница 1',
                 'slug' => 'stranica-1',
                 'body' => '<p>Съдържание на страница 1</p>',
@@ -32,6 +36,7 @@ class CreatePagesTable extends Migration
                 'priority' => 0
             ],
             [
+                'category_id' => 2,
                 'title' => 'Страница 2',
                 'slug' => 'stranica-2',
                 'body' => '<p>Съдържание на страница 2</p>',
@@ -39,6 +44,7 @@ class CreatePagesTable extends Migration
                 'priority' => 1
             ],
             [
+                'category_id' => 2,
                 'title' => 'Страница 3',
                 'slug' => 'stranica-3',
                 'body' => '<p>Съдържание на страница 3</p>',

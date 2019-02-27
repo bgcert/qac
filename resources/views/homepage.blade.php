@@ -102,24 +102,25 @@
         <div class="segment__title">
             Нашите клиенти
         </div>
+
         <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                @for($i = 0; $i < (int) ($clients->count() / 6); $i++)
-                <li data-target="#carouselExampleInterval" data-slide-to="{{ $i }}" @if($i == 0) class="active" @endif></li>
-                @endfor
+                @foreach($clients as $client)
+                <li data-target="#carouselExampleInterval" data-slide-to="{{ $loop->index }}" @if($loop->index == 0) class="active" @endif></li>
+                @endforeach
             </ol>
             <div class="carousel-inner">
-                @for($i = 0; $i < (int) ($clients->count() / 6); $i++)
-                <div class="carousel-item @if($i == 1) active @endif" data-interval="2500">
+                @foreach($clients as $client)
+                <div class="carousel-item @if($loop->index == 0) active @endif" data-interval="2500">
                     <div class="row">
-                        @for($id = $i; $id <= $i + 5; $id++)
+                        @foreach($client as $item)
                         <div class="col-2">
-                            <img src="{{ $clients[$id]->logo }}?id={{ $i + $id }}" class="img-fluid" alt="{{ $clients[$id]->name }}">
+                            <img src="{{ $item['logo'] }}?id={{ $item['id'] }}" class="img-fluid" alt="{{ $item['name'] }}">
                         </div>
-                        @endfor
+                        @endforeach
                     </div>
                 </div>
-                @endfor
+                @endforeach
             </div>
             <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -11,7 +11,9 @@ class PublicController extends Controller
 
         $pages = \App\Page::orderBy('priority', 'asc')->get();
         $services = \App\Service::orderBy('priority', 'asc')->get();
-        $clients = \App\Client::all();
+        $clients = \App\Client::all()->toArray();
+        $clients = array_chunk($clients, 6);
+        // dd($clients);
         $slides = \App\Slide::all();
 
         return view('homepage', compact('pages', 'services', 'clients', 'slides'));

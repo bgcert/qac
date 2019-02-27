@@ -35,7 +35,7 @@ class CreateSlidesTable extends Migration
             ],
             [
                 'title' => 'Сертификация на продукти и системи',
-                'subtitle' => 'по изискванията на международни стандарти (ISO 9001; ISO 14001; OHSAS 18001; ISO 22000; ISO 27001; ISO 20000-1; ISO/IEC 13485; AQAP 2110 и др.)',
+                'subtitle' => 'по изискванията на международни стандарти ISO 9001, ISO 14001, OHSAS 18001, ISO 22000, ISO 27001, ISO 20000-1, ISO/IEC 13485, AQAP 2110 и др.',
                 'cover' => '2.jpeg',
                 'action' => 'about-us',
                 'visible' => true,

@@ -23,6 +23,25 @@ class CreateSlidesTable extends Migration
             $table->integer('priority')->default(0);
             $table->timestamps();
         });
+
+        DB::table('slides')->insert(
+            [
+                'title' => 'Оценка на съответствието на продуктите',
+                'subtitle' => 'по изискванията на европейските директиви и приложими стандарти за постигане на МАРКИРОВКА СЕ',
+                'cover' => '1.jpeg',
+                'action' => 'contacts',
+                'visible' => true,
+                'priority' => 0
+            ],
+            [
+                'title' => 'Сертификация на продукти и системи',
+                'subtitle' => 'по изискванията на международни стандарти (ISO 9001; ISO 14001; OHSAS 18001; ISO 22000; ISO 27001; ISO 20000-1; ISO/IEC 13485; AQAP 2110 и др.)',
+                'cover' => '2.jpeg',
+                'action' => 'about-us',
+                'visible' => true,
+                'priority' => 1
+            ]
+        );
     }
 
     /**

@@ -148,3 +148,21 @@
 .content__container {
   width: 50%;
 }
+
+.client-logo {
+  display: block;
+  height: 60px;
+  opacity: 0.4;
+  padding: 0 20px;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.carousel-indicators {
+  position: initial;
+  border: 1px solid greenyellow;
+  li {
+    background-color: goldenrod;
+  }
+}

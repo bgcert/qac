@@ -10797,3 +10797,23 @@ a.text-dark:focus {
   width: 50%;
 }
 
+.client-logo {
+  display: block;
+  height: 60px;
+  opacity: 0.4;
+  padding: 0 20px;
+}
+
+.client-logo:hover {
+  opacity: 1;
+}
+
+.carousel-indicators {
+  position: initial;
+  border: 1px solid greenyellow;
+}
+
+.carousel-indicators li {
+  background-color: goldenrod;
+}
+

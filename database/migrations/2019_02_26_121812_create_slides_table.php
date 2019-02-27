@@ -24,7 +24,7 @@ class CreateSlidesTable extends Migration
             $table->timestamps();
         });
 
-        DB::table('slides')->insert(
+        DB::table('slides')->insert([
             [
                 'title' => 'Оценка на съответствието на продуктите',
                 'subtitle' => 'по изискванията на европейските директиви и приложими стандарти за постигане на МАРКИРОВКА СЕ',
@@ -41,7 +41,7 @@ class CreateSlidesTable extends Migration
                 'visible' => true,
                 'priority' => 1
             ]
-        );
+        ]);
     }
 
     /**

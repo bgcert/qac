@@ -23,7 +23,7 @@ class CreatePagesTable extends Migration
             $table->timestamps();
         });
 
-        DB::table('pages')->insert(
+        DB::table('pages')->insert([
             [
                 'title' => 'Страница 1',
                 'slug' => 'stranica-1',
@@ -45,7 +45,7 @@ class CreatePagesTable extends Migration
                 'menu_item' => true,
                 'priority' => 2
             ]
-        );
+        ]);
     }
 
     /**

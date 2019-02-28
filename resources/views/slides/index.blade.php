@@ -27,7 +27,7 @@
                     </td>
                     <td>{{ $slide->title }}</td>
                     <td>{{ $slide->priority }}</td>
-                    <td>{{ $slide->visible }}</td>
+                    <td><i data-feather="{{ ($slide->visible) ? 'check-circle' : 'x-circle' }}"></i></td>
                     <td>
                         <div class="btn-group" role="group" aria-label="Basic example">
                             <a href="{{ route('admin.slides.edit', $slide->id) }}" class="btn btn-warning btn-outline">edit</a>

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<form method="POST" action="{{ route('pages.update', $page->id) }}">
+<form method="POST" action="{{ route('admin.pages.update', $page->id) }}">
     @method('PATCH')
     @csrf
   <div class="form-group">

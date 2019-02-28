@@ -96,7 +96,7 @@
                 <div class="col-3">
 
                     <div class="list-group">
-                        <a href="/admin" class="list-group-item list-group-item-action">
+                        <a href="/admin" class="list-group-item list-group-item-action {{ (request()->routeIs('admin.')) ? 'active' : '' }}">
                             Начало
                         </a>
                         <a
@@ -162,6 +162,11 @@
             </div>
         </div>
     </div>
+    <!-- Icons plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace()
+    </script>
 </body>
 
 </html> 

@@ -55,6 +55,7 @@
             footer
         </div>
     </div>
+    <!-- Icons plugin -->
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script>
         feather.replace()

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Cache;
 
 class PublicController extends Controller
 {
@@ -10,10 +11,20 @@ class PublicController extends Controller
     {
 
         $pages = \App\Page::orderBy('priority', 'asc')->get();
-        $services = \App\Service::orderBy('priority', 'asc')->get();
-        $clients = \App\Client::all()->toArray();
-        $clients = array_chunk($clients, 6);
-        $slides = \App\Slide::all();
+
+        // Cached services
+        $services = Cache::rememberForever('services', function() {
+            return \App\Service::orderBy('priority', 'asc')->get();
+        });
+
+        // Cached clients
+        $clients = Cache::rememberForever('clients', function() {
+            return \App\Client::all();
+        });
+
+        $clients = array_chunk($clients->toArray(), 6);
+
+        $slides = \App\Slide::where('visible', true)->get();
 
         return view('homepage', compact('pages', 'services', 'clients', 'slides'));
     }

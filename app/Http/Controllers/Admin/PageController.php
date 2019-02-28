@@ -49,7 +49,7 @@ class PageController extends Controller
         ]);
 
         \App\Page::create($request->all());
-        return redirect('/pages')->with('success', 'Страницата е добавена');
+        return redirect()->route('admin.pages.index')->with('success', 'Страницата е добавена');
     }
 
     /**
@@ -97,7 +97,7 @@ class PageController extends Controller
 
         $page = \App\Page::find($id);
         $page->update($request->all());
-        return redirect('/pages')->with('success', 'Страницата е обновена');
+        return redirect()->route('admin.pages.index')->with('success', 'Страницата е обновена');
     }
 
     /**

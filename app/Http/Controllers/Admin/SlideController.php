@@ -25,7 +25,7 @@ class SlideController extends Controller
      */
     public function create()
     {
-        //
+        return view('slides.create');
     }
 
     /**
@@ -36,7 +36,20 @@ class SlideController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        if ( $request->has('visible')) {
+            $request->merge([ 'visible' => true ]);
+        }
+
+        $request->validate([
+            'title'=>'required|string',
+            'subtitle'=>'required|string',
+            'visible' => 'sometimes|boolean',
+            'action'=>'required|string',
+            'priority' => 'integer'
+        ]);
+
+        \App\Slide::create($request->all());
+        return redirect()->route('admin.slides.index')->with('success', 'Слайдът е добавена');
     }
 
     /**
@@ -58,7 +71,8 @@ class SlideController extends Controller
      */
     public function edit($id)
     {
-        //
+        $slide = \App\Slide::find($id);
+        return view('slides.edit', compact('slide'));
     }
 
     /**
@@ -70,7 +84,19 @@ class SlideController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->merge([ 'visible' => $request->has('visible') ? true : false ]);
+
+        $request->validate([
+            'title'=>'required|string',
+            'subtitle'=>'required|string',
+            'visible' => 'sometimes|boolean',
+            'action'=>'required|string',
+            'priority' => 'integer'
+        ]);
+
+        $slide = \App\Slide::find($id);
+        $slide->update($request->all());
+        return redirect()->route('admin.slides.index')->with('success', 'Слайдът е обновен');
     }
 
     /**

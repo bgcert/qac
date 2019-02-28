@@ -85,7 +85,7 @@
             <a href="/services/{{ $service->slug }}" class="service col-4">
                 <div class="service__icon">
                     <div class="circle">
-                        <ion-icon name="help-buoy"></ion-icon>
+                        <i data-feather="{{ $service->icon }}"></i>
                     </div>
                 </div>
                 <div class="title">

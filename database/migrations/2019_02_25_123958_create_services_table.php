@@ -24,6 +24,27 @@ class CreateServicesTable extends Migration
             $table->integer('priority')->default(0);
             $table->timestamps();
         });
+
+        DB::table('services')->insert([
+            [
+                'title' => 'Експертна подкрепа и бизнес консултации',
+                'slug' => 'ekspertna-podkrepa-i-biznes-konsultacii',
+                'body' => '<p>Страница - Експертна подкрепа и бизнес консултации</p>',
+                'icon' => 'circle',
+                'cover' => '1.jpeg',
+                'visible' => true,
+                'priority' => 0
+            ],
+            [
+                'title' => 'Оценка на съответствието на продуктите',
+                'slug' => 'ocenka-na-syotvetstvieto-na-produktite',
+                'body' => '<p>Страница - Оценка на съответствието на продуктите</p>',
+                'icon' => 'circle',
+                'cover' => '2.jpeg',
+                'visible' => true,
+                'priority' => 0
+            ],
+        ]);
     }
 
     /**

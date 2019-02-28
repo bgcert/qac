@@ -16,7 +16,7 @@
 //     return view('homepage', compact('pages'));
 // });
 
-Route::get('/', 'PublicController@index');
+Route::get('/', 'PublicController@index')->name('homepage');
 
 // Route::view('/admin', 'pages.index');
 

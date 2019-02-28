@@ -8,6 +8,7 @@
             {{ $service->title }}
         </div>
         {!! $service->body !!}
+        test
     </div>
 </div>
     

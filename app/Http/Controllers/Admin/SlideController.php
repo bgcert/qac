@@ -14,7 +14,8 @@ class SlideController extends Controller
      */
     public function index()
     {
-        //
+        $slides = \App\Slide::orderBy('priority', 'asc')->get();
+        return view('slides.index', compact('slides'));
     }
 
     /**

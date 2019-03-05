@@ -1,6 +1,9 @@
-<nav class="navbar main-nav navbar-expand-lg {{ (request()->routeIs('homepage')) ? 'navbar-dark nav-home' : 'navbar-light bg-light' }}">
+<nav class="navbar navbar-expand-lg">
     <div class="container">
-        <a class="navbar-brand" href="/">Кю Ей Си ООД</a>
+        <a href="/">
+            <img src="/img/logo.png" alt="logo">
+        </a>
+        <!-- <a class="navbar-brand" href="/">Кю Ей Си ООД</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

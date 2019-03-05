@@ -2,43 +2,55 @@
 
 @section('content')
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        @foreach($slides as $slide)
-        <div class="carousel-item @if($loop->index == 0) active @endif">
-            <div class="slider-image" style="background-image: url('/img/{{ $slide->cover }}?id={{ $slide->id }}');" alt="{{ $slide->title }}">
-                <div class="image-overlay">
-                    <div class="slider__content d-flex justify-content-center align-items-center">
-                        <div class="content__container">
-                            <div class="primary-text">{{ $slide->title }}</div>
-                            <div class="secondary-text">{{ $slide->subtitle }}</div>
-                            <div class="slider__action">
-                                <a href="/{{ $slide->action }}">Прочетете още</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        @endforeach
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-
-<!-- <section class="hero">
+<section class="hero">
     <div class="hero_centered_content">
         <div class="title">
             Качеството - реално бъдеще!
         </div>
     </div>
-</section> -->
+</section>
+
+<div class="segment">
+    <div class="container">
+        <div class="segment__title">
+            Услуги
+        </div>
+        <div class="row services">
+            <a href="/markirovka" class="service col-4">
+                <div class="service__icon">
+                    <div class="circle">
+                        <i data-feather="circle"></i>
+                    </div>
+                </div>
+                <div class="title">
+                    Маркировка CE
+                </div>
+            </a>
+
+            <a href="/markirovka" class="service col-4">
+                <div class="service__icon">
+                    <div class="circle">
+                        <i data-feather="circle"></i>
+                    </div>
+                </div>
+                <div class="title">
+                    Маркировка CE
+                </div>
+            </a>
+
+            <a href="/markirovka" class="service col-4">
+                <div class="service__icon">
+                    <div class="circle">
+                        <i data-feather="circle"></i>
+                    </div>
+                </div>
+                <div class="title">
+                    Маркировка CE
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
 
 <div class="segment alt">
     <div class="container">
@@ -71,28 +83,6 @@
             <div class="col-6">
                 <img src="/img/1.jpeg" class="img-fluid rounded" alt="Качеството - реално бъдеще!">
             </div>
-        </div>
-    </div>
-</div>
-
-<div class="segment">
-    <div class="container">
-        <div class="segment__title">
-            Услуги
-        </div>
-        <div class="row services">
-            @foreach($services as $service)
-            <a href="/services/{{ $service->slug }}" class="service col-4">
-                <div class="service__icon">
-                    <div class="circle">
-                        <i data-feather="{{ $service->icon }}"></i>
-                    </div>
-                </div>
-                <div class="title">
-                    {{ $service->title }}
-                </div>
-            </a>
-            @endforeach
         </div>
     </div>
 </div>

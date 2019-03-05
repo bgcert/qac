@@ -16,6 +16,8 @@
 //     return view('homepage', compact('pages'));
 // });
 
+Route::view('/markirovka', 'markirovka');
+
 Route::get('/', 'PublicController@index')->name('homepage');
 
 // Route::view('/admin', 'pages.index');

@@ -13,9 +13,11 @@
 @import '~bootstrap/scss/bootstrap';
 
 // Homepage 2
-.carousel-item {
-  position: relative;
-  height: 750px;
+.homepage-carousel {
+  .carousel-item {
+    position: relative;
+    height: 750px;
+  }
 }
 
 .overlay {
@@ -42,7 +44,7 @@
 
 .homepage-nav {
   position: absolute;
-  z-index: 1;
+  z-index: 10;
   width: 100%;
   background-color: transparant;
 }
@@ -63,4 +65,22 @@
 .card-header {
   height: 200px;
   background-color: lightgrey;
+}
+
+.blockquote {
+  border-bottom: 1px dotted #d2d2d2;
+  padding: 20px 0; 
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  color: #fff;
+  text-transform: uppercase;
+  &.contacts {
+    background: linear-gradient(rgba(4,9,30,.8),rgba(4,9,30,.8)), url('/img/contacts.jpeg');
+    background-position-y: 75%;
+  }
 }

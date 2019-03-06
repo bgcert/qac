@@ -26,7 +26,7 @@ class PublicController extends Controller
 
         $slides = \App\Slide::where('visible', true)->get();
 
-        return view('homepage2', compact('pages', 'services', 'clients', 'slides'));
+        return view('homepage', compact('pages', 'services', 'clients', 'slides'));
     }
 
     public function serviceShow($slug)

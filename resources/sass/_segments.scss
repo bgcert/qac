@@ -4,13 +4,22 @@
     &.alt {
         background-color: #fafafa;
     }
+
+    &.info {
+        padding: 30px 0;
+        background-color: #121921;
+        color: #fff;
+        text-align: center;
+    }
+
     &.footer {
-        background: #232a34;
+        background: #121921;
         color: #fff;
     }
+
     .segment__title {
         font-size: 1.4em;
-        margin: 40px 0;
+        margin-bottom: 40px;
         text-transform: uppercase;
     }
 

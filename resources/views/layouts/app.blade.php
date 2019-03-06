@@ -42,7 +42,6 @@
 <body>
     <div id="app">
         <section class="header">
-            @include('partials.nav-top')
             @include('partials.navbar')
 
             <main>
@@ -50,11 +49,11 @@
             </main>
         </section>
     </div>
-    <div class="segment footer">
+    <!-- <div class="segment footer">
         <div class="container">
             footer
         </div>
-    </div>
+    </div> -->
     <!-- Icons plugin -->
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script>

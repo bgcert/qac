@@ -84,3 +84,15 @@
     background-position-y: 75%;
   }
 }
+
+.about img {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+}
+
+.quotes [class^='col-'] blockquote {
+  border: 1px #dbdbdb solid;
+  padding: 2em;
+  &:hover {
+    border: 1px #6E8898 solid;
+  }
+}

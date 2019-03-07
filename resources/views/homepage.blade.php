@@ -2,57 +2,19 @@
 
 @section('content')
 
-<nav class="navbar navbar-expand-lg navbar-dark homepage-nav">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Услуги</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Клиенти</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Контакти</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
 <div id="carouselExampleControls" class="carousel slide homepage-carousel" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="overlay">
                 <div class="content text-center">
-                    <h1 class="display-3">
+                    <div class="display-4 mb-3">
                         <strong>Качеството</strong> - реално бъдеще.
-                    </h1>
+                    </div>
                     <div class="h2">
                         Качеството - реално бъдеще.
                     </div>
-                    <div>
-                        <a href="#" class="btn btn-light btn-lg">За нас</a>
+                    <div class="mt-3">
+                        <a href="#" class="btn btn-outline-light btn-lg">За нас</a>
                         <a href="#" class="btn btn-lg btn-danger">Услуги</a>
                     </div>
                 </div>
@@ -90,31 +52,43 @@
     </div>
 </div>
 
-<div class="segment alt high">
+<div class="segment alt about">
+    <div class="container">
+        <div class="h1">За нас</div>
+        <div class="row my-4">
+            <div class="col-6">
+                <p>
+                    <strong>Кю Ей Си - Център за осигуряване на качеството</strong>
+                </p>
+                <p>
+                    Компанията съществува за да повишава конкурентността и растежа на Вашия бизнес.
+                </p>
+                <p>
+                    От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
+                </p>
+            </div>
+            <div class="col-6">
+                <img src="/img/homepage1.jpeg" alt="test" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="segment high">
     <div class="container text-center">
         <h1 class="segment__title">Услуги</h1>
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-header"></div>
-                <div class="card-body">
-                    <h5 class="card-title">Маркировка СЕ</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="row">
+            @foreach($services as $service)
+            <div class="col-4 my-3">
+                <div class="card h-100">
+                    <div class="card-header"></div>
+                    <div class="card-body">
+                        <a href="#" class="h5 card-title">{{ $service->title }}</a>
+                        <p class="card-text">{{ $service->description }}</p>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-header"></div>
-                <div class="card-body">
-                    <h5 class="card-title">Европейски фондове 2014 - 2020</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header"></div>
-                <div class="card-body">
-                    <h5 class="card-title">Експертна подкрепа и бизнес консултации</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </div>
@@ -168,76 +142,46 @@
     </div>
 </div>
 
-<div class="segment alt high">
+<div class="segment sunflower high">
     <div class="container">
         <div class="segment__title">
             Нашите клиенти
         </div>
 
-        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                @foreach($clients as $client)
-                <div class="carousel-item @if($loop->index == 0) active @endif" data-interval="2500">
-                    <div class="row">
-                        @foreach($client as $item)
-                        <div class="col-2">
-                            <img src="{{ $item['logo'] }}?id={{ $item['id'] }}" alt="test">
-                        </div>
-                        @endforeach
-                    </div>
-                </div>
-                @endforeach
+        <div class="row">
+            @foreach($clients as $client)
+            <div class="col-3 p-4">
+                <img src="/img/dummy-logo.png" class="img-fluid" alt="test">
             </div>
-            <ol class="carousel-indicators">
-                @foreach($clients as $client)
-                <li data-target="#carouselExampleInterval" data-slide-to="{{ $loop->index }}" @if($loop->index == 0) class="active" @endif></li>
-                @endforeach
-            </ol>
+            <div class="col-3 p-4">
+                <img src="/img/dummy-logo2.png" class="img-fluid" alt="test">
+            </div>
+            @endforeach
         </div>
     </div>
 </div>
 
-<div class="segment high">
+<div class="segment high quotes">
     <div class="container">
         <div class="segment__title">
             Референции
         </div>
 
-        <blockquote class="blockquote">
-            <p>
-                ... За краткия период на курсовете за обучение водещите успяха да потопят всички участници в изключително приятна и ползотворна работна атмосфера,
-                в условията на която под формата на игри и симулиране на ситуации, обучаемите успяха да систематизират и усвоят теоретичен материал,
-                касаещ общуването, конфликтните ситуации и евентуален подход към тях при внедряването, поддържането, развитието на
-                системата за управление и провеждането на вътрешни одитори ....
-            </p>
-            <footer class="blockquote-footer">Eлeктрон Прогрес АД - София</footer>
-        </blockquote>
-
-        <blockquote class="blockquote">
-            <p>
-                ... Високата квалификация на лекторите на Кю Ей Си ООД, добре изготвените учебни материали и подходящо проведените практически упражнения ни дават
-                възможност да прилагаме придобитите знания в работата си по подобряване на нашата система за управление на качеството...
-            </p>
-            <footer class="blockquote-footer">АЕЦ Козлодуй ЕАД</footer>
-        </blockquote>
-
-        <blockquote class="blockquote">
-            <p>
-                ... С изпълнение на сключения договор и с крайния резултат, фирма "Кю Ей Си" ООД потвърди, че има голям опит в изграждането на системи за управление
-                на качеството на обучение, а лично г-н Емил Петров показа висока професионална подготовка в проектирането на системи за управление на
-                качеството по ISO 9001: 2000 ...
-            </p>
-            <footer class="blockquote-footer">НВУ "Васил Левски" - Велико Търново</footer>
-        </blockquote>
-
-        <blockquote class="blockquote">
-            <p>
-                ... Изборът на Кю Ей Си ООД от фирма АДИКС като доставчик за въвеждане на системата за управление на качеството в цялата работа на АДИКС ООД бе сполучлив
-                и напълно задоволителен. Благодарим на целия екип на Кю Ей Си ООД за високото качество на обучението, консултирането, извършения одит,
-                както и за готовността през цялото време да отговарят на наши въпроси, което доведе до успешно въвеждане на системата в нашата фирма ...
-            </p>
-            <footer class="blockquote-footer">АДИКС ООД</footer>
-        </blockquote>
+        <div class="row">
+            @foreach($quotes as $quote)
+            <div class="col-6 p-2">
+                <blockquote class="blockquote">
+                    <p>
+                        <img src="/img/{{ $quote->logo }}" alt="{{ $quote->author }}">
+                    </p>
+                    <p>
+                        {{ $quote->body }}
+                    </p>
+                    <footer class="blockquote-footer">{{ $quote->author }}</footer>
+                </blockquote>
+            </div>
+            @endforeach
+        </div>
     </div>
 </div>
 

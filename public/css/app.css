@@ -31,6 +31,10 @@
   padding: 100px 0;
 }
 
+.segment.sunflower {
+  background-color: #ecd581;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10756,5 +10760,18 @@ a.text-dark:focus {
 .hero.contacts {
   background: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("/img/contacts.jpeg");
   background-position-y: 75%;
+}
+
+.about img {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.quotes [class^=col-] blockquote {
+  border: 1px #dbdbdb solid;
+  padding: 2em;
+}
+
+.quotes [class^=col-] blockquote:hover {
+  border: 1px #6E8898 solid;
 }
 

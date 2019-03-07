@@ -22,11 +22,13 @@ class PublicController extends Controller
             return \App\Client::all();
         });
 
-        $clients = array_chunk($clients->toArray(), 6);
+        $quotes = Cache::rememberForever('quotes', function() {
+            return \App\Quote::all();
+        });
 
         $slides = \App\Slide::where('visible', true)->get();
 
-        return view('homepage', compact('pages', 'services', 'clients', 'slides'));
+        return view('homepage', compact('pages', 'services', 'clients', 'slides', 'quotes'));
     }
 
     public function serviceShow($slug)

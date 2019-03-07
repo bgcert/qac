@@ -27,7 +27,19 @@
         padding: 100px 0;
     }
 
-    &.sunflower {
+    &.no-border {
+        border-bottom: none;
+    }
+
+    &.clients {
         background-color: #ecd581;
+    }
+
+    &.courses {
+        padding: 0;
+        height: 450px;
+        background: linear-gradient(rgba(4,9,30,.7),rgba(4,9,30,.7)), url('/img/homepage2.jpeg');
+        background-position: center;
+        color: #fff;
     }
 }

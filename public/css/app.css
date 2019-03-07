@@ -31,8 +31,20 @@
   padding: 100px 0;
 }
 
-.segment.sunflower {
+.segment.no-border {
+  border-bottom: none;
+}
+
+.segment.clients {
   background-color: #ecd581;
+}
+
+.segment.courses {
+  padding: 0;
+  height: 450px;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("/img/homepage2.jpeg");
+  background-position: center;
+  color: #fff;
 }
 
 /*!

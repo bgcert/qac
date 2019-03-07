@@ -77,7 +77,7 @@
     </div>
 </div>
 
-<div class="segment high">
+<div class="segment high no-border">
     <div class="container">
         <h1 class="segment__title">Услуги</h1>
             @foreach($services as $service)
@@ -92,10 +92,22 @@
                     <div>
                         <div class="h1">{{ $service->title }}</div>
                         <p>{{ $service->description }}</p>
+                        <p><a href="/service/{{ $service->slug }}" class="btn btn-warning btn-lg">Научете повече</a></p>
                     </div>
                 </div>
             </div>
             @endforeach
+        </div>
+    </div>
+    <div class="text-center">
+        ... (divider)
+    </div>
+</div>
+
+<div class="segment courses d-flex align-items-center">
+    <div class="container">
+        <div class="h2">
+            Проведени над 300 курса с повече от 3000 участника от различни организации.
         </div>
     </div>
 </div>
@@ -149,7 +161,7 @@
     </div>
 </div>
 
-<div class="segment sunflower high">
+<div class="segment clients high">
     <div class="container">
         <div class="segment__title">
             Нашите клиенти
@@ -177,7 +189,7 @@
         <div class="row">
             @foreach($quotes as $quote)
             <div class="col-6 p-2">
-                <blockquote class="blockquote">
+                <blockquote class="blockquote h-100">
                     <p>
                         <img src="/img/{{ $quote->logo }}" alt="{{ $quote->author }}">
                     </p>

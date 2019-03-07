@@ -66,6 +66,9 @@
                 <p>
                     От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
                 </p>
+                <p>
+                    <a href="/about-us" class="btn btn-outline-primary btn-lg">Научете повече</a>
+                </p>
             </div>
             <div class="col-6">
                 <img src="/img/homepage1.jpeg" alt="test" class="img-fluid">
@@ -75,16 +78,20 @@
 </div>
 
 <div class="segment high">
-    <div class="container text-center">
+    <div class="container">
         <h1 class="segment__title">Услуги</h1>
-        <div class="row">
             @foreach($services as $service)
-            <div class="col-4 my-3">
-                <div class="card h-100">
-                    <div class="card-header"></div>
-                    <div class="card-body">
-                        <a href="#" class="h5 card-title">{{ $service->title }}</a>
-                        <p class="card-text">{{ $service->description }}</p>
+            <div class="row my-4">
+                <div class="col-6">
+                    <div style="height: 300px; overflow: hidden;">
+                        <img src="/img/{{ $service->cover }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 d-flex align-items-center">
+                    <div>
+                        <div class="h1">{{ $service->title }}</div>
+                        <p>{{ $service->description }}</p>
                     </div>
                 </div>
             </div>

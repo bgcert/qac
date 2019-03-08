@@ -27,8 +27,9 @@ class PublicController extends Controller
         });
 
         $slides = \App\Slide::where('visible', true)->get();
+        $courses = \App\Course::where('visible', true)->get();
 
-        return view('homepage', compact('pages', 'services', 'clients', 'slides', 'quotes'));
+        return view('homepage', compact('pages', 'services', 'clients', 'slides', 'courses', 'quotes'));
     }
 
     public function serviceShow($slug)

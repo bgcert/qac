@@ -2,63 +2,73 @@
 
 @section('content')
 
-<div id="carouselExampleControls" class="carousel slide homepage-carousel" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="overlay">
-                <div class="content text-center">
-                    <div class="display-4 mb-3">
-                        <strong>Качеството</strong> - реално бъдеще.
-                    </div>
-                    <div class="h2">
-                        Качеството - реално бъдеще.
-                    </div>
-                    <div class="mt-3">
-                        <a href="#" class="btn btn-outline-light btn-lg">За нас</a>
-                        <a href="#" class="btn btn-lg btn-danger">Услуги</a>
+<section class="slider">
+    <div id="carouselExampleControls" class="carousel slide homepage-carousel" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="overlay">
+                    <div class="content">
+                        <div class="h1">
+                            Кю Ей Си - Център за осигуряване на качеството
+                        </div>
+                        <div class="h3 it">
+                            Повишете конкурентността на Вашия бизнес.
+                        </div>
+                        <div class="mt-3">
+                            <a href="#" class="btn btn-outline-light btn-lg">За нас</a>
+                            <a href="#" class="btn btn-lg btn-danger">Услуги</a>
+                        </div>
                     </div>
                 </div>
+                <img src="/img/1.jpeg" class="d-block w-100" alt="...">
             </div>
-            <img src="/img/1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-item">
+                <div class="overlay"></div>
+                <img src="/img/2.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <div class="overlay"></div>
+                <img src="/img/3.jpeg" class="d-block w-100" alt="...">
+            </div>
         </div>
-        <div class="carousel-item">
-            <div class="overlay"></div>
-            <img src="/img/2.jpeg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <div class="overlay"></div>
-            <img src="/img/3.jpeg" class="d-block w-100" alt="...">
-        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+</section>
 
-<div class="segment high">
-    <div class="container text-center">
-        <h1>Кю Ей Си - Център за осигуряване на качеството</h1>
-        <p class="large">
-            Компанията съществува за да повишава конкурентността и растежа на Вашия бизнес.
-        </p>
-        <p>
-            От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
-        </p>
+<section class="mission">
+    <div class="segment high">
+        <div class="container">
+            <div class="title text-center">Мисия</div>
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-7">
+                    <div class="lead">
+                        Компанията съществува за да повишава конкурентността и растежа на Вашия бизнес.
+                    </div>
+                    <p>
+                        От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
+</section>
+
 
 <div class="segment alt about">
     <div class="container">
         <div class="h1">За нас</div>
-        <div class="row my-4">
+        <div class="row d-flex align-items-center">
             <div class="col-6">
-                <p>
-                    <strong>Кю Ей Си - Център за осигуряване на качеството</strong>
+                <p class="lead bold">
+                    Кю Ей Си - Център за осигуряване на качеството
                 </p>
                 <p>
                     Компанията съществува за да повишава конкурентността и растежа на Вашия бизнес.
@@ -77,38 +87,11 @@
     </div>
 </div>
 
-<div class="segment high no-border">
-    <div class="container">
-        <h1 class="segment__title">Услуги</h1>
-        @foreach($services as $service)
-        <div class="row my-4">
-            <div class="col-6">
-                <div style="height: 300px; overflow: hidden;">
-                    <img src="/img/{{ $service->cover }}" class="img-fluid" alt="">
-                </div>
-            </div>
-
-            <div class="col-6 d-flex align-items-center">
-                <div>
-                    <div class="h1">{{ $service->title }}</div>
-                    <p>{{ $service->description }}</p>
-                    <p><a href="/service/{{ $service->slug }}" class="btn btn-warning btn-lg">Научете повече</a></p>
-                </div>
-            </div>
-        </div>
-        @endforeach
-    </div>
-</div>
-<div class="text-center">
-    ... (divider)
-</div>
-</div>
-
 <div class="segment high">
-    <div class="container">
+    <div class="container d-flex justify-content-center">
         <div class="col-7">
             <div class="segment__title">
-                Кю Ей Си ООД
+                Основни направления на дейсност
             </div>
             <p>
                 "Кю Ей Си" ООД е една от малкото фирми, които работят активно на консултантския пазар от 1997 г. до днес.
@@ -143,97 +126,114 @@
     </div>
 </div>
 
-<div class="segment courses d-flex align-items-center">
-    <div class="container">
-        <div class="h2">
-            Проведени над 300 курса с повече от 3000 участника от различни организации.
+<section class="services">
+    <div class="segment high no-border">
+        <div class="container">
+            <h1 class="title">Услуги</h1>
+            @foreach($services as $service)
+            <div class="row my-4">
+                <div class="col-6">
+                    <div class="cover">
+                        <img src="/img/{{ $service->cover }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 d-flex align-items-center">
+                    <div>
+                        <div class="h2 mb-4">{{ $service->title }}</div>
+                        <p>{{ $service->description }}</p>
+                        <p><a href="/service/{{ $service->slug }}" class="btn btn-warning btn-lg">Научете повече</a></p>
+                    </div>
+                </div>
+            </div>
+            @endforeach
         </div>
     </div>
+</section>
+
+<div class="text-center">
+    ... (divider)
+</div>
 </div>
 
-<div class="segment">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-7">
-                <div class="h4 mt-4">
-                    Специализираните обучения
-                </div>
-                <p>
-                    В специализираните обучения са участвали над 3300 специалисти от различни организации в цяла България.
-                    Участието на специалисти и от други консултантски организации в наши курсове за нас означава Доверие.
-                </p>
 
-                <p>
-                    За да постигаме все по-предизвикателни цели и да удовлетворяваме изискванията на все по-претенциозните клиенти, ние разчитаме на висок професионализъм
-                    на персонала и сътрудниците.
-                </p>
-
-                <p>
-                    За работа по програмите на "Кю Ей Си" ООД от нашите сътрудници се изисква висока компетентност, включително притежаването на поне един сертификат от международна организация.
-                </p>
-
-                <p>
-                    Всички проекти по внедряване на системи за управление, подготовка за сертификация и обучения, изпълнявани от "Кю Ей Си" ООД се реализират
-                    в условията на изградена и сертифицирана система за управление на качеството.
-                </p>
-
-                <p>
-                    В нашият екип не се говори за количество внедрени и сертифицирани системи за управление.
-                    Нашата цел е да изградим трайни взаимоотношения с клиентите на дружеството. Убедени, че постигат желания ефект от изпълнената консултантска дейност,
-                    нашите клиенти почти винаги се обръщат отново и отново към нас. Това не може да не ни радва!
-                </p>
+<section class="courses">
+    <div class="header">
+        <div class="container">
+            <div class="h2">
+                Проведени над 300 курса с повече от 3000 участника от различни организации.
             </div>
         </div>
     </div>
-</div>
+
+    <div class="segment details">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-7">
+                    <div class="h4 mt-4">
+                        Специализираните обучения
+                    </div>
+                    <p>
+                        В специализираните обучения са участвали над 3300 специалисти от различни организации в цяла България.
+                        Участието на специалисти и от други консултантски организации в наши курсове за нас означава Доверие.
+                    </p>
+
+                    <p>
+                        За да постигаме все по-предизвикателни цели и да удовлетворяваме изискванията на все по-претенциозните клиенти, ние разчитаме на висок професионализъм
+                        на персонала и сътрудниците.
+                    </p>
+
+                    <p>
+                        За работа по програмите на "Кю Ей Си" ООД от нашите сътрудници се изисква висока компетентност, включително притежаването на поне един сертификат от международна организация.
+                    </p>
+
+                    <p>
+                        Всички проекти по внедряване на системи за управление, подготовка за сертификация и обучения, изпълнявани от "Кю Ей Си" ООД се реализират
+                        в условията на изградена и сертифицирана система за управление на качеството.
+                    </p>
+
+                    <p>
+                        В нашият екип не се говори за количество внедрени и сертифицирани системи за управление.
+                        Нашата цел е да изградим трайни взаимоотношения с клиентите на дружеството. Убедени, че постигат желания ефект от изпълнената консултантска дейност,
+                        нашите клиенти почти винаги се обръщат отново и отново към нас. Това не може да не ни радва!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="segment alt list">
+        <div class="container">
+            <div class="title">
+                Обучения
+            </div>
+            @foreach($courses as $course)
+            <div class="course-item">
+                <div class="row">
+                    <div class="col-5 image" style="background: url('/img/{{ $course->cover }}');" title="{{ $course->title }}">
+                    </div>
+                    <div class="col-7 d-flex align-items-center">
+                        <div>
+                            <div class="course__title">
+                                {{ $course->title }}
+                            </div>
+                            <p>{{ $course->description }}</p>
+                            <p>
+                                <a href="#" class="btn btn-outline-secondary">Научете повече</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </div>
+</section>
+
+
 
 <div class="segment alt high">
-    <div class="container">
-        <div class="card mb-3">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="/img/2.jpeg" class="card-img" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="card mb-3">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="/img/3.jpeg" class="card-img" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card mb-3">
-            <div class="row no-gutters">
-                <div class="col-md-4">
-                    <img src="/img/4.jpeg" class="card-img" alt="...">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 
 <div class="segment clients high">
@@ -257,9 +257,9 @@
 
 <div class="segment high quotes">
     <div class="container">
-        <!-- <div class="segment__title">
+        <div class="segment__title">
             Референции
-        </div> -->
+        </div>
 
         <div class="row">
             <div class="col-7 p-2">

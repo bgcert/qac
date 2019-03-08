@@ -12,11 +12,37 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-// Homepage 2
+// SECTIONS
+// 1. Navbar
+.homepage-nav {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  background-color: transparant;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+// 2. Slider
 .homepage-carousel {
   .carousel-item {
     position: relative;
-    height: 750px;
+    height: 600px;
+  }
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  color: #fff;
+  text-transform: uppercase;
+  &.contacts {
+    background: linear-gradient(rgba(4,9,30,.8),rgba(4,9,30,.8)), url('/img/contacts.jpeg');
+    background-position-y: 75%;
   }
 }
 
@@ -42,53 +68,92 @@
   text-transform: uppercase;
 }
 
-.homepage-nav {
-  position: absolute;
-  z-index: 10;
-  width: 100%;
-  background-color: transparant;
-}
-
-.nav-link {
-  color: #fff !important;
-}
-
-.card {
-  border: none;
-  box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
-  .card-title {
+// 3. Mission
+.mission {
+  .title {
+    font-size: 2em;
     font-weight: bold;
-    color: #fc5b62;
+    margin-bottom: 1em;
+  }
+
+  .lead {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
   }
 }
 
-.card-header {
-  height: 200px;
-  background-color: lightgrey;
-}
+// 4. About us
+.about-us {
+  .title {}
 
-.blockquote {
-  border-bottom: 1px dotted #d2d2d2;
-  padding: 20px 0; 
-}
+  .lead {}
 
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 450px;
-  color: #fff;
-  text-transform: uppercase;
-  &.contacts {
-    background: linear-gradient(rgba(4,9,30,.8),rgba(4,9,30,.8)), url('/img/contacts.jpeg');
-    background-position-y: 75%;
+  img {
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
   }
 }
 
-.about img {
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+// 5. Services
+.services {
+  .title {
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .cover {
+    height: 300px;
+    overflow: hidden;
+    filter: grayscale(.8);
+  }
+}
+// 6. Vision ?!
+
+// 7. Courses
+.courses {
+  // a) Segment
+  .header {
+    padding: 0;
+    height: 250px;
+    background: #FFC54C;
+    display: flex;
+    align-items: center;
+  }
+
+  // b) Details
+  .details {
+
+  }
+  
+  // c) List
+  .list {
+    .title {
+      font-size: 2em;
+      text-transform: uppercase;
+      margin-bottom: 1em;
+    }
+    .course-item {
+      margin: 20px 0;
+      .image {
+        height: 215px;
+        background-size: cover !important;
+      }
+      .course__title {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+
+      p {
+        margin-top: 1em;
+      }
+    }
+  }
 }
 
+// 8. Clients
+
+// 9. Quotes
 .quotes [class^='col-'] blockquote {
   border: 1px #dbdbdb solid;
   padding: 2em;
@@ -96,3 +161,52 @@
     border: 1px #6E8898 solid;
   }
 }
+
+.blockquote {
+  border-bottom: 1px dotted #d2d2d2;
+  padding: 20px 0; 
+}
+
+// 10. Footer
+.footer {
+  a { color: #fff; }
+  ul { opacity: 0.6; }
+  hr { border-top: 1px solid rgba(53, 53, 53, 1); }
+  .sub-footer {
+    margin: 20px 0;
+    opacity: .5;
+    font-size: .87em;
+    display: flex;
+    justify-content: space-between;
+    // .design {
+      
+    // }
+  }
+}
+
+
+
+.h1 { font-size: 2.75em !important; }
+.h2 { font-size: 2em !important; }
+.h3 { font-size: 1.4em !important; }
+
+// Uppercase
+.uc { text-transform: uppercase; }
+// Italic
+.it { font-style: italic; }
+.bold { font-weight: bold; }
+
+// .card {
+//   border: none;
+//   // box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+//   .card-title {
+//     font-weight: bold;
+//     // color: #fc5b62;
+//   }
+// }
+
+// .card-header {
+//   height: 200px;
+//   background-color: lightgrey;
+// }
+

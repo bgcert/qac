@@ -24,7 +24,9 @@
 <body>
     <div id="app">
         <section class="header">
-            @include('partials.navbar')
+            <section class="navigation">
+                @include('partials.navbar')
+            </section>
 
             <main>
                 @yield('content')

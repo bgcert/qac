@@ -3,290 +3,166 @@
 @section('content')
 
 <section class="slider">
-    <div id="carouselExampleControls" class="carousel slide homepage-carousel" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="overlay">
-                    <div class="content">
-                        <div class="h1">
-                            Кю Ей Си - Център за осигуряване на качеството
-                        </div>
-                        <div class="h3 it">
-                            Повишете конкурентността на Вашия бизнес.
-                        </div>
-                        <div class="mt-3">
-                            <a href="#" class="btn btn-outline-light btn-lg">За нас</a>
-                            <a href="#" class="btn btn-lg btn-danger">Услуги</a>
-                        </div>
-                    </div>
-                </div>
-                <img src="/img/1.jpeg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <div class="overlay"></div>
-                <img src="/img/2.jpeg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <div class="overlay"></div>
-                <img src="/img/3.jpeg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</section>
-
-<section class="mission">
-    <div class="segment high">
+    <div class="overlay">
         <div class="container">
-            <div class="title text-center">Мисия</div>
-
-            <div class="row d-flex justify-content-center">
-                <div class="col-7">
-                    <div class="lead">
-                        Компанията съществува за да повишава конкурентността и растежа на Вашия бизнес.
-                    </div>
-                    <p>
-                        От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
-                    </p>
-                </div>
+            <div class="h1">
+                <strong>Кю Ей Си ООД</strong> - Център за осигуряване на качестваото
             </div>
+
+            <div class="h3">
+                Повишете конкурентността на Вашия бизнес
+            </div>
+
+            <p>
+                <a href="#" class="btn btn-lg btn-warning">Услуги</a>
+                <a href="#" class="btn btn-link">Контакти</a>
+            </p>
+
         </div>
     </div>
+
 </section>
 
+<section class="about-us">
 
-<div class="segment alt about">
-    <div class="container">
-        <div class="h1">За нас</div>
-        <div class="row d-flex align-items-center">
-            <div class="col-6">
-                <p class="lead bold">
-                    Кю Ей Си - Център за осигуряване на качеството
-                </p>
-                <p>
-                    Компанията съществува за да повишава конкурентността и растежа на Вашия бизнес.
-                </p>
-                <p>
-                    От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
-                </p>
-                <p>
-                    <a href="/about-us" class="btn btn-outline-primary btn-lg">Научете повече</a>
-                </p>
-            </div>
-            <div class="col-6">
-                <img src="/img/homepage1.jpeg" alt="test" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="segment high">
     <div class="container d-flex justify-content-center">
-        <div class="col-7">
-            <div class="segment__title">
-                Основни направления на дейсност
-            </div>
-            <p>
-                "Кю Ей Си" ООД е една от малкото фирми, които работят активно на консултантския пазар от 1997 г. до днес.
-                Още от създаването си, ние поддържаме висок рейтинг като консултанти и обучаващи в областта на сертификацията и проектния мениджмънт.
-            </p>
-
-            <div class="h4 mt-4">
-                Консултации и специализирано обучение
-            </div>
-            <p>
-                Обхватът на двете основни направления на предоставяните услуги постоянно се разширява.
-                Дружеството предлага консултации по проектен мениджмънт и внедряване на системи за управление практически по всички действащи стандарти.
-            </p>
-            <p>
-                Нещо повече, ние сме от малкото консултанти, които се ангажират с тежката задача за постигане на продуктово съответствие и сертификация по едни от най-тежките директиви
-                и стандарти като Медицинска директива, Директива за плавателни съдове за отдих и други.
-            </p>
-
-            <div class="h4 mt-4">
+        <div class="col-10 text-center">
+            <div class="title">
                 Качеството - реално бъдеще
             </div>
             <p>
-                Насочваме цялата си дейност и резултатите от нея към изпълнението му.
+                От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
             </p>
-
             <p>
-                Натрупаният практически опит в консултациите по изграждане, внедряване и развитие на Системи за управление по международни стандарти и
-                постигане на съответствие на продуктите със съществените изисквания и "СЕ" маркировка е основа за разработване и провеждане на
-                ефикасни практически-приложни курсове.
+                <a href="#" class="btn btn-primary btn-lg"> Научете повече</a>
             </p>
         </div>
     </div>
-</div>
+
+</section>
 
 <section class="services">
-    <div class="segment high no-border">
-        <div class="container">
-            <h1 class="title">Услуги</h1>
-            @foreach($services as $service)
-            <div class="row my-4">
-                <div class="col-6">
-                    <div class="cover">
-                        <img src="/img/{{ $service->cover }}" class="img-fluid" alt="">
-                    </div>
-                </div>
 
-                <div class="col-6 d-flex align-items-center">
-                    <div>
-                        <div class="h2 mb-4">{{ $service->title }}</div>
-                        <p>{{ $service->description }}</p>
-                        <p><a href="/service/{{ $service->slug }}" class="btn btn-warning btn-lg">Научете повече</a></p>
-                    </div>
-                </div>
-            </div>
-            @endforeach
-        </div>
-    </div>
-</section>
-
-<div class="text-center">
-    ... (divider)
-</div>
-</div>
-
-
-<section class="courses">
-    <div class="header">
-        <div class="container">
-            <div class="h2">
-                Проведени над 300 курса с повече от 3000 участника от различни организации.
-            </div>
-        </div>
-    </div>
-
-    <div class="segment details">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-7">
-                    <div class="h4 mt-4">
-                        Специализираните обучения
-                    </div>
-                    <p>
-                        В специализираните обучения са участвали над 3300 специалисти от различни организации в цяла България.
-                        Участието на специалисти и от други консултантски организации в наши курсове за нас означава Доверие.
-                    </p>
-
-                    <p>
-                        За да постигаме все по-предизвикателни цели и да удовлетворяваме изискванията на все по-претенциозните клиенти, ние разчитаме на висок професионализъм
-                        на персонала и сътрудниците.
-                    </p>
-
-                    <p>
-                        За работа по програмите на "Кю Ей Си" ООД от нашите сътрудници се изисква висока компетентност, включително притежаването на поне един сертификат от международна организация.
-                    </p>
-
-                    <p>
-                        Всички проекти по внедряване на системи за управление, подготовка за сертификация и обучения, изпълнявани от "Кю Ей Си" ООД се реализират
-                        в условията на изградена и сертифицирана система за управление на качеството.
-                    </p>
-
-                    <p>
-                        В нашият екип не се говори за количество внедрени и сертифицирани системи за управление.
-                        Нашата цел е да изградим трайни взаимоотношения с клиентите на дружеството. Убедени, че постигат желания ефект от изпълнената консултантска дейност,
-                        нашите клиенти почти винаги се обръщат отново и отново към нас. Това не може да не ни радва!
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="segment alt list">
-        <div class="container">
-            <div class="title">
-                Обучения
-            </div>
-            @foreach($courses as $course)
-            <div class="course-item">
-                <div class="row">
-                    <div class="col-5 image" style="background: url('/img/{{ $course->cover }}');" title="{{ $course->title }}">
-                    </div>
-                    <div class="col-7 d-flex align-items-center">
-                        <div>
-                            <div class="course__title">
-                                {{ $course->title }}
-                            </div>
-                            <p>{{ $course->description }}</p>
-                            <p>
-                                <a href="#" class="btn btn-outline-secondary">Научете повече</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            @endforeach
-        </div>
-    </div>
-</section>
-
-
-
-<div class="segment alt high">
-
-</div>
-
-<div class="segment clients high">
     <div class="container">
-        <div class="segment__title">
-            Нашите клиенти
+        <div class="row">
+            <div class="col-5 mr-auto">
+                <img src="/img/inspection.jpeg" class="rounded img-fluid" alt="">
+            </div>
+            <div class="col-6 d-flex align-items-center">
+                <div>
+                    <div class="h1">
+                        Оценка на съответствието на продуктите
+                    </div>
+                    <p>
+                        По изискванията на европейските директиви и приложими стандарти за постигане на <strong>маркировка СЕ</strong>
+                    </p>
+                    <p>
+                        <a href="#">Научете повече &rarr;</a>
+                    </p>
+                </div>
+            </div>
         </div>
 
         <div class="row">
-            @foreach($clients as $client)
-            <div class="col-3 p-4">
-                <img src="/img/dummy-logo.png" class="img-fluid" alt="test">
+            <div class="col-6 d-flex align-items-center">
+                <div>
+                    <div class="h1">
+                        Управление на проекти
+                    </div>
+                    <p>
+                        За инвестиции в предприятия по европейски и международни фондове и програми
+                    </p>
+                    <p>
+                        <a href="#">Научете повече &rarr;</a>
+                    </p>
+                </div>
             </div>
-            <div class="col-3 p-4">
-                <img src="/img/dummy-logo2.png" class="img-fluid" alt="test">
+            <div class="col-5 ml-auto">
+                <img src="/img/money.jpeg" class="rounded img-fluid" alt="">
             </div>
-            @endforeach
-        </div>
-    </div>
-</div>
-
-<div class="segment high quotes">
-    <div class="container">
-        <div class="segment__title">
-            Референции
         </div>
 
         <div class="row">
-            <div class="col-7 p-2">
-                <div class="h4">
+            <div class="col-5 mr-auto">
+                <img src="/img/globe.jpeg" class="rounded img-fluid" alt="">
+            </div>
+            <div class="col-6 d-flex align-items-center">
+                <div>
+                    <div class="h1">
+                        Експертна подкрепа и бизнес консултации
+                    </div>
+                    <p>
+                        Внедряване на международни и европейски стандарти (ISO, EN...) за качество, безопасност на храни, околна среда, ЗБУТ и др.
+                        и усъвършенстване на процесите във фирмите
+                    </p>
+                    <p>
+                        <a href="#">Научете повече &rarr;</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="clients">
+
+    <div class="container">
+        <div class="row">
+
+            @for($i = 0; $i <= 20; $i++)
+            <div class="col-2 client">
+                <a href="#">
+                    <img src="/img/dummy-logo.png" class="img-fluid" alt="">
+                </a>
+            </div>
+            @endfor
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="references">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <h2>
                     Как ни оценяват клиентите ни
-                </div>
-                <p>
-                    За нас фактът че бивши клиенти се обръщат пак към нас за следваща консултация, означава много, по-добра оценка за нашата работа не може да има.
+                </h2>
+                <p class="header">
+                    За нас фактът че бивши клиенти се обръщат пак към нас за следваща консултация, означава много.
+                    По-добра оценка за нашата работа не може да има.
                 </p>
             </div>
-            <div class="col-5 p-2">
-            </div>
-            @foreach($quotes as $quote)
+            @for($i = 0; $i <= 6; $i++)
             <div class="col-6 p-2">
-                <blockquote class="blockquote h-100">
+                <blockquote class="blockquote h-100 reference-box">
                     <p>
-                        <img src="/img/{{ $quote->logo }}" alt="{{ $quote->author }}">
+                        <img src="/img/dummy-logo.png" alt="Eлeктрон Прогрес АД - София">
                     </p>
                     <p>
-                        {{ $quote->body }}
+                        ... За краткия период на курсовете за обучение водещите успяха да потопят всички участници в изключително приятна и ползотворна работна атмосфера, в условията на която под формата на игри и симулиране на ситуации, обучаемите успяха да систематизират и усвоят теоретичен материал, касаещ общуването, конфликтните ситуации и евентуален подход към тях при внедряването, поддържането, развитието на системата за управление и провеждането на вътрешни одитори ....
                     </p>
-                    <footer class="blockquote-footer">{{ $quote->author }}</footer>
+                    <footer class="blockquote-footer">Eлeктрон Прогрес АД - София</footer>
                 </blockquote>
             </div>
-            @endforeach
+            @endfor
         </div>
     </div>
-</div>
 
+</section>
+
+<section class="contact-link">
+    <div class="container text-center">
+        <div class="h3">
+            Имате нова визия за бъдещето на своя бизнес? Ние ще Ви помогнем да я реализирате.
+        </div>
+        <p>
+            <a href="#" class="btn btn-primary btn-lg">Свържете се с нас</a>
+        </p>
+    </div>
+</section>
 @endsection 

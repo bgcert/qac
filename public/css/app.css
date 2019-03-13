@@ -10696,7 +10696,7 @@ a.text-dark:focus {
 
 .slider {
   position: relative;
-  height: 750px;
+  height: 650px;
   background: url("/img/2.jpeg");
 }
 
@@ -10724,6 +10724,10 @@ a.text-dark:focus {
   margin: 40px 0;
 }
 
+.home-links {
+  padding: 80px 0;
+}
+
 .about-us {
   padding: 100px 0;
 }
@@ -10742,16 +10746,14 @@ a.text-dark:focus {
   margin-top: 20px;
 }
 
-.services {
-  padding: 100px 0;
-  border-top: 1px dotted grey;
-  border-bottom: 1px dotted grey;
-  background-color: #fafafa;
-}
-
-.services p {
+.services p,
+.services ul {
   font-size: 1.12em;
   margin-top: 1em;
+}
+
+.services ul li {
+  margin-bottom: 20px;
 }
 
 .services a {
@@ -10761,15 +10763,42 @@ a.text-dark:focus {
 }
 
 .services .row {
-  padding: 60px 0;
+  padding: 20px 0;
+  background: #eae8e1;
 }
 
-.clients {
+.standarts {
   padding: 80px 0;
 }
 
+.standarts .h1 {
+  margin-bottom: 60px;
+}
+
+.standarts .standarts__list {
+  background: #ebecf0;
+  padding: 40px;
+  margin: 80px 0;
+}
+
+.funding .cover {
+  color: #fff;
+  background: url("/img/eu.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  height: 400px;
+  border-radius: 4px;
+}
+
+.clients {
+  background: #fff475;
+  padding: 40px 0;
+}
+
 .clients .client {
-  padding: 15px;
+  padding: 25px;
 }
 
 .references {
@@ -10794,7 +10823,7 @@ a.text-dark:focus {
 }
 
 .contact-link {
-  padding: 100px 0;
+  padding: 120px 0;
 }
 
 .contact-link p {

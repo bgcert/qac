@@ -10735,6 +10735,22 @@ a.text-dark:focus {
   border: 1px solid #767676;
 }
 
+.q-cards {
+  margin: 120px 0;
+}
+
+.q-card {
+  padding: 20px 33% 60px 0;
+  height: 250px;
+  background-position: 50% !important;
+  background-size: cover !important;
+}
+
+.q-card .body {
+  padding: 20px;
+  background: #fff;
+}
+
 .home-links {
   padding: 80px 0;
 }
@@ -10755,6 +10771,7 @@ a.text-dark:focus {
 }
 
 .about-us a {
+  text-transform: uppercase;
   margin-top: 20px;
 }
 
@@ -10774,9 +10791,15 @@ a.text-dark:focus {
   color: black;
 }
 
-.services .row {
+.services .announce {
   padding: 20px 0;
+  margin-bottom: 40px;
   background: #eae8e1;
+}
+
+.services .sectors {
+  padding: 20px;
+  border: 1px solid grey;
 }
 
 .standarts {
@@ -10807,7 +10830,9 @@ a.text-dark:focus {
 
 .funding .cover {
   color: #fff;
-  background: url("/img/eu.jpg");
+  background-image: url("/img/eu.jpg"), linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.2));
+  background-blend-mode: overlay;
+  background-position: 50%;
   background-size: cover;
   display: flex;
   align-items: center;

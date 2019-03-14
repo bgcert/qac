@@ -52,6 +52,20 @@
   }
 }
 
+.q-cards {
+  margin: 120px 0;
+}
+.q-card {
+  padding: 20px 33% 60px 0;
+  height: 250px;
+  background-position: 50% !important;
+  background-size: cover !important;
+  .body {
+    padding: 20px;
+    background: #fff;
+  }
+}
+
 .home-links {
   padding: 80px 0;
 }
@@ -69,6 +83,7 @@
   }
 
   a {
+    text-transform: uppercase;
     margin-top: 20px;
   }
 }
@@ -90,9 +105,15 @@
     color: black;
   }
 
-  .row {
+  .announce {
     padding: 20px 0;
+    margin-bottom: 40px;
     background:rgb(234, 232, 225);
+  }
+
+  .sectors {
+    padding: 20px;
+    border: 1px solid grey;
   }
 }
 
@@ -123,7 +144,9 @@
 .funding {
   .cover {
     color: #fff;
-    background: url('/img/eu.jpg');
+    background-image: url('/img/eu.jpg'), linear-gradient(rgba(4,9,30,.8),rgba(4,9,30,.2));
+    background-blend-mode: overlay;
+    background-position: 50%;
     background-size: cover;
     display: flex;
     align-items: center;

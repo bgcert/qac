@@ -22,7 +22,58 @@
     </div>
 </section>
 
-<section class="home-links">
+<!-- Q-CARDS -->
+<section class="q-cards">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-6">
+                <div class="q-card" style="background: url('/img/2.jpeg');">
+
+                    <div class="body">
+                        <h4>Внедряване на международни стандарти</h4>
+                        <p>
+                            <a href="#" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-6 mb-4">
+                <div class="q-card" style="background: url('/img/eu.jpg');">
+                    <div class="body">
+                        <h4>Кандидатстване за безвъзмездно финансиране</h4>
+                        <p>
+                            <a href="#" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="q-card" style="background: url('/img/4.jpeg');">
+                    <div class="body">
+                        <h4>Маркировка CE</h4>
+                        <p>
+                            <a href="#" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center">
+                <div>
+                    <a href="#" class="btn btn-danger btn-lg">test</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- END Q-CARDS -->
+
+
+<!-- <section class="home-links">
     <div class="container">
         <div class="row">
             <div class="col-4">
@@ -38,12 +89,12 @@
 
     </div>
 
-</section>
+</section> -->
 
 <section class="services">
 
     <div class="container">
-        <div class="row">
+        <div class="row announce">
             <div class="col-5 mr-auto">
                 <img src="/img/inspection.jpeg" class="rounded img-fluid" alt="">
             </div>
@@ -59,6 +110,35 @@
                         <a href="#">Научете повече &rarr;</a>
                     </p>
                 </div>
+            </div>
+        </div>
+
+        <div class="row sectors">
+            <div class="col-6">
+                <div class="h3">
+                    Заинтересовани сектори
+                </div>
+                <p>
+                    Изпълнение на изискванията на европейски регламенти и директиви за свободно движение на стоки
+                </p>
+            </div>
+            <div class="col-3">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a href="#">&rarr; Cras justo odio</a></li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -260,7 +340,7 @@
                     От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
                 </p>
                 <p>
-                    <a href="#">Научете повече &rarr;</a>
+                    <a href="#">Научете повече за фирмата &rarr;</a>
                 </p>
             </div>
             <div class="col-6">

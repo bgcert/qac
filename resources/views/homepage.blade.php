@@ -68,6 +68,9 @@
 <section class="standarts">
 
     <div class="container">
+        <div class="divider">
+            <div class="line"></div>
+        </div>
         <div class="text-center">
             <div class="h1">
                 Системи за управление на бизнеса
@@ -100,82 +103,121 @@
             </div>
         </div>
 
+        <div class="text-center call-to-action">
+            <a href="#" class="btn btn-lg btn-warning">Какво представляват системите?</a>
+        </div>
+
+        <div class="divider">
+            <div class="line"></div>
+        </div>
+
         <div class="standarts__list">
-            <div class="row">
-                <div class="col-3">
-                    <div class="row my-4">
-                        <div class="col-md-4">
-                            <img src="/img/3.jpeg" class="card-img" alt="...">
+            <div class="h4 title">
+                Стандартите, по които работим:
+            </div>
+
+            <div class="box">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="row my-4">
+                            <div class="col-md-4">
+                                <img src="/img/3.jpeg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="card-text">ISO 9001:2008</p>
+                            </div>
                         </div>
-                        <div class="col-md-8">
-                            <p class="card-text">ISO 9001:2008</p>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="row my-4">
+                            <div class="col-md-4">
+                                <img src="/img/3.jpeg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="card-text">BS OHSAS 18001:2007</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="row my-4">
+                            <div class="col-md-4">
+                                <img src="/img/3.jpeg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="card-text">ISO 14001:2004</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="row my-4">
+                            <div class="col-md-4">
+                                <img src="/img/3.jpeg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="card-text">Серия ISO/IEC 17000</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="row my-4">
+                            <div class="col-md-4">
+                                <img src="/img/3.jpeg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="card-text">ISO 9001:2008</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="row my-4">
+                            <div class="col-md-4">
+                                <img src="/img/3.jpeg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="card-text">BS OHSAS 18001:2007</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="row my-4">
+                            <div class="col-md-4">
+                                <img src="/img/3.jpeg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="card-text">ISO 14001:2004</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-3">
-                    <div class="row my-4">
-                        <div class="col-md-4">
-                            <img src="/img/3.jpeg" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="card-text">BS OHSAS 18001:2007</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="row my-4">
-                        <div class="col-md-4">
-                            <img src="/img/3.jpeg" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="card-text">ISO 14001:2004</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="row my-4">
-                        <div class="col-md-4">
-                            <img src="/img/3.jpeg" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="card-text">Серия ISO/IEC 17000</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="row my-4">
-                        <div class="col-md-4">
-                            <img src="/img/3.jpeg" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="card-text">ISO 9001:2008</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="row my-4">
-                        <div class="col-md-4">
-                            <img src="/img/3.jpeg" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="card-text">BS OHSAS 18001:2007</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="row my-4">
-                        <div class="col-md-4">
-                            <img src="/img/3.jpeg" class="card-img" alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <p class="card-text">ISO 14001:2004</p>
-                        </div>
+            <div class="d-flex justify-content-center mt-4">
+                <div class="col-6">
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="m-2">Изграждане</h5>
+                            </div>
+                            <!-- <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> -->
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="m-2">Внедряване</h5>
+                            </div>
+                            <!-- <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> -->
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="m-2">Поддържане</h5>
+                            </div>
+                            <!-- <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> -->
+                        </a>
                     </div>
                 </div>
             </div>
@@ -186,6 +228,9 @@
 
 <section class="funding">
     <div class="container">
+        <div class="divider">
+            <div class="line"></div>
+        </div>
         <div class="cover">
             <div>
                 <h1>Безвъзмездно финансиране</h1>
@@ -198,17 +243,35 @@
 
 <section class="about-us">
 
-    <div class="container d-flex justify-content-center">
-        <div class="col-10 text-center">
+    <div class="container">
+        <div class="divider">
+            <div class="line"></div>
+        </div>
+        <div class="text-center">
             <div class="title">
-                Качеството - реално бъдеще
+                За нас
             </div>
-            <p>
-                От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
-            </p>
-            <p>
-                <a href="#" class="btn btn-primary btn-lg"> Научете повече</a>
-            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <h3>Качеството - реално бъдеще</h3>
+                <p>
+                    От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
+                </p>
+                <p>
+                    <a href="#">Научете повече &rarr;</a>
+                </p>
+            </div>
+            <div class="col-6">
+                <h3>Бизнес консултации</h3>
+                <p>
+                    От 2001 година, всички предлагани услуги са обхванати от сертифицираната Система за управление на качеството по изискванията на <strong>ISO 9001:2015</strong>
+                </p>
+                <p>
+                    <a href="#">Вижте сертификата &rarr;</a>
+                </p>
+            </div>
         </div>
     </div>
 

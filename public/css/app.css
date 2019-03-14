@@ -10724,6 +10724,17 @@ a.text-dark:focus {
   margin: 40px 0;
 }
 
+.divider {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.divider .line {
+  display: inline-block;
+  width: 64px;
+  border: 1px solid #767676;
+}
+
 .home-links {
   padding: 80px 0;
 }
@@ -10733,6 +10744,7 @@ a.text-dark:focus {
 }
 
 .about-us .title {
+  margin-bottom: 60px;
   font-size: 3em;
   font-weight: 600;
 }
@@ -10775,10 +10787,22 @@ a.text-dark:focus {
   margin-bottom: 60px;
 }
 
+.standarts .call-to-action {
+  margin: 40px 0;
+}
+
 .standarts .standarts__list {
-  background: #ebecf0;
+  margin: 120px 0;
+}
+
+.standarts .standarts__list .title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.standarts .standarts__list .box {
   padding: 40px;
-  margin: 80px 0;
+  background: #ebecf0;
 }
 
 .funding .cover {

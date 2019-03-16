@@ -22,55 +22,126 @@
     </div>
 </section>
 
-<!-- Q-CARDS -->
-<section class="q-cards">
+<hr>
 
-    <div class="container">
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <div class="q-card" style="background: url('/img/2.jpeg');">
 
-        <div class="row">
-            <div class="col-6">
-                <div class="q-card" style="background: url('/img/2.jpeg');">
-
-                    <div class="body">
-                        <h4>Внедряване на международни стандарти</h4>
-                        <p>
-                            <a href="#" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
-                        </p>
-                    </div>
-
+                <div class="body">
+                    <h4>Внедряване на системи за управление</h4>
+                    <p>
+                        <a href="/certification" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
+                    </p>
                 </div>
+
             </div>
-            <div class="col-6 mb-4">
-                <div class="q-card" style="background: url('/img/eu.jpg');">
-                    <div class="body">
-                        <h4>Кандидатстване за безвъзмездно финансиране</h4>
-                        <p>
-                            <a href="#" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="q-card" style="background: url('/img/4.jpeg');">
-                    <div class="body">
-                        <h4>Маркировка CE</h4>
-                        <p>
-                            <a href="#" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 d-flex align-items-center justify-content-center">
-                <div>
-                    <a href="#" class="btn btn-danger btn-lg">test</a>
+        </div>
+        <div class="col-6">
+            <div class="q-card" style="background: url('/img/4.jpeg');">
+                <div class="body">
+                    <h4>Продуктова безопасност и маркировка CE</h4>
+                    <p>
+                        <a href="#" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
+                    </p>
                 </div>
             </div>
         </div>
-
     </div>
+    <hr>
+    <section class="standarts">
 
-</section>
-<!-- END Q-CARDS -->
+        <div class="container">
+            <div class="divider">
+                <div class="line"></div>
+            </div>
+            <div class="text-center">
+                <div class="h1">
+                    Системи за управление на бизнеса
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="h4">
+                        Изграждане и внедряване
+                    </div>
+
+                    <p> на системи за управление по международни стандарти</p>
+                </div>
+
+                <div class="col-4">
+                    <div class="h4">
+                        Поддържане и развитие
+                    </div>
+
+                    <p> бизнесът Ви има нужда от ъпгрейд</p>
+                </div>
+
+                <div class="col-4">
+                    <div class="h4">
+                        Публикации на НАТО
+                    </div>
+
+                    <p>международни стандарти и публикации на НАТО</p>
+                </div>
+            </div>
+
+            <div class="text-center call-to-action">
+                <a href="#" class="btn btn-lg btn-warning">Какво представляват системите?</a>
+            </div>
+
+            <div class="divider">
+                <div class="line"></div>
+            </div>
+        </div>
+
+    </section>
+    <h3>
+        Системите, които внедряваме
+    </h3>
+    <div class="row">
+        <div class="col-4">
+            Управление на качеството
+            <p>
+                <strong>ISO 9001</strong>
+            </p>
+            <a href="#" class="btn btn-danger">Научете повече</a>
+        </div>
+        <div class="col-4">
+            Информационна сигурност
+            <p>
+                <strong>ISO/IEC 27001</strong>
+            </p>
+            <a href="#" class="btn btn-danger">Научете повече</a>
+        </div>
+        <div class="col-4">
+            Медицински инструменти
+            <p>
+                <strong>ISO 13485</strong>
+            </p>
+            <a href="#" class="btn btn-danger">Научете повече</a>
+        </div>
+        <div class="col-4 mt-4">
+            Информационна сигурност
+            <p>
+                <strong>ISO/IEC 27001</strong>
+            </p>
+            <a href="#" class="btn btn-danger">Научете повече</a>
+        </div>
+        <div class="col-4 mt-4">
+            Медицински инструменти
+            <p>
+                <strong>ISO 13485</strong>
+            </p>
+            <a href="#" class="btn btn-danger">Научете повече</a>
+        </div>
+    </div>
+</div>
+
+<hr>
+
 
 
 <!-- <section class="home-links">
@@ -92,7 +163,9 @@
 </section> -->
 
 <section class="services">
-
+    <div class="divider">
+        <div class="line"></div>
+    </div>
     <div class="container">
         <div class="row announce">
             <div class="col-5 mr-auto">
@@ -141,170 +214,40 @@
                 </ul>
             </div>
         </div>
-    </div>
-
-</section>
-
-<section class="standarts">
-
-    <div class="container">
-        <div class="divider">
-            <div class="line"></div>
-        </div>
-        <div class="text-center">
+        <hr>
+        <div class="text-center mb-4">
             <div class="h1">
-                Системи за управление на бизнеса
+                Как можем да Ви съдействаме
             </div>
         </div>
-
         <div class="row">
-            <div class="col-4">
-                <div class="h4">
-                    Изграждане и внедряване
-                </div>
-
-                <p> на системи за управление по международни стандарти</p>
+            <div class="col-6">
+                <h3>
+                    Консултации
+                </h3>
+                <p>
+                    Кю Ей Си ООД извършва консултации и по целия процес за придобиване на маркировката
+                </p>
+                <p>
+                    <a href="#">Изпратете запитване &rarr;</a>
+                </p>
             </div>
 
-            <div class="col-4">
-                <div class="h4">
-                    Поддържане и развитие
-                </div>
-
-                <p> бизнесът Ви има нужда от ъпгрейд</p>
-            </div>
-
-            <div class="col-4">
-                <div class="h4">
-                    Публикации на НАТО
-                </div>
-
-                <p>международни стандарти и публикации на НАТО</p>
-            </div>
-        </div>
-
-        <div class="text-center call-to-action">
-            <a href="#" class="btn btn-lg btn-warning">Какво представляват системите?</a>
-        </div>
-
-        <div class="divider">
-            <div class="line"></div>
-        </div>
-
-        <div class="standarts__list">
-            <div class="h4 title">
-                Стандартите, по които работим:
-            </div>
-
-            <div class="box">
-                <div class="row">
-                    <div class="col-3">
-                        <div class="row my-4">
-                            <div class="col-md-4">
-                                <img src="/img/3.jpeg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <p class="card-text">ISO 9001:2008</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-3">
-                        <div class="row my-4">
-                            <div class="col-md-4">
-                                <img src="/img/3.jpeg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <p class="card-text">BS OHSAS 18001:2007</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-3">
-                        <div class="row my-4">
-                            <div class="col-md-4">
-                                <img src="/img/3.jpeg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <p class="card-text">ISO 14001:2004</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-3">
-                        <div class="row my-4">
-                            <div class="col-md-4">
-                                <img src="/img/3.jpeg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <p class="card-text">Серия ISO/IEC 17000</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-3">
-                        <div class="row my-4">
-                            <div class="col-md-4">
-                                <img src="/img/3.jpeg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <p class="card-text">ISO 9001:2008</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-3">
-                        <div class="row my-4">
-                            <div class="col-md-4">
-                                <img src="/img/3.jpeg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <p class="card-text">BS OHSAS 18001:2007</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-3">
-                        <div class="row my-4">
-                            <div class="col-md-4">
-                                <img src="/img/3.jpeg" class="card-img" alt="...">
-                            </div>
-                            <div class="col-md-8">
-                                <p class="card-text">ISO 14001:2004</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="d-flex justify-content-center mt-4">
-                <div class="col-6">
-                    <div class="list-group list-group-flush">
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="m-2">Изграждане</h5>
-                            </div>
-                            <!-- <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> -->
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="m-2">Внедряване</h5>
-                            </div>
-                            <!-- <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> -->
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="m-2">Поддържане</h5>
-                            </div>
-                            <!-- <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p> -->
-                        </a>
-                    </div>
-                </div>
+            <div class="col-6">
+                <h3>Обучение</h3>
+                <p>
+                    Фирмата предлага обучения по процедурите за изискванията на ЕС ....
+                </p>
+                <p>
+                    <a href="#">Вижте актуалните ни курсове &rarr;</a>
+                </p>
             </div>
         </div>
     </div>
 
 </section>
+
+
 
 <section class="funding">
     <div class="container">
@@ -315,7 +258,7 @@
             <div>
                 <h1>Безвъзмездно финансиране</h1>
                 <p>Подготовка за Кандидатстване по европейски програми</p>
-                <p><a href="#" class="btn btn-light btn-lg">Научете повече</a></p>
+                <p><a href="#" class="btn btn-light btn-lg">Разгледайте възможностите</a></p>
             </div>
         </div>
     </div>

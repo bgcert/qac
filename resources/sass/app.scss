@@ -56,13 +56,15 @@
   margin: 120px 0;
 }
 .q-card {
-  padding: 20px 33% 60px 0;
   height: 250px;
   background-position: 50% !important;
   background-size: cover !important;
+  display: flex;
+  align-items: flex-end;
   .body {
+    width: 75%;
     padding: 20px;
-    background: #fff;
+    color: #fff;
   }
 }
 
@@ -110,11 +112,11 @@
     margin-bottom: 40px;
     background:rgb(234, 232, 225);
   }
+}
 
-  .sectors {
-    padding: 20px;
-    border: 1px solid grey;
-  }
+.sectors {
+  padding: 20px;
+  border: 1px solid grey;
 }
 
 .standarts {

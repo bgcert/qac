@@ -17,6 +17,7 @@
 // });
 
 Route::view('/markirovka', 'markirovka');
+Route::view('/certification', 'certification');
 
 Route::get('/', 'PublicController@index')->name('homepage');
 

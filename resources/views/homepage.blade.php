@@ -22,34 +22,64 @@
     </div>
 </section>
 
-<hr>
+<section class="intro">
+    <div class="container">
 
-<div class="container">
-    <div class="row">
-        <div class="col-6">
-            <div class="q-card" style="background: url('/img/2.jpeg');">
-
-                <div class="body">
-                    <h4>Внедряване на системи за управление</h4>
-                    <p>
-                        <a href="/certification" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
-                    </p>
+        <div class="d-flex justify-content-center">
+            <div class="col-7">
+                <div class="h1">
+                    Как можем да помогнем на Вашия бизнес
                 </div>
-
+                <p>
+                    От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
+                </p>
+                <p>
+                    <a href="#" class="btn btn-warning">Научете повече</a>
+                </p>
             </div>
         </div>
-        <div class="col-6">
-            <div class="q-card" style="background: url('/img/4.jpeg');">
-                <div class="body">
-                    <h4>Продуктова безопасност и маркировка CE</h4>
-                    <p>
-                        <a href="#" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
-                    </p>
+
+    </div>
+
+</section>
+
+<section class="main-services">
+
+    <div class="container">
+        <div class="divider">
+            <div class="line"></div>
+        </div>
+
+        <h4>Основни направления</h4>
+        <div class="row">
+            <div class="col-6">
+                <div class="q-card" style="background: url('/img/2.jpeg');">
+
+                    <div class="body">
+                        <h4>Внедряване на системи за управление</h4>
+                        <p>
+                            <a href="/certification" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="q-card" style="background: url('/img/4.jpeg');">
+                    <div class="body">
+                        <h4>Продуктова безопасност и маркировка CE</h4>
+                        <p>
+                            <a href="#" class="btn btn-primary btn-sm">Научете повече &rarr;</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <hr>
+
+</section>
+
+<div class="container">
     <section class="standarts">
 
         <div class="container">
@@ -92,9 +122,9 @@
                 <a href="#" class="btn btn-lg btn-warning">Какво представляват системите?</a>
             </div>
 
-            <div class="divider">
+            <!-- <div class="divider">
                 <div class="line"></div>
-            </div>
+            </div> -->
         </div>
 
     </section>
@@ -103,12 +133,36 @@
     </h3>
     <div class="row">
         <div class="col-4">
-            Управление на качеството
-            <p>
-                <strong>ISO 9001</strong>
-            </p>
-            <a href="#" class="btn btn-danger">Научете повече</a>
+            <div class="standart-box">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="/img/iso9001.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-8">
+                        Управление на качеството
+                        <p>
+                            <strong>ISO 9001</strong>
+                        </p>
+                        <a href="/standarts/iso-9001" class="btn btn-sm btn-danger">Научете повече</a>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="col-4">
+            <div class="row">
+                <div class="col-4">
+                    <img src="/img/iso9001.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-8">
+                    Информационна сигурност
+                    <p>
+                        <strong>ISO/IEC 27001</strong>
+                    </p>
+                    <a href="/standarts/iso-27001" class="btn btn-sm btn-danger">Научете повече</a>
+                </div>
+            </div>
+        </div>
+
         <div class="col-4">
             Информационна сигурност
             <p>

@@ -13,99 +13,94 @@
 @import '~bootstrap/scss/bootstrap';
 
 .slider {
-  padding: 4rem 2rem;
-  border-bottom: 2px solid #f7b700;
-  border-top: 4px solid #f7b700;
-  background: #f9f9f9;
-  h1 {
-    font-size: 2rem;
-    margin: 20px 0;
+  background: url('/img/meeting.jpg');
+  background-size: cover;
+  height: 550px;
+  .content {
+    background: #fff;
+  }
+  // border-bottom: 1px solid orange;
+}
+
+.site-heading {
+  height: 2px;
+  background-image: linear-gradient(90deg,#21e8d8 0,#9146fe);
+}
+
+.clients {
+  margin: 130px 0;
+  .logo-item {
+    padding: 0 30px;
   }
 }
 
-.main-services {
-  margin: 40px 0;
-  .service-lead {
-    margin-bottom: 40px;
-    font-size: 1.6rem;
-    font-weight: 600;
-  }
-  .service-content {
-    font-size: 1.2em;
-    color: gray;
-    margin-bottom: 110px;
-  }
-  .service-title {
-    margin-bottom: 60px;
-    text-align: center;
-  }
-  .service-box {
-    background-size: cover !important;
-    &:first-child {
-      margin-right: 12px;
-    }
-    .overlay {
-      background: rgba(0, 0, 0, 0.4);
-      display: flex;
-      align-items: center;
-      height: 240px;
-      padding: 30px;
-      color: #ffffff;
-      .h4 {
-        font-weight: bold;
-        font-size: 1.8em;
-      }
-    }
-  }
-}
-
-.contact-link {
-  background: #ffe27a;
-  padding: 40px 0;
-  .h4 {
-    margin: 0;
-  }
-}
-
-.standarts {
-  background: #f2f2f2;
-  padding: 80px;
+.service-range {
+  // background: #f8f9fd;
+  padding: 100px 0;
   .title {
     margin-bottom: 40px;
+    text-align: center;
   }
+  .box {
+    border: 3px solid #dedede;
+    padding: 30px;
+    height: 100%;
+    border-radius: 3px;
 
-  .standart-box {
-    height: 200px;
-    background-size: cover;
-    padding: 10px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-    margin: 0 0 2px 2px;
-    .content {
-      background: rgba(255,255,255, 0.9);
-      padding: 8px;
-      color: #707070;
-      .h3 {
-        font-weight: bold;
-        margin: 0;
-      }
-      p {
-        font-size: 1.4em;
-        line-height: 1;
+    .h4 {
+      color: #fd6900;
+    }
+
+    &.orange {
+      display: flex;
+      align-items: center;
+      border-radius: initial;
+      border: none;
+      color: #fd6900;
+      border-right: 2px solid #fd6900;
+      .h5 {
+        font-weight: bold !important;
+        // -->
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 2;
       }
     }
   }
-}
-
-.product-certification {
-  .container {
-    background: #eae8e1;
-    padding: 30px;
+  .list-group-item {
+    border: none;
   }
 }
 
-.courses {
-  margin: 120px 0;
+.ce-marking {
+  .title {
+
+    color: #fd6900;
+  }
+  margin: 100px 0;
+  padding: 100px 0;
+  .img-bg {
+    background: url('/img/forest1.jpg');
+    background-size: cover;
+    background-position: 0% 100%;
+  }
+
+  .content {
+    padding-left: 30px;
+    .h2 {
+      margin-bottom: 50px;
+    }
+    ul {
+      margin-top: 30px;
+      li {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .benefits {
+    p {
+      margin-top: 30px;
+    }
+  }
 }

@@ -10695,111 +10695,100 @@ a.text-dark:focus {
 }
 
 .slider {
-  padding: 4rem 2rem;
-  border-bottom: 2px solid #f7b700;
-  border-top: 4px solid #f7b700;
-  background: #f9f9f9;
+  background: url("/img/meeting.jpg");
+  background-size: cover;
+  height: 550px;
 }
 
-.slider h1 {
-  font-size: 2rem;
-  margin: 20px 0;
+.slider .content {
+  background: #fff;
 }
 
-.main-services {
-  margin: 40px 0;
+.site-heading {
+  height: 2px;
+  background-image: linear-gradient(90deg, #21e8d8 0, #9146fe);
 }
 
-.main-services .service-lead {
+.clients {
+  margin: 130px 0;
+}
+
+.clients .logo-item {
+  padding: 0 30px;
+}
+
+.service-range {
+  padding: 100px 0;
+}
+
+.service-range .title {
   margin-bottom: 40px;
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-
-.main-services .service-content {
-  font-size: 1.2em;
-  color: gray;
-  margin-bottom: 110px;
-}
-
-.main-services .service-title {
-  margin-bottom: 60px;
   text-align: center;
 }
 
-.main-services .service-box {
-  background-size: cover !important;
+.service-range .box {
+  border: 3px solid #dedede;
+  padding: 30px;
+  height: 100%;
+  border-radius: 3px;
 }
 
-.main-services .service-box:first-child {
-  margin-right: 12px;
+.service-range .box .h4 {
+  color: #fd6900;
 }
 
-.main-services .service-box .overlay {
-  background: rgba(0, 0, 0, 0.4);
+.service-range .box.orange {
   display: flex;
   align-items: center;
-  height: 240px;
-  padding: 30px;
-  color: #ffffff;
+  border-radius: initial;
+  border: none;
+  color: #fd6900;
+  border-right: 2px solid #fd6900;
 }
 
-.main-services .service-box .overlay .h4 {
-  font-weight: bold;
-  font-size: 1.8em;
+.service-range .box.orange .h5 {
+  font-weight: bold !important;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2;
 }
 
-.contact-link {
-  background: #ffe27a;
-  padding: 40px 0;
+.service-range .list-group-item {
+  border: none;
 }
 
-.contact-link .h4 {
-  margin: 0;
+.ce-marking {
+  margin: 100px 0;
+  padding: 100px 0;
 }
 
-.standarts {
-  background: #f2f2f2;
-  padding: 80px;
+.ce-marking .title {
+  color: #fd6900;
 }
 
-.standarts .title {
-  margin-bottom: 40px;
-}
-
-.standarts .standart-box {
-  height: 200px;
+.ce-marking .img-bg {
+  background: url("/img/forest1.jpg");
   background-size: cover;
-  padding: 10px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-  margin: 0 0 2px 2px;
+  background-position: 0% 100%;
 }
 
-.standarts .standart-box .content {
-  background: rgba(255, 255, 255, 0.9);
-  padding: 8px;
-  color: #707070;
+.ce-marking .content {
+  padding-left: 30px;
 }
 
-.standarts .standart-box .content .h3 {
-  font-weight: bold;
-  margin: 0;
+.ce-marking .content .h2 {
+  margin-bottom: 50px;
 }
 
-.standarts .standart-box .content p {
-  font-size: 1.4em;
-  line-height: 1;
+.ce-marking .content ul {
+  margin-top: 30px;
 }
 
-.product-certification .container {
-  background: #eae8e1;
-  padding: 30px;
+.ce-marking .content ul li {
+  margin-bottom: 30px;
 }
 
-.courses {
-  margin: 120px 0;
+.ce-marking .benefits p {
+  margin-top: 30px;
 }
 

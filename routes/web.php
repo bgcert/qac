@@ -22,7 +22,7 @@ Route::view('/certification', 'certification');
 Route::get('/', 'PublicController@index')->name('homepage');
 
 // Standarts
-Route::view('/standarts/iso-9001', 'iso-9001');
+Route::view('/standarti/iso-9001', 'iso-9001');
 // Route::view('/admin', 'pages.index');
 
 Route::view('/services', 'services');

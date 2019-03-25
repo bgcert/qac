@@ -10694,6 +10694,20 @@ a.text-dark:focus {
   }
 }
 
+.container {
+  max-width: 1340px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.slogan {
+  padding: 8px 0;
+  padding-left: 14px;
+  border-left: 1px solid #c7c6c6;
+}
+
 .slider {
   background: url("/img/meeting.jpg");
   background-size: cover;

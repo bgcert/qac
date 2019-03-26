@@ -2,158 +2,233 @@
 
 @section('content')
 
-<section class="slider">
-    <div class="container h-100">
-        <div class="col-6 h-100 d-flex align-items-center">
-            <div class="content">
-                <div class="display-4">
-                    the company
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<div class="site-heading"></div>
-
-<section class="clients">
+<section class="container-fluid slider">
     <div class="container">
-        <div class="row">
 
-            @for($i = 0; $i <= 5; $i++) <div class="col-2 logo-item">
-                <img src="/img/dummy-logo.png" class="img-fluid" alt="">
-        </div>
-        @endfor
-    </div>
-    </div>
-</section>
-
-<section class="service-range">
-    <div class="container">
-        <div class="title h2">
-            Как можем да съдействаме на бизнеса Ви?
-        </div>
-        <div class="row">
-            <div class="col-4">
-                <div class="box orange">
-                    <div class="h5">
-                        Консултации и обучения &rarr;
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="box">
-                    <div class="h4">
-                        Маркировка CE
-                    </div>
-                    <P>Паспортът на продиктите за европейския пазар</P>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="box">
-                    <div class="h4">
-                        Международни стандарти
-                    </div>
-                    <p>Изграждане и внедряване на системи за управление</p>
-                </div>
-            </div>
-        </div>
-        <hr>
         <div class="col-7">
-            <div class="h3">
-                Консултанска дейност по маркиране на продукт
-            </div>
-            <p>Ние предлагаме широка гама от услуги за оценка на съответствието, свързани с директивите на ЕС за безопасност на продуктите:</p>
-            <ul class="list-group list-group-flush">
-                <li class="list-group-item"><i data-feather="check"></i>Процес на сертифициране по CE-маркировка</li>
-                <li class="list-group-item"><i data-feather="check"></i>Оценки на съответствието и одити</li>
-                <li class="list-group-item"><i data-feather="check"></i>Проверка на дизайна</li>
-                <li class="list-group-item"><i data-feather="check"></i>Анализ и оценки на риска</li>
-                <li class="list-group-item"><i data-feather="check"></i>Производствен надзор и тестване на проби, включително ЕМС</li>
-            </ul>
-            <p class="mt-4">
-                <a href="#" class="btn btn-danger">Изпратете запитване</a>
-                <a href="#" class="btn btn-outline-secondary">Научете повече</a>
+            <div class="h1">Съдействие за Вашия бизнес</div>
+            <div class="divider"></div>
+            <p>
+                КЮ ЕЙ СИ ООД - Център за осигуряване на качеството съществува за да повишава конкурентността и растежа на Вашия бизнес.
+            </p>
+            <p>
+                От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
+            </p>
+            <p>
+                <a href="#" class="btn btn-outline-light btn-lg">Научете повече</a>
             </p>
         </div>
     </div>
 </section>
 
-<section class="ce-marking">
+<section class="about">
+
     <div class="container">
-        <div class="h4 title">Изисква ли продуктът CE маркировка?</div>
-        <div class="text-center">
-            <div class="h1">Маркировка CE</div>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <p>Вашият продукт изисква CE маркировка?</p>
-                <p>Маркировката CE е необходима, ако клиентите Ви се намират в определени страни и ако купуват определени видове продукти от Вас.</p>
-                <p><a href="#">Списък с държавите, които изискват CE маркировка</a></p>
-            </div>
-            <div class="col-6">
-                <p>Ние предлагаме широка гама от услуги за оценка на съответствието, свързани с директивите на ЕС за безопасност на продуктите:</p>
-                <ul>
-                    <li>Консултантска дейност по CE маркиране</li>
-                    <li>Процес на сертифициране по CE-маркировка</li>
-                    <li>Оценки на съответствието и одити</li>
-                    <li>Проверка на дизайна</li>
-                    <li>Анализ и оценки на риска</li>
-                    <li>Производствен надзор и тестване на проби, включително ЕМС</li>
-                </ul>
-            </div>
-        </div>
-        <div class="text-center">
-            <div class="h4 mt-4">Продуктите Ви се нуждаят от сертифициране?</div>
-            <a href="#" class="btn btn-primary">Изпратете запитване за оферта</a>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-5 img-bg">
-                <!-- <img src="/img/forest1.jpg" class="img-fluid" alt=""> -->
-            </div>
-            <div class="col-1"></div>
-            <div class="col-6 content">
-                <div class="h2">
-                    Маркировка CE
-                </div>
+        <div class="d-flex justify-content-center text-center">
+            <div class="col-8">
 
                 <div class="row">
-                    <div class="col-6">
-                        <ul>
-                            <li>Консултантска дейност по CE маркиране</li>
-                            <li>Процес на сертифициране по CE-маркировка</li>
-                            <li>Оценки на съответствието и одити</li>
-                        </ul>
+                    <div class="col-12">
+                        <div class="h1 title">
+                            Основни дейности
+                        </div>
                     </div>
                     <div class="col-6">
-                        <ul>
-
-                        </ul>
+                        <div class="circle">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <i data-feather="book"></i>
+                            </div>
+                        </div>
+                        <div class="h4">Консултации</div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <div class="circle">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <i data-feather="book"></i>
+                            </div>
+                        </div>
+                        <div class="h4">Обучения</div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row benefits">
-            <div class="col-6">
-                <h4>Целеви клиенти</h4>
-                <p>Тази услуга е насочена към всеки бизнес, който иска да продава продуктите си в ЕС.</p>
-            </div>
-            <div class="col-6">
-                <h4>Ключови ползи за клиента</h4>
+    </div>
+
+    <!-- <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="col-7">
+                <div class="h1">
+                    Кю Ей Си ООД - Център за осигуряване на качеството
+                </div>
                 <p>
-                    Опитът ни в тази област помага за постигане на маркировка CE бързо и безстресово постигане на съответствие директивите,
-                    за да може достъпът до пазарите на ЕС да стартира без излишно забавяне.
+                    съществува за да повишава конкурентността и растежа на Вашия бизнес.
+                    От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
                 </p>
             </div>
         </div>
+    </div> -->
+
+</section>
+
+<section class="services">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 d-flex align-items-center">
+                <div class="box">
+                    <div class="h6">Консултации и обучения</div>
+                    <div class="h1">
+                        Маркировка CE
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laboriosam blanditiis fugit magnam.
+                        Libero pariatur, aspernatur neque quo consectetur nulla qui optio, vero ad similique repudiandae laboriosam rem placeat fuga?
+                    </p>
+                    <p>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 16 16 12 12 8"></polyline>
+                                <line x1="8" y1="12" x2="16" y2="12"></line>
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="box">
+                    <div class="h6">Консултации и обучения</div>
+                    <div class="h1">
+                        Международни стандарти
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laboriosam blanditiis fugit magnam.
+                        Libero pariatur, aspernatur neque quo consectetur nulla qui optio, vero ad similique repudiandae laboriosam rem placeat fuga?
+                    </p>
+
+                    <p>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 16 16 12 12 8"></polyline>
+                                <line x1="8" y1="12" x2="16" y2="12"></line>
+                            </svg>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
+
 </section>
 
 <section class="standards">
+
     <div class="container">
-        standarts
+        <div class="text-center info">
+            <div class="h1 title">Стандарти</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
     </div>
+
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="standard">
+                        <h3>ISO 9001</h3>
+                        <p>Управление на качеството</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="standard">
+                        ISO 27000
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="standard">
+                        OHSAS 18000
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="standard">
+                        ISO 22000
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="standard">
+                        AQAP 2110
+                    </div>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </div>
+
 </section>
 
+<section class="contact">
+
+    <div class="container d-flex justify-content-center">
+
+        <div class="col-7">
+            <div class="text-center">
+                <div class="h1">
+                    Имате нужда от повече информация за нашите услуги?
+                </div>
+                <div class="divider"></div>
+                <p>
+                    Можете да попълните формата за запитване и ние ще Ви отговорим в най-кратки срокове
+                </p>
+            </div>
+
+            <div class="contact-form">
+
+                <form>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Име *</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Моля въведете Вашето име">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">E-mail *</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Телефон</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">Относно:</label>
+                        <select class="custom-select">
+                            <option selected>Моля, изберете от списъка</option>
+                            <option>Внедряване на международен стандарт</option>
+                            <option>Маркировка CE на продукт</option>
+                            <option>Друго</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Запитване</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group text-right">
+                        <a href="#" class="btn btn-secondary btn-lg">Изпращане</a>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
 @endsection 

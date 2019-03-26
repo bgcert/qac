@@ -12,9 +12,51 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.container {
-  max-width: 1340px;
+body {
+  background: #f2f2f2;
+  // box-shadow: 0 0.0625rem 0.25rem 0 rgba(61,66,80,.18);
+  // width: 1560px;
+  // margin: 0 auto;
 }
+
+.site-wrap {
+  box-shadow: 0 0.0625rem 0.25rem 0 rgba(61,66,80,.18);
+  width: 1560px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.about {
+  border-bottom: 1px solid #6574cd;
+  .title {
+    margin-bottom: 1.8em;
+  }
+
+  .circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #949494;
+    margin-bottom: 1.4em;
+    border: 1px solid #949494;
+  }
+}
+
+.test {
+  background: url('/img/3.jpeg');
+  background-size: cover;
+  padding: 90px 0;
+  opacity: 0.9;
+  .box {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.2);
+    padding: 40px;
+
+  }
+}
+
 
 // NAVBAR
 .logo {
@@ -28,94 +70,105 @@
 }
 
 .slider {
-  background: url('/img/meeting.jpg');
+  // background: url('/img/meeting.jpg');
+  background-image: url('/img/meeting.jpg'), linear-gradient(rgba(4, 13, 30, 0.7), rgba(4, 9, 30, 0.7));
+  background-blend-mode: overlay;
   background-size: cover;
-  height: 550px;
-  .content {
-    background: #fff;
+  height: 650px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-size: 1.12em;
   }
-  // border-bottom: 1px solid orange;
-}
 
-.site-heading {
-  height: 2px;
-  background-image: linear-gradient(90deg,#21e8d8 0,#9146fe);
-}
-
-.clients {
-  margin: 130px 0;
-  .logo-item {
-    padding: 0 30px;
+  .divider {
+    width: 50px;
+    border-bottom: 1px solid #fff;
+    margin: 22px 0;
   }
 }
 
-.service-range {
-  // background: #f8f9fd;
+.about {
+    padding: 80px 0;
+    // background: #f4f4f4;
+}
+
+.services {
   padding: 100px 0;
-  .title {
-    margin-bottom: 40px;
-    text-align: center;
-  }
   .box {
-    border: 3px solid #dedede;
-    padding: 30px;
-    height: 100%;
-    border-radius: 3px;
-
-    .h4 {
-      color: #fd6900;
+    // background: #6574cd;
+    background-image: url('/img/1.jpeg'),linear-gradient(rgba(4,9,30,.8),rgba(4,9,30,.8));
+    background-blend-mode: overlay;
+    color: #fff;
+    padding: 10%;
+    .h6 {
+      text-transform: uppercase;
     }
 
-    &.orange {
-      display: flex;
-      align-items: center;
-      border-radius: initial;
-      border: none;
-      color: #fd6900;
-      border-right: 2px solid #fd6900;
-      .h5 {
-        font-weight: bold !important;
-        // -->
-        text-transform: uppercase;
-        text-align: center;
-        line-height: 2;
-      }
+    .h1 {
+      font-size: 3.0rem;
+      font-weight: 300;
     }
-  }
-  .list-group-item {
-    border: none;
+
+    a {
+      color: #fff;
+    }
   }
 }
 
-.ce-marking {
-  .title {
 
-    color: #fd6900;
-  }
-  margin: 100px 0;
+.standards {
   padding: 100px 0;
-  .img-bg {
-    background: url('/img/forest1.jpg');
-    background-size: cover;
-    background-position: 0% 100%;
+  .info {
+    margin-bottom: 3.4em;
   }
 
   .content {
-    padding-left: 30px;
-    .h2 {
-      margin-bottom: 50px;
-    }
-    ul {
-      margin-top: 30px;
-      li {
-        margin-bottom: 30px;
-      }
-    }
+    padding: 30px 0;
+    // background: #f2f2f2;
   }
 
-  .benefits {
-    p {
-      margin-top: 30px;
-    }
+  .standard {
+    // border: 1px solid #e4e4e4;
+    padding: 40px 15px;
+    text-align: center;
+
+    // font-size: 1.4em;
+    // font-weight: 700;
+    // background: crimson;
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+
   }
 }
+
+.contact {
+  padding: 120px 0;
+
+  .divider {
+    width: 40px;
+    border-bottom: 2px solid #3c3c3c;
+    display: inline-block;
+    margin: 10px 0;
+  }
+
+  .text-center p {
+    font-size: 1.2em;
+  }
+  .contact-form {
+    margin-top: 60px;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    padding: 50px;
+  }
+}
+

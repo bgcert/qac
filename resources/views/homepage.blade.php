@@ -25,44 +25,6 @@
 
     <div class="container">
         <div class="d-flex justify-content-center text-center">
-            <div class="col-8">
-
-                <div class="row">
-                    <div class="col-12">
-                        <div class="h1 title">
-                            Основни дейности
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="circle">
-                            <div class="d-flex justify-content-center align-items-center h-100">
-                                <i data-feather="book"></i>
-                            </div>
-                        </div>
-                        <div class="h4">Консултации</div>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
-                        </p>
-                    </div>
-                    <div class="col-6">
-                        <div class="circle">
-                            <div class="d-flex justify-content-center align-items-center h-100">
-                                <i data-feather="book"></i>
-                            </div>
-                        </div>
-                        <div class="h4">Обучения</div>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- <div class="container">
-        <div class="d-flex justify-content-center">
             <div class="col-7">
                 <div class="h1">
                     Кю Ей Си ООД - Център за осигуряване на качеството
@@ -71,9 +33,10 @@
                     съществува за да повишава конкурентността и растежа на Вашия бизнес.
                     От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
                 </p>
+                <div class="divider"></div>
             </div>
         </div>
-    </div> -->
+    </div>
 
 </section>
 
@@ -127,6 +90,46 @@
         </div>
     </div>
 
+    <div class="container">
+        <div class="d-flex justify-content-center text-center">
+            <div class="col-8">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="h1 title">
+                            Основни дейности
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="circle">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <i data-feather="book"></i>
+                            </div>
+                        </div>
+                        <div class="h4">Консултации</div>
+                        <div class="divider"></div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <div class="circle">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <i data-feather="book"></i>
+                            </div>
+                        </div>
+                        <div class="h4">Обучения</div>
+                        <div class="divider"></div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </section>
 
 <section class="standards">
@@ -149,12 +152,14 @@
                 </div>
                 <div class="col-3">
                     <div class="standard">
-                        ISO 27000
+                        <div class="h3">ISO 27000</div>
+                        <p>Информационна сигурност</p>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="standard">
-                        OHSAS 18000
+                        <div class="h3">OHSAS 18000</div>
+                        <p>Безопасност на храните</p>
                     </div>
                 </div>
                 <div class="col-3">
@@ -172,6 +177,80 @@
         </div>
     </div>
 
+</section>
+
+<section class="directives">
+    <div class="container">
+        <div class="text-center header">
+            <div class="h1">Директиви, по които консултираме</div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="row d-flex justify-content-between">
+                <div class="col-4">
+                    <div class="h3">Директиви, по които консултираме</div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias nihil voluptates fuga dolorum repellat cum temporibus consequatur atque dolorem laboriosam.
+                        Aspernatur est et voluptatem velit quidem dignissimos error suscipit omnis?
+                    </p>
+                </div>
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The Simple Pressure Vessels Directive - 2014/29/EU</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The Electromagnetic Compatibility Directive - 2014/30/EU</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The Non-automatic Weighing Instruments Directive - 2014/31/EU</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The Measuring Instruments Directive - 2014/32/EU</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The Lifts Directive - 2014/33/EU</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The ATEX Directive - 2014/34/EU</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The Low Voltage Directive - 2014/35/EU</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="clients">
+    <div class="container">
+        <div class="h2">Компаниите, които ни се доверяват</div>
+        <div class="divider"></div>
+
+        <div class="row">
+            @for($i = 0; $i <= 10; $i++) <div class="client-logo col-2">
+                <img src="/img/dummy-logo.png" class="img-fluid" alt="">
+        </div>
+        @endfor
+    </div>
+    </div>
 </section>
 
 <section class="contact">
@@ -213,7 +292,7 @@
                             <option>Друго</option>
                         </select>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="exampleFormControlTextarea1">Запитване</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -222,12 +301,8 @@
                         <a href="#" class="btn btn-secondary btn-lg">Изпращане</a>
                     </div>
                 </form>
-
             </div>
-
         </div>
-
-
     </div>
 
 </section>

@@ -16,8 +16,8 @@
 //     return view('homepage', compact('pages'));
 // });
 
-Route::view('/markirovka', 'markirovka');
-Route::view('/certification', 'certification');
+Route::view('/markirovka-ce', 'markirovka');
+Route::view('/standarti', 'standarti');
 
 Route::get('/', 'PublicController@index')->name('homepage');
 

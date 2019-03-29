@@ -83,9 +83,10 @@ body {
       text-transform: uppercase;
     }
 
-    .h1 {
-      font-size: 3.0rem;
+    .h2 {
+      font-size: 3rem;
       font-weight: 300;
+      padding: 15px 0;
     }
 
     a {
@@ -151,7 +152,7 @@ body {
     padding: 60px 0;
   }
   .col-6 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .col-4 {
@@ -164,6 +165,10 @@ body {
   .box {
     padding: 13px 16px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    // border-bottom: 1px solid #E91E63;
+    color: #fff;
+    background: darkslateblue;
     height: 100%;
     display: flex;
     align-items: center;
@@ -215,3 +220,26 @@ body {
   }
 }
 
+// PAGES
+.page-header {
+  height: 300px;
+  background-blend-mode: overlay;
+  background-size: cover;
+
+  &.standarti {
+    // background-image: url('/img/3.jpeg'), linear-gradient(rgba(4,9,30,.8),rgba(4,9,30,.8));
+    background-image: url('/img/3.jpeg'), linear-gradient(rgba(230, 132, 15, 0.8), rgba(181, 82, 19, 0.8));
+    background-position-y: center;
+  }
+
+  &.markirovka {
+    background-image: url('/img/ce-mark.jpg'), linear-gradient(rgba(4,9,30,.4),rgba(4,9,30,.4));
+    background-position-y: bottom;
+  }
+}
+
+.page {
+  .content {
+    padding: 100px 0;
+  }
+}

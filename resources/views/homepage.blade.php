@@ -4,7 +4,6 @@
 
 <section class="container-fluid slider">
     <div class="container">
-
         <div class="col-7">
             <div class="h1">Съдействие за Вашия бизнес</div>
             <div class="divider"></div>
@@ -44,6 +43,11 @@
 
     <div class="container">
         <div class="row">
+            <div class="col-12 text-center">
+                <div class="h1 title">
+                    Основни направления
+                </div>
+            </div>
             <div class="col-6 d-flex align-items-center">
                 <div class="box">
                     <div class="h6">Консултации и обучения</div>
@@ -51,11 +55,13 @@
                         Маркировка CE
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laboriosam blanditiis fugit magnam.
-                        Libero pariatur, aspernatur neque quo consectetur nulla qui optio, vero ad similique repudiandae laboriosam rem placeat fuga?
+                       <strong>Как да отговаряте на условията на европейския пазар?</strong>
                     </p>
                     <p>
-                        <a href="#">
+                        Ние предлагаме пълно съдействие по проучване, анализ и подготовка на продуктите за оценка на съответствието и маркировка CE
+                    </p>
+                    <p>
+                        <a href="/markirovka-ce">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <polyline points="12 16 16 12 12 8"></polyline>
@@ -72,12 +78,11 @@
                         Международни стандарти
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere laboriosam blanditiis fugit magnam.
-                        Libero pariatur, aspernatur neque quo consectetur nulla qui optio, vero ad similique repudiandae laboriosam rem placeat fuga?
+                        Ние ще ви помогнем да разберете и приложите изискванията на системата за управление на качеството, като същевременно гарантирате, че програмата ви ще се осъществява безпроблемно.
                     </p>
 
                     <p>
-                        <a href="#">
+                        <a href="/standarti">
                             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <polyline points="12 16 16 12 12 8"></polyline>
@@ -93,11 +98,10 @@
     <div class="container">
         <div class="d-flex justify-content-center text-center">
             <div class="col-8">
-
                 <div class="row">
                     <div class="col-12">
                         <div class="h1 title">
-                            Основни дейности
+                            Как съдействаме за успеха Ви?
                         </div>
                     </div>
                     <div class="col-6">
@@ -109,7 +113,7 @@
                         <div class="h4">Консултации</div>
                         <div class="divider"></div>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
+                            Екипът ни има над 20 годишен опит във внедряването на системите за управление
                         </p>
                     </div>
                     <div class="col-6">
@@ -118,7 +122,7 @@
                                 <i data-feather="book"></i>
                             </div>
                         </div>
-                        <div class="h4">Обучения</div>
+                        <div class="h4">Обучение</div>
                         <div class="divider"></div>
                         <p>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
@@ -127,116 +131,12 @@
                 </div>
             </div>
         </div>
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-secondary btn-lg">Научете повече</a>
+        </div>
 
     </div>
 
-</section>
-
-<section class="standards">
-
-    <div class="container">
-        <div class="text-center info">
-            <div class="h1 title">Стандарти</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        </div>
-    </div>
-
-    <div class="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <div class="standard">
-                        <h3>ISO 9001</h3>
-                        <p>Управление на качеството</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="standard">
-                        <div class="h3">ISO 27000</div>
-                        <p>Информационна сигурност</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="standard">
-                        <div class="h3">OHSAS 18000</div>
-                        <p>Безопасност на храните</p>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="standard">
-                        ISO 22000
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="standard">
-                        AQAP 2110
-                    </div>
-                </div>
-                <div class="col-3"></div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="directives">
-    <div class="container">
-        <div class="text-center header">
-            <div class="h1">Директиви, по които консултираме</div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="content">
-            <div class="row d-flex justify-content-between">
-                <div class="col-4">
-                    <div class="h3">Директиви, по които консултираме</div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Molestias nihil voluptates fuga dolorum repellat cum temporibus consequatur atque dolorem laboriosam.
-                        Aspernatur est et voluptatem velit quidem dignissimos error suscipit omnis?
-                    </p>
-                </div>
-                <div class="col-7">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="box">
-                                <div class="h5">The Simple Pressure Vessels Directive - 2014/29/EU</div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="box">
-                                <div class="h5">The Electromagnetic Compatibility Directive - 2014/30/EU</div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="box">
-                                <div class="h5">The Non-automatic Weighing Instruments Directive - 2014/31/EU</div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="box">
-                                <div class="h5">The Measuring Instruments Directive - 2014/32/EU</div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="box">
-                                <div class="h5">The Lifts Directive - 2014/33/EU</div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="box">
-                                <div class="h5">The ATEX Directive - 2014/34/EU</div>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="box">
-                                <div class="h5">The Low Voltage Directive - 2014/35/EU</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 
 <section class="clients">

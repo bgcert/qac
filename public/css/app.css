@@ -10762,9 +10762,10 @@ body {
   text-transform: uppercase;
 }
 
-.services .box .h1 {
+.services .box .h2 {
   font-size: 3rem;
   font-weight: 300;
+  padding: 15px 0;
 }
 
 .services .box a {
@@ -10832,7 +10833,7 @@ body {
 }
 
 .directives .col-6 {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .directives .col-4 p {
@@ -10844,6 +10845,8 @@ body {
 .directives .box {
   padding: 13px 16px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  background: darkslateblue;
   height: 100%;
   display: flex;
   align-items: center;
@@ -10898,5 +10901,25 @@ body {
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 4px;
   padding: 50px;
+}
+
+.page-header {
+  height: 300px;
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+.page-header.standarti {
+  background-image: url("/img/3.jpeg"), linear-gradient(rgba(230, 132, 15, 0.8), rgba(181, 82, 19, 0.8));
+  background-position-y: center;
+}
+
+.page-header.markirovka {
+  background-image: url("/img/ce-mark.jpg"), linear-gradient(rgba(4, 9, 30, 0.4), rgba(4, 9, 30, 0.4));
+  background-position-y: bottom;
+}
+
+.page .content {
+  padding: 100px 0;
 }
 

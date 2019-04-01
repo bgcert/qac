@@ -139,6 +139,66 @@
 
 </section>
 
+<section class="systems">
+    <div class="container">
+        <div class="text-center header">
+            <div class="h1">Състемите, които внедряваме</div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="row d-flex justify-content-between">
+                <div class="col-4">
+                    <div class="h3">Състемите, които внедряваме</div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Molestias nihil voluptates fuga dolorum repellat cum temporibus consequatur atque dolorem laboriosam.
+                        Aspernatur est et voluptatem velit quidem dignissimos error suscipit omnis?
+                    </p>
+                </div>
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">ISO 9001:2015 - Управление на качествтото</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">ISO 27001 - Информационна сигурност</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The Non-automatic Weighing Instruments Directive - 2014/31/EU</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The Measuring Instruments Directive - 2014/32/EU</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The Lifts Directive - 2014/33/EU</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The ATEX Directive - 2014/34/EU</div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="box">
+                                <div class="h5">The Low Voltage Directive - 2014/35/EU</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="clients">
     <div class="container">
         <div class="h2">Компаниите, които ни се доверяват</div>

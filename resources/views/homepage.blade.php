@@ -20,80 +20,7 @@
     </div>
 </section>
 
-<section class="about">
-
-    <div class="container">
-        <div class="d-flex justify-content-center text-center">
-            <div class="col-7">
-                <div class="h1">
-                    Кю Ей Си ООД - Център за осигуряване на качеството
-                </div>
-                <p>
-                    съществува за да повишава конкурентността и растежа на Вашия бизнес.
-                    От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
-                </p>
-                <div class="divider"></div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
 <section class="services">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <div class="h1 title">
-                    Основни направления
-                </div>
-            </div>
-            <div class="col-6 d-flex align-items-center">
-                <div class="box">
-                    <div class="h6">Консултации и обучения</div>
-                    <div class="h1">
-                        Маркировка CE
-                    </div>
-                    <p>
-                       <strong>Как да отговаряте на условията на европейския пазар?</strong>
-                    </p>
-                    <p>
-                        Ние предлагаме пълно съдействие по проучване, анализ и подготовка на продуктите за оценка на съответствието и маркировка CE
-                    </p>
-                    <p>
-                        <a href="/markirovka-ce">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <polyline points="12 16 16 12 12 8"></polyline>
-                                <line x1="8" y1="12" x2="16" y2="12"></line>
-                            </svg>
-                        </a>
-                    </p>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="box">
-                    <div class="h6">Консултации и обучения</div>
-                    <div class="h1">
-                        ISO 9001:2016
-                    </div>
-                    <p>
-                        Ние ще ви помогнем да разберете и приложите изискванията на системата за управление на качеството, като същевременно гарантирате, че програмата ви ще се осъществява безпроблемно.
-                    </p>
-
-                    <p>
-                        <a href="/standarti">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <polyline points="12 16 16 12 12 8"></polyline>
-                                <line x1="8" y1="12" x2="16" y2="12"></line>
-                            </svg>
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="container">
         <div class="d-flex justify-content-center text-center">
@@ -131,16 +58,81 @@
                 </div>
             </div>
         </div>
-        <div class="text-center mt-4">
-            <a href="#" class="btn btn-secondary btn-lg">Научете повече</a>
-        </div>
+    </div>
 
+    <div class="container">
+        <div class="text-center">
+            <div class="h1 title">
+                Актуално
+            </div>
+        </div>
+        <div class="box">
+            <div class="h6">Консултации и обучения</div>
+            <div class="h1">
+                Маркировка CE
+            </div>
+            <p>
+                <strong>Как да отговаряте на условията на европейския пазар?</strong>
+            </p>
+            <p>
+                Ние предлагаме пълно съдействие по проучване, анализ и подготовка на продуктите за оценка на съответствието и маркировка CE
+            </p>
+            <p>
+                <a href="/markirovka-ce">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 16 16 12 12 8"></polyline>
+                        <line x1="8" y1="12" x2="16" y2="12"></line>
+                    </svg>
+                </a>
+            </p>
+        </div>
     </div>
 
 </section>
 
+<!-- <section class="about">
+
+    <div class="container">
+        <div class="d-flex justify-content-center text-center">
+            <div class="col-7">
+                <div class="h1">
+                    Кю Ей Си ООД - Център за осигуряване на качеството
+                </div>
+                <p>
+                    съществува за да повишава конкурентността и растежа на Вашия бизнес.
+                    От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
+                </p>
+                <div class="divider"></div>
+            </div>
+        </div>
+    </div>
+
+</section> -->
+
 <section class="systems">
     <div class="container">
+        <div class="col-6">
+            <div class="box">
+                <div class="h6">Консултации и обучения</div>
+                <div class="h1">
+                    ISO 9001:2015
+                </div>
+                <p>
+                    Ние ще ви помогнем да разберете и приложите изискванията на системата за управление на качеството, като същевременно гарантирате, че програмата ви ще се осъществява безпроблемно.
+                </p>
+
+                <p>
+                    <a href="/iso9001">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                    </a>
+                </p>
+            </div>
+        </div>
         <div class="text-center header">
             <div class="h1">Състемите, които внедряваме</div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
@@ -153,6 +145,9 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Molestias nihil voluptates fuga dolorum repellat cum temporibus consequatur atque dolorem laboriosam.
                         Aspernatur est et voluptatem velit quidem dignissimos error suscipit omnis?
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-primary btn-lg">Запитване за оферта</a>
                     </p>
                 </div>
                 <div class="col-7">
@@ -196,20 +191,6 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section class="clients">
-    <div class="container">
-        <div class="h2">Компаниите, които ни се доверяват</div>
-        <div class="divider"></div>
-
-        <div class="row">
-            @for($i = 0; $i <= 10; $i++) <div class="client-logo col-2">
-                <img src="/img/dummy-logo.png" class="img-fluid" alt="">
-        </div>
-        @endfor
-    </div>
     </div>
 </section>
 
@@ -266,4 +247,19 @@
     </div>
 
 </section>
+
+<section class="clients">
+    <div class="container text-center">
+        <div class="h2">Нашите клиенти</div>
+            <div class="divider"></div>
+
+            <div class="row">
+                @for($i = 0; $i <= 10; $i++)
+                <div class="client-logo col-2">
+                    <img src="/img/dummy-logo.png" class="img-fluid" alt="">
+                </div>
+            @endfor
+        </div>
+    </div>
+</section>  
 @endsection 

@@ -181,6 +181,21 @@ body {
 .systems {
   padding: 80px;
 
+  .box {
+    padding: 13px 16px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    // border-bottom: 1px solid #E91E63;
+    color: #fff;
+    background: darkslateblue;
+    height: 100%;
+    // display: flex;
+    // align-items: center;
+    .h5 {
+      margin: 0;
+    }
+  }
+
   .content {
     padding: 60px 0;
   }
@@ -212,7 +227,7 @@ body {
 }
 
 .clients {
-  background: #fff9c8;
+  // background: #fff9c8;
   padding: 30px 0;
   .h2 {
     margin-bottom: 20px;
@@ -232,7 +247,10 @@ body {
 }
 
 .contact {
-  padding: 120px 0;
+  padding: 80px 0;
+  background: url('/img/contacts.jpeg');
+  background-size: cover;
+  color: #fff;
 
   .divider {
     width: 40px;
@@ -245,10 +263,11 @@ body {
     font-size: 1.2em;
   }
   .contact-form {
+    background: #fff;
     margin-top: 60px;
-    border-top: 1px solid #e9e9e9;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    border-radius: 4px;
+    // border-top: 1px solid #e9e9e9;
+    // box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 5px;
     padding: 50px;
   }
 }
@@ -267,6 +286,11 @@ body {
 
   &.markirovka {
     background-image: url('/img/ce-mark.jpg'), linear-gradient(rgba(4,9,30,.4),rgba(4,9,30,.4));
+    background-position-y: bottom;
+  }
+
+  &.iso9001 {
+    background-image: url('/img/1.jpeg'), linear-gradient(rgba(4,9,30,.4),rgba(4,9,30,.4));
     background-position-y: bottom;
   }
 }

@@ -18,6 +18,7 @@
 
 Route::view('/markirovka-ce', 'markirovka');
 Route::view('/standarti', 'standarti');
+Route::view('/iso9001', 'iso9001');
 
 Route::get('/', 'PublicController@index')->name('homepage');
 

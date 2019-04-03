@@ -34,56 +34,73 @@
             <main>
                 @yield('content')
             </main>
-        </section>
+
+            <section class="inquiry">
+                <div class="container">
+                    <div class="d-flex justify-content-center">
+                        <div class="col-7">
+                            <div class="text-center">
+                                <div class="h3 title">Изпратете ни запитване</div>
+                                <p>Моля, попълнете формата за запитване и ние ще Ви отговорим в най-кратки срокове</p>
+                            </div>
+                            <div class="form-box">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Example select</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect2">Example multiple select</label>
+                                        <select multiple class="form-control" id="exampleFormControlSelect2">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <a href="#" class="btn btn-secondary">Изпрати</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="clients">
+                <div class="container">
+                    <div class="text-center title">
+                        <div class="h2 title">Фирмите, които ни се довериха</div>
+                        <div class="row">
+                            @for($i = 0; $i <= 8; $i++) <div class="col-2 client-item">
+                                <img src="/img/dummy-logo.png" class="img-fluid" alt="test">
+                        </div>
+                        @endfor
+                    </div>
+                </div>
+    </div>
+    </section>
+    </section>
     </div>
 
     <section class="footer">
-        <div class="segment footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <p>
-                            <img src="/img/logo.png" alt="Кю Ей Си ООД">
-                        </p>
-                        <p>
-                            Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem sea, prima quidam vim no.
-                            Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus expetendis vis.
-                        </p>
-                    </div>
-                    <div class="col-3">
-                        <h5>Полезни връзки</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#">Услуги</a>
-                            </li>
-                            <li>
-                                <a href="#">Клиенти</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-3">
-                        <h5>Свържете се с нас</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                +369 4032 400
-                            </li>
-                            <li>
-                                office@qac-bg.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <hr>
-                <div class="sub-footer">
-                    <div class="copywright">
-                        © 2019 Кю Ей Си ООД
-                    </div>
-                    <div class="design">
-                        <a href="#">design: website</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        footer
 
     </section>
 

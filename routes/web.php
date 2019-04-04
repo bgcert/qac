@@ -28,7 +28,7 @@ Route::view('/standarti/iso-9001', 'iso-9001');
 
 Route::view('/services', 'services');
 Route::view('/courses', 'courses');
-Route::view('/contacts', 'contacts');
+Route::view('/kontakti', 'contacts');
 Route::view('/about-us', 'aboutus');
 Route::get('/clients', 'PublicController@clientIndex');
 Route::get('/services/{slug}', 'PublicController@serviceShow');

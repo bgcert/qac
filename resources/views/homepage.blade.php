@@ -4,7 +4,19 @@
 
 <section class="slider">
     <div class="container">
-        site
+        <div class="col-7">
+            <div class="h1">Съдействаме за развитието на Вашия бизнес</div>
+            <div class="divider sm"></div>
+            <p>
+                КЮ ЕЙ СИ ООД - Център за осигуряване на качеството съществува за да повишава конкурентността и растежа на Вашия бизнес.
+            </p>
+            <p>
+                От 1997 г. до днес компанията предлага специализирани консултантски услуги и обучение в специфичните области на сертификацията и управлението.
+            </p>
+            <p>
+                <a href="#" class="btn btn-lg btn-outline-light">Научете повече</a>
+            </p>
+        </div>
     </div>
 </section>
 
@@ -28,7 +40,7 @@
                             </div>
                         </div>
                         <div class="h4">Консултации</div>
-                        <div class="divider"></div>
+                        <div class="divider md dark"></div>
                         <p>
                             Екипът ни има над 20 годишен опит във внедряването на системите за управление
                         </p>
@@ -43,6 +55,7 @@
                             </div>
                         </div>
                         <div class="h4">Обучение</div>
+                        <div class="divider md dark"></div>
                         <div class="divider"></div>
                         <p>
                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
@@ -70,6 +83,7 @@
 
         <div class="standards">
             <div class="text-center title">
+                <div class="divider lg dark"></div>
                 <div class="h2">Внедряване на международни стандарти</div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.

@@ -27,6 +27,19 @@ body { background: #f2f2f2; }
   }
 }
 
+.divider {
+  display: inline-block;
+  border-bottom: 2px solid #fff;
+  margin: 20px 0;
+  &.dark {
+    border-bottom: 2px solid #333;
+  }
+
+  &.sm { width: 40px; }
+  &.md { width: 80px; }
+  &.lg { width: 120px; }
+}
+
 .slider {
   // background-image: url('/img/meeting.jpg'), linear-gradient(rgba(80, 81, 84, 0.7), rgba(45, 46, 49, 0.7));
   background-image: url('/img/meeting.jpg'), linear-gradient(to bottom,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.6) 60%,rgba(0,0,0,0.75) 100%);
@@ -36,6 +49,7 @@ body { background: #f2f2f2; }
   color: #fff;
   display: flex;
   align-items: center;
+  .h1 { font-weight: 600; }
 }
 
 .service {
@@ -105,7 +119,7 @@ body { background: #f2f2f2; }
   background-blend-mode: overlay;
   background-size: cover;
   padding: 5%;
-  color: #fff;
+  // color: #fff;
   .title {
     font-weight: bold;
     padding-bottom: 40px;
@@ -185,6 +199,68 @@ body { background: #f2f2f2; }
         color: #fff;
       }
     }
-    
+  }
+}
+
+// Page contacts
+.contact-info {
+  // background: #3f51b5;
+  background-image: url('/img/contacts.jpeg'), linear-gradient(to bottom,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.6) 60%,rgba(0,0,0,0.75) 100%);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position-y: 77%;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.about {
+  padding: 80px 0;
+
+  .title {
+    padding-bottom: 40px;
+  }
+}
+
+.map {
+  line-height: 0;
+  width: 100%;
+}
+
+.footer {
+  .h5 {
+    color: #fff;
+    font-weight: bold;
+  }
+  background: #333;
+  color: #fff;
+  padding-top: 80px;
+  font-size: 14px;
+
+  ul {
+    padding-left: 0;
+    padding-top: 8px;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 3px;
+    svg {
+      margin-right: 5px;
+    }
+  }
+
+  a {
+    color: #ffffff7d;
+    &:hover {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+
+  .bottom-footer {
+    margin-top: 50px;
+    padding: 18px 0;
+    background: #0000003d;
+    font-size: 0.9em;
   }
 }

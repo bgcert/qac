@@ -77,7 +77,7 @@
                 <p>
                     Ние предлагаме пълно съдействие по проучване, анализ и подготовка на продуктите за оценка на съответствието и маркировка CE
                 </p>
-                <p><a href="markirovka-ce" class="btn btn-secondary btn-lg">Научете повече</a></p>
+                <p><a href="markirovka-ce" class="btn btn-danger btn-lg">Научете повече</a></p>
             </div>
         </div>
 

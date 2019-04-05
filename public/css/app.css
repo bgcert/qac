@@ -10770,12 +10770,12 @@ body {
 }
 
 .in-focus .box.ce-mark {
-  background: url("/img/circuit.jpg");
+  background: url("/img/ce-marking-main1.png");
   background-size: cover;
 }
 
 .in-focus .box .content {
-  background: #ffffffe8;
+  color: #fff;
   padding: 30px;
 }
 
@@ -10912,6 +10912,17 @@ body {
   background-position-y: 77%;
   color: #fff;
   padding: 60px 0;
+  text-align: center;
+}
+
+.contact-info .circle {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  display: inline-block;
+  color: #fff;
+  margin-bottom: 1.4em;
+  border: 1px solid #fff;
 }
 
 .about {

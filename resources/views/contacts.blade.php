@@ -6,17 +6,31 @@
     <div class="container">
         <div class="row">
             <div class="col-4">
-                <i data-feather="map"></i>
+                <div class="circle">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <i data-feather="map"></i>
+                    </div>
+                </div>
                 <h3>Адрес</h3>
                 <p>София, бул. Цар Борис III 168</p>
             </div>
             <div class="col-4">
-                <i data-feather="mail"></i>
+                <div class="circle">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <i data-feather="mail"></i>
+                    </div>
+                </div>
+                <!-- <i data-feather="mail"></i> -->
                 <h3>E-mail</h3>
                 <p>office@qac-bg.com</p>
             </div>
             <div class="col-4">
-                <i data-feather="phone"></i>
+                <div class="circle">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <i data-feather="phone"></i>
+                    </div>
+                </div>
+                <!-- <i data-feather="phone"></i> -->
                 <h3>Телефони</h3>
                 <p>+359 40 32 400</p>
             </div>

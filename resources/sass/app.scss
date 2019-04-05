@@ -71,7 +71,8 @@ body { background: #f2f2f2; }
 .in-focus {
   .box {
     &.ce-mark {
-      background: url('/img/circuit.jpg');
+      // background: url('/img/circuit.jpg');
+      background: url('/img/ce-marking-main1.png');
       background-size: cover;
     }
     // background-image: url('/img/circuit.jpg'), linear-gradient(to bottom,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.6) 60%,rgba(0,0,0,0.75) 100%);
@@ -81,7 +82,8 @@ body { background: #f2f2f2; }
     color: #2c2c2c;
     // color: #fff;
     .content {
-      background: #ffffffe8;
+      // background: #ffffffe8;
+      color: #fff;
       padding: 30px;
       .h6 { text-transform: uppercase; }
     }
@@ -211,6 +213,17 @@ body { background: #f2f2f2; }
   background-position-y: 77%;
   color: #fff;
   padding: 60px 0;
+  text-align: center;
+
+  .circle {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 1.4em;
+    border: 1px solid #fff;
+  }
 }
 
 .about {

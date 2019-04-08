@@ -90,17 +90,16 @@
             <div class="container">
                 <div class="h2 title">Какъв е процесът на маркиране</div>
                 <div class="accordion" id="accordionExample">
-                    <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    #1 Идентифициране на приложимите директиви
-                                </button>
-                            </h2>
+                    <div class="box">
+                        <div class="box-header" id="headingOne">
+                            <a href="#" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                #1 Идентифициране на приложимите директиви
+                            </a>
+                            <i data-feather="plus"></i>
                         </div>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body">
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="box-body">
                                 <p>
                                     Първата стъпка е да се определи дали вашият продукт може да има CE маркировка или не.
                                     Не всички продукти трябва да имат маркировка „CE“, а само продуктите, които попадат в обхвата на поне една от директивите за маркировката „CE“.
@@ -118,16 +117,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingTwo">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    #2 Идентифициране на приложимите изисквания
-                                </button>
-                            </h2>
+                    <div class="box">
+                        <div class="box-header" id="headingTwo">
+                            <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                #2 Идентифициране на приложимите изисквания
+                            </a>
+                            <i data-feather="plus"></i>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="box-body">
                                 <p>
                                     Всяка директива има малко по-различни методи за доказване на съответствието.
                                     Това обикновено зависи от класификацията на продукта и предназначението му.
@@ -136,16 +134,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    #3 Определяне на подходящ подход към съответстие
-                                </button>
-                            </h2>
+                    <div class="box">
+                        <div class="box-header" id="headingThree">
+                            <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                #3 Определяне на подходящ подход към съответстие
+                            </a>
+                            <i data-feather="plus"></i>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="box-body">
                                 <P>
                                     Процесът на маркиране на СЕ винаги е процес на самодеклариране, но може да се наложи да включите трета страна.
                                     Това е изложено в „системата за атестация“ и ще се различава в различните директиви.
@@ -163,16 +160,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFour">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    #4 Оценка на съответствието
-                                </button>
-                            </h2>
+                    <div class="box">
+                        <div class="box-header" id="headingFour">
+                            <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                #4 Оценка на съответствието
+                            </a>
+                            <i data-feather="plus"></i>
                         </div>
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="box-body">
                                 <p>
                                     Когато всички изисквания са установени, имате нужда от доказателства, че продуктът отговаря на съществените изисквания на директивата (ите).
                                 </p>
@@ -184,16 +180,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFive">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                    #5 Изготвяне на техническа документация
-                                </button>
-                            </h2>
+                    <div class="box">
+                        <div class="box-header" id="headingFive">
+                            <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                #5 Изготвяне на техническа документация
+                            </a>
+                            <i data-feather="plus"></i>
                         </div>
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="box-body">
                                 <p>
                                     Необходимо е да се състави техническа документация, свързана с продукта или гамата от продукти.
                                     Тази информация следва да обхваща всеки аспект, свързан със съответствието и е вероятно да включва подробности за проектирането,
@@ -220,16 +215,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header" id="headingSix">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                    #6 Създаване на декларацията и прилагане на маркировката
-                                </button>
-                            </h2>
+                    <div class="box">
+                        <div class="box-header" id="headingSix">
+                            <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                #6 Създаване на декларацията и прилагане на маркировката
+                            </a>
+                            <i data-feather="plus"></i>
                         </div>
                         <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                            <div class="card-body">
+                            <div class="box-body">
                                 <p>
                                     Когато производителят, вносителят или упълномощеният представител се уверят,
                                     че продуктът им отговаря на приложимите директиви за маркировката на ЕО, те трябва да попълнят декларация.

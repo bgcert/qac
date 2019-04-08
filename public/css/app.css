@@ -10894,6 +10894,10 @@ body {
   color: #3f51b5;
 }
 
+.page .content .directives {
+  padding: 80px 0;
+}
+
 .page .content .directives .col-6 {
   margin-bottom: 20px;
 }
@@ -10906,8 +10910,7 @@ body {
 }
 
 .page .content .process {
-  color: #fff;
-  background: #3f51b5;
+  background: #e8e8e8;
   padding: 80px 0;
 }
 
@@ -10917,6 +10920,29 @@ body {
 
 .page .content .process .accordion {
   color: initial;
+}
+
+.page .content .process .accordion .box {
+  margin-bottom: 20px;
+}
+
+.page .content .process .accordion .box-header {
+  background: #db0546;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page .content .process .accordion .box-header a {
+  font-size: 1.15em;
+  color: #fff;
+}
+
+.page .content .process .accordion .box-body {
+  background: #fff;
+  padding: 40px;
 }
 
 .contact-info {

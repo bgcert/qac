@@ -10,7 +10,7 @@
                     Маркировка CE
                 </div>
                 <p>
-                    <a href="#">Начало</a><span> &#187; Маркировка CE</span>
+                    <a href="/">Начало</a><span> &#187; Маркировка CE</span>
                 </p>
             </div>
         </div>
@@ -91,10 +91,8 @@
                 <div class="h3 title">Какъв е процесът на маркиране</div>
                 <div class="accordion" id="accordionExample">
                     <div class="box">
-                        <div class="box-header" id="headingOne">
-                            <a href="#" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                #1 Идентифициране на приложимите директиви
-                            </a>
+                        <div class="box-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <div>#1 Идентифициране на приложимите директиви</div>
                             <i data-feather="plus"></i>
                         </div>
 
@@ -118,10 +116,8 @@
                         </div>
                     </div>
                     <div class="box">
-                        <div class="box-header" id="headingTwo">
-                            <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                #2 Идентифициране на приложимите изисквания
-                            </a>
+                        <div class="box-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <div>#2 Идентифициране на приложимите изисквания</div>
                             <i data-feather="plus"></i>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -135,10 +131,8 @@
                         </div>
                     </div>
                     <div class="box">
-                        <div class="box-header" id="headingThree">
-                            <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                #3 Определяне на подходящ подход към съответстие
-                            </a>
+                        <div class="box-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <div>#3 Определяне на подходящ подход към съответстие</div>
                             <i data-feather="plus"></i>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -161,10 +155,8 @@
                         </div>
                     </div>
                     <div class="box">
-                        <div class="box-header" id="headingFour">
-                            <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                #4 Оценка на съответствието
-                            </a>
+                        <div class="box-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <div>#4 Оценка на съответствието</div>
                             <i data-feather="plus"></i>
                         </div>
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
@@ -181,10 +173,8 @@
                         </div>
                     </div>
                     <div class="box">
-                        <div class="box-header" id="headingFive">
-                            <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                #5 Изготвяне на техническа документация
-                            </a>
+                        <div class="box-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <div>#5 Изготвяне на техническа документация</div>
                             <i data-feather="plus"></i>
                         </div>
                         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
@@ -216,10 +206,8 @@
                         </div>
                     </div>
                     <div class="box">
-                        <div class="box-header" id="headingSix">
-                            <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                #6 Създаване на декларацията и прилагане на маркировката
-                            </a>
+                        <div class="box-header" id="headingSix" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <div>#6 Създаване на декларацията и прилагане на маркировката</div>
                             <i data-feather="plus"></i>
                         </div>
                         <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
@@ -247,7 +235,7 @@
                     </p>
                 </div>
                 <div class="row d-flex justify-content-between">
-                    <div class="col-4">
+                    <div class="col-6">
                         <div class="h3">Кои директиви/регламенти се отнасят за моя продукт?</div>
                         <p>
                             Всяко законодателство (директива или регламент) има обхват, който описва подробно видовете продукти, за които се прилага.
@@ -260,41 +248,65 @@
                             ще бъде изключен от обхвата на тези директиви, ако уредът трябва да бъде деклариран в съответствие с директивата за медицинските изделия.
                         </p>
                     </div>
-                    <div class="col-7">
+                    <div class="col-6">
                         <div class="row">
                             <div class="col-6">
                                 <div class="item">
-                                    <div class="h5">The Simple Pressure Vessels Directive - 2014/29/EU</div>
+                                    <div class="h5">Low Voltage Directive (LVD)</div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="item">
-                                    <div class="h5">The Electromagnetic Compatibility Directive - 2014/30/EU</div>
+                                    <div class="h5">Electromagnetic Compatibility (EMC)</div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="item">
-                                    <div class="h5">The Non-automatic Weighing Instruments Directive - 2014/31/EU</div>
+                                    <div class="h5">Radio Equipment Directive (RED)</div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="item">
-                                    <div class="h5">The Measuring Instruments Directive - 2014/32/EU</div>
+                                    <div class="h5">Machinery</div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="item">
-                                    <div class="h5">The Lifts Directive - 2014/33/EU</div>
+                                    <div class="h5">Lifts</div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="item">
-                                    <div class="h5">The ATEX Directive - 2014/34/EU</div>
+                                    <div class="h5">Noise Emissions for Outdoor Equipment</div>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="item">
-                                    <div class="h5">The Low Voltage Directive - 2014/35/EU</div>
+                                    <div class="h5">Pressure Equipment</div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="item">
+                                    <div class="h5">Simple Pressure Vessels</div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="item">
+                                    <div class="h5">Medical Devices</div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="item">
+                                    <div class="h5">Active Implantable Medical Devices</div>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="item">
+                                    <div class="h5">In Vitro Diagnostic Medical Devices</div>
                                 </div>
                             </div>
                         </div>

@@ -10818,20 +10818,22 @@ body {
 }
 
 .inquiry {
-  background-image: url("/img/meeting.jpg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.75) 100%);
+  background-image: url("/img/inquiry.jpg"), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.75) 100%);
   background-blend-mode: overlay;
   background-size: cover;
   padding: 5%;
+  color: #fff;
 }
 
 .inquiry .title {
   font-weight: bold;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .inquiry .form-box {
-  padding: 10%;
+  padding: 7% 5%;
   background: #fff;
+  color: initial;
 }
 
 .page .header {
@@ -10918,8 +10920,10 @@ body {
 .page .content .directives .item {
   padding: 5%;
   height: 100%;
-  background: #3f51b5;
+  background: #6476d9;
   color: #fff;
+  margin-bottom: 0;
+  line-height: 1;
 }
 
 .page .content .process {
@@ -10948,11 +10952,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.page .content .process .accordion .box-header a {
   font-size: 1.15em;
-  color: #fff;
+  cursor: pointer;
 }
 
 .page .content .process .accordion .box-body {

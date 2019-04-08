@@ -10,7 +10,7 @@
                     Маркировка CE
                 </div>
                 <p>
-                    <a href="#">Начало &#187;</a><span> / Маркировка CE</span>
+                    <a href="#">Начало</a><span> &#187; Маркировка CE</span>
                 </p>
             </div>
         </div>
@@ -88,7 +88,7 @@
         </div>
         <div class="process">
             <div class="container">
-                <div class="h2 title">Какъв е процесът на маркиране</div>
+                <div class="h3 title">Какъв е процесът на маркиране</div>
                 <div class="accordion" id="accordionExample">
                     <div class="box">
                         <div class="box-header" id="headingOne">
@@ -239,7 +239,7 @@
 
         <div class="container">
             <div class="directives">
-                <div class="text-center">
+                <div class="text-center heading">
                     <div class="h2 title">Директиви и регламенти</div>
                     <p>
                         Съществуват над 20 бр. Законодателство за СЕ маркиране (Директиви и Регламенти) и ако един или повече от тях важат за Вашия продукт,

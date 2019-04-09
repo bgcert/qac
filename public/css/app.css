@@ -10836,6 +10836,11 @@ body {
   color: initial;
 }
 
+.inquiry .form-box .nav-tabs .nav-link.active {
+  border-top: 3px solid #e91e63;
+  font-weight: bold;
+}
+
 .page .header {
   padding: 100px 0;
   color: #fff;

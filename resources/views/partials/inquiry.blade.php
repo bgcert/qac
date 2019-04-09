@@ -43,10 +43,48 @@
                         <div class="tab-content" id="myTabContent">
 
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="form-group form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                <div class="form-group">
+                                    <div class="h5">В коя категория попада продуктът?</div>
                                 </div>
+                                <div class="form-group">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="exampleRadios1">
+                                            Медицински изделия
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                        <label class="form-check-label" for="exampleRadios2">
+                                            Детски играчки
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                        <label class="form-check-label" for="exampleRadios3">
+                                            Съдове под налягане
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option3">
+                                        <label class="form-check-label" for="exampleRadios4">
+                                            Машини
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option3">
+                                        <label class="form-check-label" for="exampleRadios5">
+                                            Електрически съоръжения
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios6" value="option3">
+                                        <label class="form-check-label" for="exampleRadios6">
+                                            Други
+                                        </label>
+                                    </div>
+                                </div>
+                                
                                 <div class="form-group">
                                     <label for="exampleFormControlTextarea1">Кратко описание на продукта</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>

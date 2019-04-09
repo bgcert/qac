@@ -35,69 +35,9 @@
                 @yield('content')
             </main>
 
-            <section class="inquiry">
-                <div class="container">
-                    <div class="d-flex justify-content-center">
-                        <div class="col-7">
-                            <div class="text-center">
-                                <div class="h3 title">Изпратете ни запитване</div>
-                                <p>Моля, попълнете формата за запитване и ние ще Ви отговорим в най-кратки срокове</p>
-                            </div>
-                            <div class="form-box">
-                                <form>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="inputEmail4">Име</label>
-                                            <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="inputPassword4">Фирма</label>
-                                            <input type="text" class="form-control" id="inputPassword4" placeholder="Password">
-                                        </div>
-                                    </div>
+            
 
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="inputEmail4">Email</label>
-                                            <input type="text" class="form-control" id="inputEmail4" placeholder="Email">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="inputPassword4">Телефон</label>
-                                            <input type="text" class="form-control" id="inputPassword4" placeholder="Password">
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="inputAddress2">Относно</label>
-                                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="inputAddress">Address</label>
-                                        <textarea class="form-control" name="message" id="message" rows="4"></textarea>
-                                    </div>
-
-                                    <button type="submit" class="btn btn-primary">Изпрати</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="clients">
-                <div class="container">
-                    <div class="text-center title">
-                        <div class="h2 title">Фирмите, които ни се довериха</div>
-                        <div class="row">
-                            @for($i = 0; $i <= 8; $i++) <div class="col-2 client-item">
-                                <img src="/img/dummy-logo.png" class="img-fluid" alt="test">
-                        </div>
-                        @endfor
-                    </div>
-                </div>
-        </div>
-        </section>
+            
         <section class="footer">
 
             <div class="container">

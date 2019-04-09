@@ -315,6 +315,7 @@
             </div>
         </div>
     </section>
+    @include('partials.inquiry')
 </div>
 
 @endsection

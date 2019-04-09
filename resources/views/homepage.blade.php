@@ -158,6 +158,9 @@
     </div>
 </section>
 
+@include('partials.inquiry')
+@include('partials.clients')
+
 <!-- <section class="certified">
     <div class="text-center title">
         <div class="h1">Внедряване на международни стандарти</div>

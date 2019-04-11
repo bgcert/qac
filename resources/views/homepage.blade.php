@@ -50,7 +50,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 h-100">
                 <div class="service-box">
                     <div class="circle">
                         <div class="d-flex justify-content-center align-items-center h-100">
@@ -62,10 +62,20 @@
                     </div>
                     <div class="h4">Техническа документация</div>
                     <div class="divider md dark"></div>
-                    <p>
-                        Част от всяка процедура за оценка на съответствието на изделия е изготвяне на техническата документация.
-                    </p>
-                    <p>Едно от общите задължения на производителите на изделия е да поддържат техническо досие.</p>
+                    <ul>
+                        <li>
+                            <i data-feather="arrow-right-circle"></i>
+                            <div>
+                                Част от всяка процедура за оценка на съответствието на изделия е изготвяне на техническата документация.
+                            </div>
+                        </li>
+                        <li>
+                            <i data-feather="arrow-right-circle"></i>
+                            <div>
+                                Едно от общите задължения на производителите на изделия е да поддържат техническо досие.
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="col-4">
@@ -80,50 +90,51 @@
                     </div>
                     <div class="h4">Сертификация на СУК</div>
                     <div class="divider md dark"></div>
-                    <p>
-                        Екипът ни има над 20 годишен опит във внедряването на системите за управление
-                    </p>
+                    <p>Екипът ни има над 20 годишен опит във внедряването на системите за управление</p>
+                    <p><a href="#">&rarr; Стандартите, които внедряваме</a></p>
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center text-center mt-4">
-            <div class="col-8">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="h1 title">
-                            Как съдействаме за успеха Ви?
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="circle">
-                            <div class="d-flex justify-content-center align-items-center h-100">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book">
-                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                                </svg>
+        <div class="row assistance">
+            <div class="d-flex justify-content-center text-center mt-4">
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="h1 title">
+                                Как съдействаме за успеха Ви?
                             </div>
                         </div>
-                        <div class="h4">Консултации</div>
-                        <div class="divider md dark"></div>
-                        <p>
-                            Екипът ни има над 20 годишен опит във внедряването на системите за управление
-                        </p>
-                    </div>
-                    <div class="col-6">
-                        <div class="circle">
-                            <div class="d-flex justify-content-center align-items-center h-100">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book">
-                                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                                </svg>
+                        <div class="col-6">
+                            <div class="circle">
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book">
+                                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                    </svg>
+                                </div>
                             </div>
+                            <div class="h4">Консултации</div>
+                            <div class="divider md dark"></div>
+                            <p>
+                                Екипът ни има над 20 годишен опит във внедряването на системите за управление
+                            </p>
                         </div>
-                        <div class="h4">Обучение</div>
-                        <div class="divider md dark"></div>
-                        <div class="divider"></div>
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
-                        </p>
+                        <div class="col-6">
+                            <div class="circle">
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book">
+                                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="h4">Обучение</div>
+                            <div class="divider md dark"></div>
+                            <div class="divider"></div>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, temporibus. Doloremque possimus quaerat iste
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

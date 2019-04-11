@@ -10754,6 +10754,29 @@ body {
   padding: 24px 28px;
 }
 
+.service .service-box .alert {
+  margin-top: 42px;
+}
+
+.service .service-box ul {
+  padding: 0;
+}
+
+.service .service-box ul li {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.service .service-box ul li svg {
+  flex: none;
+  margin-right: 20px;
+  color: #2196f3;
+}
+
+.service .assistance {
+  padding-top: 80px;
+}
+
 .service .title {
   padding-bottom: 40px;
 }

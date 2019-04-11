@@ -84,7 +84,7 @@
                                         </label>
                                     </div>
                                 </div>
-                                
+
                                 <div class="form-group">
                                     <label for="exampleFormControlTextarea1">Кратко описание на продукта</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -113,9 +113,6 @@
                     </form>
                 </div>
             </div>
-
         </div>
-    </div>
-    </div>
     </div>
 </section>

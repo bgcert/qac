@@ -10750,12 +10750,14 @@ body {
 }
 
 .service .service-box {
+  height: 100%;
   box-shadow: 0px 3px 53px -4px rgba(0, 0, 0, 0.2);
   padding: 24px 28px;
 }
 
-.service .service-box .alert {
-  margin-top: 42px;
+.service .service-box a {
+  color: #db0546;
+  font-weight: 700;
 }
 
 .service .service-box ul {

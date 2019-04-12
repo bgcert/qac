@@ -84,6 +84,10 @@
                 <p class="text-center mt-4">
                     <a href="#" class="btn btn-danger btn-lg">Запитване</a>
                 </p>
+
+                <p>
+                    <div class="h4">Разгледайте кои групи изделия попадат под задължителните изисквания на ЕС – списък директиви и регламенти</div>
+                </p>
             </div>
         </div>
         <div class="process">

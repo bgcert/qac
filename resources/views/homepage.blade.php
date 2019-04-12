@@ -41,16 +41,17 @@
                     <div class="h4">CE маркировка</div>
                     <div class="divider md dark"></div>
                     <p>Сертифицирането на изделия, които попадат в обхвата на европейските директиви и регламентите за <strong>Нов подход</strong> е задължително.</p>
-                    <p>
+                    <p><a href="#">&rarr; Кои изделия попадат?</a></p>
+                    <!-- <p>
                         <div class="alert alert-success" role="alert">
                             <p>Разгледайте кои групи изделия попадат под задължителните изисквания на ЕС – списък директиви и регламенти</p>
                             <hr>
                             <p class="mb-0"><a href="#" class="btn btn-secondary">Директиви</a></p>
                         </div>
-                    </p>
+                    </p> -->
                 </div>
             </div>
-            <div class="col-4 h-100">
+            <div class="col-4">
                 <div class="service-box">
                     <div class="circle">
                         <div class="d-flex justify-content-center align-items-center h-100">
@@ -88,9 +89,9 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="h4">Сертификация на СУК</div>
+                    <div class="h4">Системи за управление</div>
                     <div class="divider md dark"></div>
-                    <p>Екипът ни има над 20 годишен опит във внедряването на системите за управление</p>
+                    <p>Нашите експерти по осигуряване на качеството са обучени професионалисти в ръководството и прилагането на СУК.</p>
                     <p><a href="#">&rarr; Стандартите, които внедряваме</a></p>
                 </div>
             </div>

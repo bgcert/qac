@@ -1,4 +1,4 @@
-<section class="inquiry">
+<section class="qac-inquiry">
     <div class="container">
         <div class="d-flex justify-content-center">
 

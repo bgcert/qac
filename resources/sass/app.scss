@@ -30,7 +30,7 @@ body { background: #f2f2f2; }
 .divider {
   display: inline-block;
   border-bottom: 2px solid #fff;
-  margin: 20px 0;
+  margin: 14px 0;
   &.dark {
     border-bottom: 2px solid #333;
   }
@@ -40,8 +40,13 @@ body { background: #f2f2f2; }
   &.lg { width: 120px; }
 }
 
-.slider {
-  // background-image: url('/img/meeting.jpg'), linear-gradient(rgba(80, 81, 84, 0.7), rgba(45, 46, 49, 0.7));
+.title {
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 75px 0;
+}
+
+.qac-slider {
   background-image: url('/img/meeting.jpg'), linear-gradient(to bottom,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.6) 60%,rgba(0,0,0,0.75) 100%);
   background-blend-mode: overlay;
   background-size: cover;
@@ -52,11 +57,11 @@ body { background: #f2f2f2; }
   .h1 { font-weight: 600; }
 }
 
-.service {
-  padding: 100px 0;
+.qac-top-services {
+  padding: 100px 20px;
   .service-box {
     height: 100%;
-    box-shadow: 0px 3px 53px -4px rgba(0, 0, 0, 0.2);
+    border-left: 1px solid #2196f3;
     padding: 24px 28px;
     a {
       color: #db0546;
@@ -75,12 +80,6 @@ body { background: #f2f2f2; }
       }
     }
   }
-  .assistance {
-    padding-top: 80px;
-  }
-  .title {
-    padding-bottom: 40px;
-  }
   .circle {
     height: 100px;
     width: 100px;
@@ -92,55 +91,67 @@ body { background: #f2f2f2; }
   }
 }
 
-.in-focus {
+.qac-in-focus {
   .box {
     &.ce-mark {
-      // background: url('/img/circuit.jpg');
       background: url('/img/ce-marking-main1.png');
       background-size: cover;
     }
-    // background-image: url('/img/circuit.jpg'), linear-gradient(to bottom,rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.6) 60%,rgba(0,0,0,0.75) 100%);
-    // background-blend-mode: overlay;
-    border-radius: 5px;
     padding: 5%;
     color: #2c2c2c;
-    // color: #fff;
     .content {
-      // background: #ffffffe8;
       color: #fff;
       padding: 30px;
       .h6 { text-transform: uppercase; }
     }
   }
-  .standards {
-    // padding: 160px 0;
-    // background: antiquewhite;
-    padding: 5%;
-    padding-top: 140px;
-    margin-top: 80px;
-    .title { padding-bottom: 40px; }
-    .col-6 {
-      margin-bottom: 30px;
-    }
-    .item {
-      padding: 5%;
-      background: #f2f2f2;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-      color: #fff;
-      background: #db0546;
-    }
-  }
 }
 
-.clients {
-  padding: 120px 0;
+.qac-standards {
+  padding: 5%;
+  padding-top: 140px;
+  margin-top: 80px;
   .title { padding-bottom: 40px; }
-  .client-item {
-    padding: 20px 30px;
+  .col-6 {
+    margin-bottom: 30px;
+  }
+  .item {
+    padding: 5%;
+    background: #f2f2f2;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    background: #db0546;
   }
 }
 
-.inquiry {
+.qac-assistance {
+  padding: 120px 0;
+  .row {
+    margin-bottom: 30px;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10%;
+    p {
+      color: #515151;
+      font-weight: 300;
+      font-size: 1.3em;
+    }
+    .h1 {
+      font-weight: 300;
+      margin-bottom: 1.4em;
+    }
+    &.education { background: antiquewhite; }
+    &.consultation {
+      background: rgb(231, 235, 236);
+    }
+  }
+}
+
+.qac-inquiry {
   background-image: url('/img/inquiry.jpg'), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.75) 100%);
   background-blend-mode: overlay;
   background-size: cover;
@@ -159,6 +170,13 @@ body { background: #f2f2f2; }
       border-top: 3px solid #e91e63;
       font-weight: bold;
     }
+  }
+}
+
+.qac-clients {
+  padding: 120px 0;
+  .client-item {
+    padding: 20px 30px;
   }
 }
 

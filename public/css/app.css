@@ -10753,16 +10753,26 @@ body {
 
 .qac-top-services {
   padding: 100px 20px;
+  color: #273044;
 }
 
 .qac-top-services .service-box {
+  background: #f2f6fb;
   height: 100%;
-  border-left: 1px solid #2196f3;
   padding: 24px 28px;
 }
 
+.qac-top-services .service-box .image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.qac-top-services .service-box .service-title {
+  padding-bottom: 30px;
+}
+
 .qac-top-services .service-box a {
-  color: #db0546;
   font-weight: 700;
 }
 
@@ -10773,6 +10783,8 @@ body {
 .qac-top-services .service-box ul li {
   display: flex;
   margin-bottom: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .qac-top-services .service-box ul li svg {

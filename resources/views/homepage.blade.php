@@ -21,95 +21,126 @@
 <section class="qac-top-services">
     <div class="text-center">
         <div class="h1 title">
-            Ние Ви предлагаме:
+            Ако се интересувате от:
         </div>
     </div>
     <div class="row">
         <div class="col-4">
             <div class="service-box">
-                <div class="d-flex justify-content-center">
-                    <div class="circle">
-                        <div class="d-flex justify-content-center align-items-center h-100">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book">
-                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                            </svg>
+                <div class="image">
+                    <img src="/img/ce-mark-home.png" alt="">
+                </div>
+                <div class="service-title">
+                    <div class="h5">Подготовка за продуктова сертификация</div>
+                </div>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                        <div>
+                            Маркировка CE
                         </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <div class="h4">Продуктова сертификация</div>
-                    <div class="divider md dark"></div>
-                </div>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                        <div>
+                            Маркировка GS
+                        </div>
+                    </li>
+                </ul>
                 <p>
                     Покриите задължителните условия за пускането на продуктите Ви на пазара на Европейското и световното икономическо пространство.
                 </p>
                 <!-- <p>
-                        Постигане и доказване на съответствието на продукти,
-                        които попадат в обхвата на европейските директиви и регламентите и тяхната СЕ маркировка
-                        е задължително условия за пускането на определени продукти на пазара на Европейското икономическо пространство.
-                    </p> -->
-                <p><a href="#">&rarr; Кои продукти са обхванати от тези исисквания?</a></p>
+                    Постигане и доказване на съответствието на продукти,
+                    които попадат в обхвата на европейските директиви и регламентите и тяхната СЕ маркировка
+                    е задължително условия за пускането на определени продукти на пазара на Европейското икономическо пространство.
+                </p> -->
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="service-box">
+                <div class="image">
+                    <img src="/img/iso-home.png" alt="">
+                </div>
+                <div class="service-title">
+                    <div class="h5">Внедряване на международни стандарти</div>
+                </div>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                        <div>
+                            ISO 9001:2015
+                        </div>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                        <div>
+                            ISO 27000
+                        </div>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                        <div>
+                            ISO 14001
+                        </div>
+                    </li>
+                </ul>
+                <p>
+                    Покриите задължителните условия за пускането на продуктите Ви на пазара на Европейското и световното икономическо пространство.
+                </p>
                 <!-- <p>
-                        <div class="alert alert-success" role="alert">
-                            <p>Разгледайте кои групи изделия попадат под задължителните изисквания на ЕС – списък директиви и регламенти</p>
-                            <hr>
-                            <p class="mb-0"><a href="#" class="btn btn-secondary">Директиви</a></p>
-                        </div>
-                    </p> -->
+                    Постигане и доказване на съответствието на продукти,
+                    които попадат в обхвата на европейските директиви и регламентите и тяхната СЕ маркировка
+                    е задължително условия за пускането на определени продукти на пазара на Европейското икономическо пространство.
+                </p> -->
             </div>
         </div>
         <div class="col-4">
             <div class="service-box">
-                <div class="d-flex justify-content-center">
-                    <div class="circle">
-                        <div class="d-flex justify-content-center align-items-center h-100">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book">
-                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                            </svg>
+                <div class="image">
+                    <img src="/img/aqap-home.png" alt="">
+                </div>
+                <div class="service-title">
+                    <div class="h5">Внедряване на изискванията на НАТО</div>
+                </div>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                        <div>
+                            AQAP 2110
                         </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <div class="h4">Внедряване на международни стандарти</div>
-                    <div class="divider md dark"></div>
-                </div>
+                    </li>
+                </ul>
                 <p>
-                    Реализирането на бизнес в Европа и света почти е невъзможно, ако доставчика не е внедрил поне един международен стандарт.
+                    Какви са изискванията НАТО към производителите и доставяните изделия за отбраната и как да ги изпълните?
                 </p>
-                <p class="text-center">
-                    <a href="#">&rarr; С кои стандарти работим?</a>
-                </p>
-            </div>
-        </div>
-        <div class="col-4">
-            <div class="service-box">
-                <div class="d-flex justify-content-center">
-                    <div class="circle">
-                        <div class="d-flex justify-content-center align-items-center h-100">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book">
-                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <div class="h4">NATO AQAP</div>
-                    <div class="divider md dark"></div>
-                </div>
                 <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <polyline points="12 16 16 12 12 8"></polyline>
-                        <line x1="8" y1="12" x2="16" y2="12"></line>
-                    </svg>
-                    <div>
-                        Внедряване на изискванията на НАТО
-                    </div>
+                    <a href="#" class="btn btn-warning">Научете повече</a>
                 </p>
-                <p><a href="#">&rarr; Какво изисква НАТО от производителите и доставяните изделия?</a></p>
             </div>
         </div>
     </div>
@@ -129,7 +160,7 @@
 </section>
 
 <section class="qac-standards">
-    
+
     <div class="text-center">
         <div class="divider lg dark"></div>
         <div class="h1 title">
@@ -252,52 +283,6 @@
     </div>
 </section>
 
-
-
-
-
-
-
-<!-- OLD HTML -->
-
-<!-- <section class="slider">
-    <div class="container">
-        <div class="col-7">
-            <div class="h1">Работим за развитие на Вашия бизнес!</div>
-            <div class="divider sm"></div>
-            <p class="h5">
-                Повече от 20 години изпълняваме тази мисия чрез нашите консултантски услуги и курсове за обучение
-            </p>
-            <p>
-                <a href="#" class="btn btn-lg btn-danger">Научете повече</a>
-            </p>
-        </div>
-    </div>
-</section> -->
-
-<!-- <section class="service">
-    <div class="row">
-        <div class="col-12 text-center">
-            <div class="h1 title">
-                Ние Ви предлагаме:
-            </div>
-        </div>
-
-    </div>
-</section> -->
-
-
-
-
-
-<section class="in-focus">
-    
-</section>
-
-
-
-@include('partials.inquiry')
-
 <section class="qac-clients">
     <div class="text-center title">
         <div class="h1 title">Фирмите, които ни се довериха</div>
@@ -322,8 +307,12 @@
             <div class="col-3 client-item">
                 <img src="/img/clients/ochna_optika.png" alt="test">
             </div>
+            <div class="col-3 client-item">
+                <img src="/img/clients/persi.png" alt="test">
+            </div>
         </div>
     </div>
 </section>
+@include('partials.inquiry')
 
 @endsection

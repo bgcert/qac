@@ -59,12 +59,21 @@ body { background: #f2f2f2; }
 
 .qac-top-services {
   padding: 100px 20px;
+  color: #273044;
   .service-box {
+    background: #f2f6fb;
     height: 100%;
-    border-left: 1px solid #2196f3;
     padding: 24px 28px;
+    .image {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 30px;
+    }
+    .service-title {
+      padding-bottom: 30px;
+    }
     a {
-      color: #db0546;
+      // color: #db0546;
       font-weight: 700;
     }
     ul {
@@ -72,6 +81,8 @@ body { background: #f2f2f2; }
       li {
         display: flex;
         margin-bottom: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
         svg {
           flex: none;
           margin-right: 20px;

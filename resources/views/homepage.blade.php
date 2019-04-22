@@ -12,13 +12,13 @@
                 Повече от 20 години изпълняваме тази мисия чрез нашите консултантски услуги и курсове за обучение
             </p>
             <p>
-                <a href="#" class="btn btn-lg btn-danger">Научете повече</a>
+                <a href="/kontakti" class="btn btn-lg btn-outline-light">Свържете се с нас</a>
             </p>
         </div>
     </div>
 </section>
 
-<section class="qac-top-services">
+<section class="qac-top-services" id="services">
     <div class="text-center">
         <div class="h1 title">
             Ако се интересувате от:
@@ -104,9 +104,22 @@
                             ISO 14001
                         </div>
                     </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                        <div>
+                            И други
+                        </div>
+                    </li>
                 </ul>
-                <p>
+                <!-- <p>
                     Покриите задължителните условия за пускането на продуктите Ви на пазара на Европейското и световното икономическо пространство.
+                </p> -->
+                <p>
+                    <a href="/standarti">&rarr; Внедряването на кои международни стандарти подпомагаме?</a>
                 </p>
                 <!-- <p>
                     Постигане и доказване на съответствието на продукти,
@@ -139,7 +152,7 @@
                     Какви са изискванията НАТО към производителите и доставяните изделия за отбраната и как да ги изпълните?
                 </p>
                 <p>
-                    <a href="#" class="btn btn-warning">Научете повече</a>
+                    <a href="#inquiry" class="btn btn-danger">Свържете се с нас</a>
                 </p>
             </div>
         </div>
@@ -148,92 +161,53 @@
 
 <section class="qac-in-focus">
     <div class="box ce-mark">
-        <div class="col-8 content">
+        <div class="col-9 content">
             <div class="h1">Маркировка CE</div>
-            <p class="text-uppercase"><strong>Как да отговаряте на условията на европейския пазар?</strong></p>
-            <p>
+            <h5 class="text-uppercase"><strong>Как да отговаряте на условията на (500 милионния) европейския пазар?</strong></h5>
+            <!-- <p>
                 Ние предлагаме пълно съдействие по проучване, анализ и подготовка на продуктите за оценка на съответствието и маркировка CE
-            </p>
-            <p><a href="markirovka-ce" class="btn btn-danger btn-lg">Научете повече</a></p>
-        </div>
-    </div>
-</section>
-
-<section class="qac-standards">
-
-    <div class="text-center">
-        <div class="divider lg dark"></div>
-        <div class="h1 title">
-            Внедряване на международни стандарти
-        </div>
-    </div>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Reiciendis debitis obcaecati dolores tenetur numquam neque dolorum libero nulla quaerat earum voluptatibus laborum ducimus quisquam molestiae, quas ex. Nemo, cupiditate rem!
-    </p>
-    <hr>
-    <div class="row d-flex justify-content-between">
-        <div class="col-4">
-            <div class="h4">Консултации и обучение</div>
-            <p>
-                Ние ще ви помогнем да разберете и приложите изискванията на системата за управление на качеството,
-                като същевременно гарантирате, че програмата ви ще се осъществява безпроблемно.
-            </p>
-            <p>
-                <a href="#" class="btn btn-secondary btn-lg">Научете повече</a>
-            </p>
-        </div>
-        <div class="col-7">
-            <div class="row">
-                <div class="col-6">
-                    <div class="item">
-                        <div class="h4">
-                            ISO 9001:2015
-                        </div>
-                        Управление на качествтото
+            </p> -->
+            <ul>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <div class="text">
+                        Нашият екип ще Ви води през целия процес
                     </div>
-                </div>
-                <div class="col-6">
-                    <div class="item">
-                        <div class="h4">
-                            ISO 27001
-                        </div>
-                        Информационна сигурност
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <div class="text">
+                        Даваме насоки без да Ви затрупваме с правни жаргони и излишна техническа документация
                     </div>
-                </div>
-                <div class="col-6">
-                    <div class="item">
-                        <div class="h4">
-                            ISO 14001:2004
-                        </div>
-                        Управление по околна среда.
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                    </svg>
+                    <div class="text">
+                        Предоставяме Ви точна и безпристрастна информация, съобразена с действащото законодателство
                     </div>
-                </div>
-                <div class="col-6">
-                    <div class="item">
-                        <div class="h4">
-                            ISO 9001:2015
-                        </div>
-                        Управление на качествтото
+                </li>
+                <li>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
                     </div>
-                </div>
-                <div class="col-6">
-                    <div class="item">
-                        <div class="h4">
-                            ISO 27001
-                        </div>
-                        Информационна сигурност
+                    <div class="text">
+                        Ние предлагаме прагматичен и икономически ефективен подход за постигане на CE маркировка и помощ за спазване на изискванията за продуктите
                     </div>
-                </div>
-                <div class="col-6">
-                    <div class="item">
-                        <div class="h4">
-                            ISO 14001:2004
-                        </div>
-                        Управление по околна среда.
-                    </div>
-                </div>
-            </div>
+                </li>
+            </ul>
+            <p><a href="/#inquiry" class="btn btn-danger btn-lg">Изпратете запитване</a></p>
         </div>
     </div>
 </section>
@@ -283,9 +257,23 @@
     </div>
 </section>
 
+<section class="qac-work-with-us">
+    <div class="text-center title">
+        <div class="h1">Защо да работите с нас?</div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="text-center col-6">
+            <p>
+                Всички проекти по внедряване на системи за управление, подготовка за сертификация и обучения,
+                изпълнявани от "Кю Ей Си" ООД се реализират в условията на изградена и сертифицирана система за управление на качеството.
+            </p>
+        </div>
+    </div>
+</section>
+
 <section class="qac-clients">
     <div class="text-center title">
-        <div class="h1 title">Фирмите, които ни се довериха</div>
+        <div class="h1">Фирмите, които ни се довериха</div>
     </div>
     <div class="d-flex justify-content-center">
         <div class="row col-9 justify-content-center">

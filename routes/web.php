@@ -29,7 +29,7 @@ Route::view('/standarti/iso-9001', 'iso-9001');
 Route::view('/services', 'services');
 Route::view('/courses', 'courses');
 Route::view('/kontakti', 'contacts');
-Route::view('/about-us', 'aboutus');
+Route::view('/za-nas', 'za-nas');
 Route::get('/clients', 'PublicController@clientIndex');
 Route::get('/services/{slug}', 'PublicController@serviceShow');
 

@@ -12,6 +12,10 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body { background: #f2f2f2; }
 
 .site-wrap {
@@ -43,7 +47,7 @@ body { background: #f2f2f2; }
 .title {
   font-weight: 400;
   text-transform: uppercase;
-  padding: 75px 0;
+  padding: 44px 0;
 }
 
 .qac-slider {
@@ -58,7 +62,7 @@ body { background: #f2f2f2; }
 }
 
 .qac-top-services {
-  padding: 100px 20px;
+  padding: 60px 20px;
   color: #273044;
   .service-box {
     background: #f2f6fb;
@@ -114,15 +118,47 @@ body { background: #f2f2f2; }
       color: #fff;
       padding: 30px;
       .h6 { text-transform: uppercase; }
+      ul {
+        padding: 20px 0;
+        list-style: none;
+        margin: 0;
+      }
+      li {
+        display: flex;
+        padding: 10px 0;
+        font-size: 1.2em;
+        .text {
+          padding-left: 20px;
+        }
+      }
     }
+  }
+}
+
+.qac-work-with-us {
+  border-bottom: 1px solid #3f51b580;
+  padding: 3%;
+  p {
+    color: #515151;
+    font-weight: 400;
+    font-size: 1.3em;
   }
 }
 
 .qac-standards {
   padding: 5%;
-  padding-top: 140px;
   margin-top: 80px;
-  .title { padding-bottom: 40px; }
+  .sub-title {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .benefits {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: 400;
+  }
   .col-6 {
     margin-bottom: 30px;
   }
@@ -131,12 +167,11 @@ body { background: #f2f2f2; }
     background: #f2f2f2;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     color: #fff;
-    background: #db0546;
+    background: #db0546cc;
   }
 }
 
 .qac-assistance {
-  padding: 120px 0;
   .row {
     margin-bottom: 30px;
   }
@@ -148,7 +183,7 @@ body { background: #f2f2f2; }
     padding: 10%;
     p {
       color: #515151;
-      font-weight: 300;
+      font-weight: 400;
       font-size: 1.3em;
     }
     .h1 {
@@ -168,19 +203,13 @@ body { background: #f2f2f2; }
   background-size: cover;
   padding: 5%;
   color: #fff;
+  .form-box {
+    background: #ffffffe0;
+    color: initial;
+  }
   .title {
     font-weight: bold;
     padding-bottom: 10px;
-  }
-  .form-box {
-    padding: 7% 5%;
-    background: #fff;
-    color: initial;
-
-    .nav-tabs .nav-link.active {
-      border-top: 3px solid #e91e63;
-      font-weight: bold;
-    }
   }
 }
 
@@ -192,6 +221,31 @@ body { background: #f2f2f2; }
 }
 
 // PAGES
+.qac-page-header {
+  background: #673ab7c2;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 70px 0;
+  .h1 {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}
+
+.qac-about {
+  padding: 80px 0;
+
+  .title {
+    padding-bottom: 40px;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+
+// OLD STYLES
 .page {
   .header {
     padding: 100px 0;
@@ -334,20 +388,13 @@ body { background: #f2f2f2; }
   }
 }
 
-.about {
-  padding: 80px 0;
-
-  .title {
-    padding-bottom: 40px;
-  }
-}
-
 .map {
   line-height: 0;
   width: 100%;
 }
 
 .footer {
+  margin-top: 1px;
   .h5 {
     color: #fff;
     font-weight: bold;

@@ -2,9 +2,9 @@
 
 @section('content')
 
-<section class="page-header standarti"></section>
+<!-- <section class="page-header standarti"></section> -->
 
-<section class="page">
+<!-- <section class="page">
 
     <div class="container">
         <div class="content">
@@ -24,58 +24,101 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<section class="standards">
-
-    <div class="container">
-        <div class="text-center info">
-            <div class="h1 title">Как можем да ви съдействаме</div>
-            <p>
-                В нашият екип не се говори за количество внедрени и сертифицирани системи за управление.
-                Нашата цел е да изградим трайни взаимоотношения с клиентите на дружеството.
-                Убедени, че постигат желания ефект от изпълнената консултантска дейност, нашите клиенти почти винаги се обръщат отново и отново към нас.
-                Това не може да не ни радва!
-            </p>
+<section class="qac-page-header">
+    <div class="text-center">
+        <div class="h1">
+            Внедряване на международни стандарти
         </div>
     </div>
+</section>
 
-    <div class="content">
-        <div class="container">
+<section class="qac-standards">
+    <div class="text-center sub-title">
+        <div class="h1">
+            Какви са ползите?
+        </div>
+    </div>
+    <div class="benefits">
+        <p class="col-7">
+            Реализирането на бизнес в Европа и света почти е невъзможно,
+            ако доставчика не е внедрил и сертифицирал своята Система за управление по поне един международен стандарт.
+        </p>
+    </div>
+    <div class="text-center sub-title">
+        <div class="h1">
+            Стандартите, които внедряваме:
+        </div>
+    </div>
+    <div class="d-flex justify-content-center">
+        <div class="col-8">
             <div class="row">
-                <div class="col-3">
-                    <div class="standard">
-                        <h3>ISO 9001</h3>
-                        <p>Управление на качеството</p>
+                <div class="col-6">
+                    <div class="item">
+                        <div class="h4">
+                            ISO 9001:2015
+                        </div>
+                        Управление на качествтото
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="standard">
-                        <div class="h3">ISO 27000</div>
-                        <p>Информационна сигурност</p>
+                <div class="col-6">
+                    <div class="item">
+                        <div class="h4">
+                            ISO 27001
+                        </div>
+                        Информационна сигурност
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="standard">
-                        <div class="h3">OHSAS 18000</div>
-                        <p>Безопасност на храните</p>
+                <div class="col-6">
+                    <div class="item">
+                        <div class="h4">
+                            ISO 14001:2004
+                        </div>
+                        Управление по околна среда.
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="standard">
-                        ISO 22000
+                <div class="col-6">
+                    <div class="item">
+                        <div class="h4">
+                            ISO 9001:2015
+                        </div>
+                        Управление на качествтото
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="standard">
-                        AQAP 2110
+                <div class="col-6">
+                    <div class="item">
+                        <div class="h4">
+                            ISO 27001
+                        </div>
+                        Информационна сигурност
                     </div>
                 </div>
-                <div class="col-3"></div>
+                <div class="col-6">
+                    <div class="item">
+                        <div class="h4">
+                            ISO 14001:2004
+                        </div>
+                        Управление по околна среда.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
+    <div class="text-center sub-title">
+        <div class="h1">
+            Как Ви съдействаме?
+        </div>
+    </div>
+    <div class="benefits">
+        <p class="col-7">
+            Ние предлагаме комплексни услуги, включващи диагностика и анализ на действащата Ваша Система за управление,
+            планиране, разработка на документация, съдействие при внедряване и развитие на процесите,
+            изпълнение на одити и периодични прегледи, подготовка и подпомагане на процеса на сертификация,
+            следващо поддържане и продължаващо развитие на системите за осигуряване на високо доверие на клиентите.
+        </p>
+    </div>
 </section>
+@include('partials.inquiry')
 
 @endsection 

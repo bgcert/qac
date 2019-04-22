@@ -19,18 +19,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">За нас <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/za-nas">За нас <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Услуги
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Маркировка CE</a>
-                        <a class="dropdown-item" href="#">Международни стандарти</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                <li class="nav-item">
+                    <a href="/#services" class="nav-link">Услуги</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="kontakti">Контакти</a>

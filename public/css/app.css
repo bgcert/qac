@@ -10694,6 +10694,10 @@ a.text-dark:focus {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #f2f2f2;
 }
@@ -10734,7 +10738,7 @@ body {
 .title {
   font-weight: 400;
   text-transform: uppercase;
-  padding: 75px 0;
+  padding: 44px 0;
 }
 
 .qac-slider {
@@ -10752,7 +10756,7 @@ body {
 }
 
 .qac-top-services {
-  padding: 100px 20px;
+  padding: 60px 20px;
   color: #273044;
 }
 
@@ -10822,14 +10826,49 @@ body {
   text-transform: uppercase;
 }
 
+.qac-in-focus .box .content ul {
+  padding: 20px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.qac-in-focus .box .content li {
+  display: flex;
+  padding: 10px 0;
+  font-size: 1.2em;
+}
+
+.qac-in-focus .box .content li .text {
+  padding-left: 20px;
+}
+
+.qac-work-with-us {
+  border-bottom: 1px solid #3f51b580;
+  padding: 3%;
+}
+
+.qac-work-with-us p {
+  color: #515151;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
 .qac-standards {
   padding: 5%;
-  padding-top: 140px;
   margin-top: 80px;
 }
 
-.qac-standards .title {
-  padding-bottom: 40px;
+.qac-standards .sub-title {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.qac-standards .benefits {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
 .qac-standards .col-6 {
@@ -10841,11 +10880,7 @@ body {
   background: #f2f2f2;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   color: #fff;
-  background: #db0546;
-}
-
-.qac-assistance {
-  padding: 120px 0;
+  background: #db0546cc;
 }
 
 .qac-assistance .row {
@@ -10862,7 +10897,7 @@ body {
 
 .qac-assistance .content p {
   color: #515151;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.3em;
 }
 
@@ -10887,20 +10922,14 @@ body {
   color: #fff;
 }
 
-.qac-inquiry .title {
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
 .qac-inquiry .form-box {
-  padding: 7% 5%;
-  background: #fff;
+  background: #ffffffe0;
   color: initial;
 }
 
-.qac-inquiry .form-box .nav-tabs .nav-link.active {
-  border-top: 3px solid #e91e63;
+.qac-inquiry .title {
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .qac-clients {
@@ -10909,6 +10938,30 @@ body {
 
 .qac-clients .client-item {
   padding: 20px 30px;
+}
+
+.qac-page-header {
+  background: #673ab7c2;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 70px 0;
+}
+
+.qac-page-header .h1 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.qac-about {
+  padding: 80px 0;
+}
+
+.qac-about .title {
+  padding-bottom: 40px;
+}
+
+.qac-about p {
+  font-size: 1.2em;
 }
 
 .page .header {
@@ -11056,20 +11109,13 @@ body {
   border: 1px solid #fff;
 }
 
-.about {
-  padding: 80px 0;
-}
-
-.about .title {
-  padding-bottom: 40px;
-}
-
 .map {
   line-height: 0;
   width: 100%;
 }
 
 .footer {
+  margin-top: 1px;
   background: #333;
   color: #fff;
   padding-top: 80px;

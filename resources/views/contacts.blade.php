@@ -38,7 +38,13 @@
     </div>
 </section>
 
-<section class="about">
+<section class="map">
+    <iframe width="100%" height="450" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=sofia%20%D1%86%D0%B0%D1%80%20%D0%B1%D0%BE%D1%80%D0%B8%D1%81%203%20168+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+        <a href="https://www.maps.ie/map-my-route/">Create route map</a>
+    </iframe>
+</section>
+
+<!-- <section class="about">
     <div class="container">
         <div class="text-center">
             <div class="h1 title">
@@ -61,12 +67,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 @include('partials.inquiry')
-<section class="map">
-    <iframe width="100%" height="450" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=sofia%20%D1%86%D0%B0%D1%80%20%D0%B1%D0%BE%D1%80%D0%B8%D1%81%203%20168+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-        <a href="https://www.maps.ie/map-my-route/">Create route map</a>
-    </iframe>
-</section>
 @endsection

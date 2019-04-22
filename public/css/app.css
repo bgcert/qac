@@ -10881,6 +10881,7 @@ body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   color: #fff;
   background: #db0546cc;
+  height: 100%;
 }
 
 .qac-assistance .row {
@@ -10940,16 +10941,20 @@ body {
   padding: 20px 30px;
 }
 
+form .required {
+  color: #ff0000;
+}
+
 .qac-page-header {
-  background: #673ab7c2;
+  background: #333;
   color: #fff;
   text-transform: uppercase;
   padding: 70px 0;
 }
 
 .qac-page-header .h1 {
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .qac-about {

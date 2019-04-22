@@ -9,38 +9,25 @@ class PublicController extends Controller
 {
     public function index()
     {
-
-        $pages = \App\Page::orderBy('priority', 'asc')->get();
-
-        // Cached services
-        $services = Cache::rememberForever('services', function() {
-            return \App\Service::orderBy('priority', 'asc')->get();
-        });
-
-        // Cached clients
-        $clients = Cache::rememberForever('clients', function() {
-            return \App\Client::all();
-        });
-
-        $quotes = Cache::rememberForever('quotes', function() {
-            return \App\Quote::all();
-        });
-
-        $slides = \App\Slide::where('visible', true)->get();
-        $courses = \App\Course::where('visible', true)->get();
-
-        return view('homepage', compact('pages', 'services', 'clients', 'slides', 'courses', 'quotes'));
+        $types = InquiryController::inquiryTypes();
+        return view('homepage', compact('types'));
     }
 
-    public function serviceShow($slug)
+    public function aboutPage()
     {
-        $service = \App\Service::where('slug', $slug)->first();
-        return view('service', compact('service'));
+        $types = InquiryController::inquiryTypes();
+        return view('za-nas', compact('types'));
     }
 
-    public function clientIndex()
+    public function contactPage()
     {
-        $clients = \App\Client::all();
-        return view('clients', compact('clients'));
+        $types = InquiryController::inquiryTypes();
+        return view('contacts', compact('types'));
+    }
+
+    public function standardsPage()
+    {
+        $types = InquiryController::inquiryTypes();
+        return view('standarti', compact('types'));
     }
 }

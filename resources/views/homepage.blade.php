@@ -11,8 +11,9 @@
             <p class="h5">
                 Повече от 20 години изпълняваме тази мисия чрез нашите консултантски услуги и курсове за обучение
             </p>
-            <p>
-                <a href="/kontakti" class="btn btn-lg btn-outline-light">Свържете се с нас</a>
+            <p class="mt-4">
+                <a href="/#services" class="btn btn-lg btn-danger mr-2">Услуги</a>
+                <a href="/kontakti" class="btn btn-lg btn-outline-light">Контакти</a>
             </p>
         </div>
     </div>
@@ -54,9 +55,19 @@
                             Маркировка GS
                         </div>
                     </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                        <div>
+                            И други
+                        </div>
+                    </li>
                 </ul>
                 <p>
-                    Покриите задължителните условия за пускането на продуктите Ви на пазара на Европейското и световното икономическо пространство.
+                    Покрийте задължителните условия за пускането на продуктите Ви на пазара на Европейското и световното икономическо пространство.
                 </p>
                 <!-- <p>
                     Постигане и доказване на съответствието на продукти,
@@ -81,7 +92,17 @@
                             <line x1="8" y1="12" x2="16" y2="12"></line>
                         </svg>
                         <div>
-                            ISO 9001:2015
+                            ISO 9001
+                        </div>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                        <div>
+                            ISO 13485
                         </div>
                     </li>
                     <li>
@@ -102,6 +123,16 @@
                         </svg>
                         <div>
                             ISO 14001
+                        </div>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right-circle">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 16 16 12 12 8"></polyline>
+                            <line x1="8" y1="12" x2="16" y2="12"></line>
+                        </svg>
+                        <div>
+                            ISO 45001
                         </div>
                     </li>
                     <li>
@@ -164,9 +195,6 @@
         <div class="col-9 content">
             <div class="h1">Маркировка CE</div>
             <h5 class="text-uppercase"><strong>Как да отговаряте на условията на (500 милионния) европейския пазар?</strong></h5>
-            <!-- <p>
-                Ние предлагаме пълно съдействие по проучване, анализ и подготовка на продуктите за оценка на съответствието и маркировка CE
-            </p> -->
             <ul>
                 <li>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
@@ -215,7 +243,7 @@
 <section class="qac-assistance">
     <div class="text-center">
         <div class="h1 title">
-            За да успее бизнеса Ви предлагаме:
+            За да успее бизнесът Ви, предлагаме:
         </div>
     </div>
     <div class="row">
@@ -224,7 +252,7 @@
                 <div>
                     <div class="h1">Бизнес консултации</div>
                     <p>
-                        <span>&rarr;</span> За повече от 20 годишния опит сме консултирали внедряването на редица международни стандарти и публикации на НАТО от стотици фирми.
+                        За повече от 20 годишния опит сме консултирали внедряването на редица международни стандарти и публикации на НАТО от стотици фирми.
                     </p>
                     <p>
                         Някои от тях използват регулярни консултации и одит за осигуряване на продължаващото свое развитие.
@@ -249,7 +277,7 @@
                         Удовлетворяваме Вашия интерес и необходимост от знания и умения на Вашите специалисти чрез специализирани обучения за придобиване на ключови компетенции.
                     </p>
                     <p>
-                        Високите оценки на обучените от нас над 3500 специалисти потвърждават качеството на курсовете.
+                        Високите оценки на обучените от нас над <strong>4500 специалисти</strong> потвърждават качеството на нашите курсове.
                     </p>
                 </div>
             </div>
@@ -264,7 +292,7 @@
     <div class="d-flex justify-content-center">
         <div class="text-center col-6">
             <p>
-                Всички проекти по внедряване на системи за управление, подготовка за сертификация и обучения,
+                Всички проекти по внедряване на системи за управление, подготовка за сертификация на продукти и обучения,
                 изпълнявани от "Кю Ей Си" ООД се реализират в условията на изградена и сертифицирана система за управление на качеството.
             </p>
         </div>

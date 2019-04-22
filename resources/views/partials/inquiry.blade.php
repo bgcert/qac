@@ -9,11 +9,12 @@
                 </div>
                 <div class="card form-box">
                     <div class="card-body">
-                        <form>
+                        <form method="POST" action="{{ route('inquiry.store') }}">
+                            @csrf
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="form-name">Лице за контакт</label>
-                                    <input name="contact_person" type="text" class="form-control" id="form-name">
+                                    <label for="form-name">Лице за контакт <span class="required">*</span></label>
+                                    <input name="contact_person" type="text" class="form-control" id="form-name" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="form-company">Фирма</label>
@@ -22,27 +23,26 @@
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
-                                    <label for="form-phone">Телефон</label>
-                                    <input name="phone" type="text" class="form-control" id="form-phone">
+                                    <label for="form-phone">Телефон <span class="required">*</span></label>
+                                    <input name="phone" type="text" class="form-control" id="form-phone" required>
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="form-email">E-mail</label>
-                                    <input name="email" type="email" class="form-control" id="form-email">
+                                    <label for="form-email">E-mail <span class="required">*</span></label>
+                                    <input name="email" type="email" class="form-control" id="form-email" required>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label for="form-subject">Отностно</label>
-                                <select name="subject" id="form-subject" class="form-control">
-                                    <option selected>Изберете...</option>
-                                    <option>Внедряване на Система за управление</option>
-                                    <option>Изпълнение на изисквания на НАТО</option>
-                                    <option>Продуктово съответствие и СЕ маркировка</option>
-                                    <option>Друг интерес</option>
+                                <label for="form-subject">Отностно <span class="required">*</span></label>
+                                <select name="subject" id="form-subject" class="form-control" required>
+                                    <option value="" selected disabled hidden>Изберете...</option>
+                                    @foreach($types as $key => $value)
+                                    <option value="{{ $key }}">{{ $value }}</option>
+                                    @endforeach
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="form-body">Запитване</label>
-                                <textarea name="body" class="form-control" id="form-body"></textarea>
+                                <textarea name="body" class="form-control" id="form-body" required></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary">Изпращане</button>
                         </form>

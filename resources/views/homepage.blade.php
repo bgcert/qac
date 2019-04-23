@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 <section class="qac-slider">
     <div class="container">
         <div class="row justify-content-between">
@@ -17,7 +16,7 @@
                     <a href="/kontakti" class="btn btn-lg btn-outline-light">Контакти</a>
                 </p>
             </div>
-            <div class="col-4 viz">
+            <div class="col-5 viz">
                 <img src="/img/vizualizacia_qac-min.png" class="img-fluid" alt="">
             </div>
         </div>
@@ -191,51 +190,57 @@
 </section>
 
 <section class="qac-in-focus">
+
     <div class="box ce-mark">
-        <div class="col-9 content">
-            <div class="h1">Маркировка CE</div>
-            <h5 class="text-uppercase"><strong>Как да отговаряте на условията на (500 милионния) европейския пазар?</strong></h5>
-            <ul>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                    </svg>
-                    <div class="text">
-                        Нашият екип ще Ви води през целия процес
-                    </div>
-                </li>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                    </svg>
-                    <div class="text">
-                        Даваме насоки без да Ви затрупваме с правни жаргони и излишна техническа документация
-                    </div>
-                </li>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
-                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                        <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                    </svg>
-                    <div class="text">
-                        Предоставяме Ви точна и безпристрастна информация, съобразена с действащото законодателство
-                    </div>
-                </li>
-                <li>
-                    <div>
+        <div class="row">
+            <div class="col-9 content">
+                <div class="h1">Маркировка CE</div>
+                <h5 class="text-uppercase"><strong>Как да отговаряте на условията на (500 милионния) европейския пазар?</strong></h5>
+                <ul>
+                    <li>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
-                    </div>
-                    <div class="text">
-                        Ние предлагаме прагматичен и икономически ефективен подход за постигане на CE маркировка и помощ за спазване на изискванията за продуктите
-                    </div>
-                </li>
-            </ul>
-            <p><a href="/#inquiry" class="btn btn-danger btn-lg">Изпратете запитване</a></p>
+                        <div class="text">
+                            Нашият екип ще Ви води през целия процес
+                        </div>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                        <div class="text">
+                            Даваме насоки без да Ви затрупваме с правни жаргони и излишна техническа документация
+                        </div>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                        <div class="text">
+                            Предоставяме Ви точна и безпристрастна информация, съобразена с действащото законодателство
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <div class="text">
+                            Ние предлагаме прагматичен и икономически ефективен подход за постигане на CE маркировка и помощ за спазване на изискванията за продуктите
+                        </div>
+                    </li>
+                </ul>
+                <p><a href="/#inquiry" class="btn btn-danger btn-lg">Изпратете запитване</a></p>
+            </div>
+            <div class="col-3 d-flex align-items-center">
+                <img src="/img/ce-mark-tr.png" class="img-fluid" alt="Маркировка CE">
+            </div>
         </div>
     </div>
 </section>

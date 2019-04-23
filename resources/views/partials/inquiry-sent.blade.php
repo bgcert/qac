@@ -8,6 +8,7 @@
         Ще се свържем с Вас възможно най-скоро.
         <hr>
         <p>Ще бъдете пренасочени към главната страница след <span id="countdown"></span> секунди</p>
+        <p><a href="/" class="btn btn-secondary">Към главната страница</a></p>
         <div id="redirect"></div>
     </div>
 </div>

@@ -11114,6 +11114,14 @@ form .required {
   border: 1px solid #fff;
 }
 
+.company-info .h4 {
+  padding-top: 40px;
+}
+
+.company-info table {
+  margin: 70px 0;
+}
+
 .map {
   line-height: 0;
   width: 100%;

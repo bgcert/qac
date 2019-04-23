@@ -5,16 +5,21 @@
 
 <section class="qac-slider">
     <div class="container">
-        <div class="col-7">
-            <div class="h1">Работим за развитие на Вашия бизнес!</div>
-            <div class="divider sm"></div>
-            <p class="h5">
-                Повече от 20 години изпълняваме тази мисия чрез нашите консултантски услуги и курсове за обучение
-            </p>
-            <p class="mt-4">
-                <a href="/#services" class="btn btn-lg btn-danger mr-2">Услуги</a>
-                <a href="/kontakti" class="btn btn-lg btn-outline-light">Контакти</a>
-            </p>
+        <div class="row justify-content-between">
+            <div class="col-7">
+                <div class="h1">Подкрепяме бизнеса по пътя към успешната сертификация</div>
+                <div class="divider sm"></div>
+                <p class="h5">
+                    Повече от 20 години изпълняваме тази мисия чрез нашите консултантски услуги и курсове за обучение
+                </p>
+                <p class="mt-4">
+                    <a href="/#services" class="btn btn-lg btn-danger mr-2">Услуги</a>
+                    <a href="/kontakti" class="btn btn-lg btn-outline-light">Контакти</a>
+                </p>
+            </div>
+            <div class="col-4 viz">
+                <img src="/img/vizualizacia_qac-min.png" class="img-fluid" alt="">
+            </div>
         </div>
     </div>
 </section>

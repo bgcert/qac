@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="Консултации, обучения, международни стандарти, маркировка CE, aqap">
-    <meta name="keywords" content="международни стандарти, маркировка CE, iso, iso 9001, ISO 13485, ISO 27000, ISO 14001, ISO 45001, aqap">
     <meta name="author" content="Qac Ltd.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,6 +24,19 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126236024-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126236024-2');
+    </script>
 </head>
 
 <body>
@@ -37,7 +49,7 @@
             <main>
                 @yield('content')
             </main>
-            
+
             <section class="footer">
 
                 <div class="container">

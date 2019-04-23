@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-7">
-                <div class="h1">Подкрепяме бизнеса по пътя към успешната сертификация</div>
+                <h1>Подкрепяме бизнеса по пътя към успешната сертификация</h1>
                 <div class="divider sm"></div>
                 <p class="h5">
                     Повече от 20 години изпълняваме тази мисия чрез нашите консултантски услуги и курсове за обучение
@@ -36,7 +36,7 @@
                     <img src="/img/ce-mark-home.png" alt="">
                 </div>
                 <div class="service-title">
-                    <div class="h5">Подготовка за продуктова сертификация</div>
+                    <h2 class="h5">Подготовка за продуктова сертификация</h2>
                 </div>
                 <ul>
                     <li>
@@ -81,7 +81,7 @@
                     <img src="/img/iso-home.png" alt="">
                 </div>
                 <div class="service-title">
-                    <div class="h5">Внедряване на международни стандарти</div>
+                    <h2 class="h5">Внедряване на международни стандарти</h2>
                 </div>
                 <ul>
                     <li>
@@ -145,17 +145,9 @@
                         </div>
                     </li>
                 </ul>
-                <!-- <p>
-                    Покриите задължителните условия за пускането на продуктите Ви на пазара на Европейското и световното икономическо пространство.
-                </p> -->
                 <p>
                     <a href="/standarti">&rarr; Внедряването на кои международни стандарти подпомагаме?</a>
                 </p>
-                <!-- <p>
-                    Постигане и доказване на съответствието на продукти,
-                    които попадат в обхвата на европейските директиви и регламентите и тяхната СЕ маркировка
-                    е задължително условия за пускането на определени продукти на пазара на Европейското икономическо пространство.
-                </p> -->
             </div>
         </div>
         <div class="col-4">
@@ -164,7 +156,7 @@
                     <img src="/img/aqap-home.png" alt="">
                 </div>
                 <div class="service-title">
-                    <div class="h5">Внедряване на изискванията на НАТО</div>
+                    <h2 class="h5">Внедряване на изискванията на НАТО</h2>
                 </div>
                 <ul>
                     <li>
@@ -195,7 +187,7 @@
         <div class="row">
             <div class="col-9 content">
                 <div class="h1">Маркировка CE</div>
-                <h5 class="text-uppercase"><strong>Как да отговаряте на условията на (500 милионния) европейския пазар?</strong></h5>
+                <div class="h5">Как да отговаряте на условията на <strong>(500 милионния) европейския пазар?</strong></div>
                 <ul>
                     <li>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle">

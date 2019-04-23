@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="Консултации, обучения, международни стандарти, маркировка CE, aqap">
+    <meta name="description" content="Консултации, обучения, международни стандарти, маркировка CE, aqap, iso9001, iso13485, iso27001, iso14001, iso45001">
     <meta name="author" content="Qac Ltd.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

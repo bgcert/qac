@@ -18,9 +18,4 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
-
-    # www to non www
-    RewriteCond %{HTTP_HOST} !localhost
-    RewriteCond %{HTTP_HOST} !^(.+)\.(.+)\.(.+)
-    RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1 [L,R=301]
 </IfModule>

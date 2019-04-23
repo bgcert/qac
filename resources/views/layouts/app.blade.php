@@ -3,12 +3,15 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="Консултации, обучения, международни стандарти, маркировка CE, aqap">
+    <meta name="keywords" content="международни стандарти, маркировка CE, iso, iso 9001, ISO 13485, ISO 27000, ISO 14001, ISO 45001, aqap">
+    <meta name="author" content="Qac Ltd.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Кю Ей Си ООД - Център за осигуряване на качеството</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

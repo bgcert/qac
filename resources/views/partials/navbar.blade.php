@@ -7,7 +7,7 @@
                 </a>
             </div>
             <div class="col d-flex align-items-center">
-                <div class="slogan">
+                <div class="slogan d-none d-lg-block">
                     Качеството - реално бъдеще
                 </div>
             </div>
@@ -27,10 +27,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="kontakti">Контакти</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li> -->
             </ul>
         </div>
     </div>
-</nav> 
+</nav>
+
+

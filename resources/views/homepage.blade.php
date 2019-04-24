@@ -2,13 +2,13 @@
 
 @section('content')
 
-<section class="qac-slider">
+<section class="qac-slider text-center text-lg-left">
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-7 col-md-12 mb-4">
                 <h1>Подкрепяме бизнеса по пътя към успешната сертификация</h1>
                 <div class="divider sm"></div>
-                <p class="h5">
+                <p class="h5 d-none d-lg-block">
                     Повече от 20 години изпълняваме тази мисия чрез нашите консултантски услуги и курсове за обучение
                 </p>
                 <p class="mt-4">
@@ -16,7 +16,7 @@
                     <a href="/kontakti" class="btn btn-lg btn-outline-light">Контакти</a>
                 </p>
             </div>
-            <div class="col-lg-5 col-12 viz">
+            <div class="col-lg-5 col-12 viz text-sm-center">
                 <img src="/img/vizualizacia_qac-min.png" class="img-fluid" alt="">
             </div>
         </div>

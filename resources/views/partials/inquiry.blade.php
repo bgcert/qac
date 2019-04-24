@@ -1,58 +1,56 @@
 @php
 
-    $types = \App\Http\Controllers\InquiryController::inquiryTypes();
+$types = \App\Http\Controllers\InquiryController::inquiryTypes();
 
 @endphp
 
 <section class="qac-inquiry" id="inquiry">
-    <div class="container">
-        <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center">
 
-            <div class="col-7">
-                <div class="text-center">
-                    <div class="h3 title">Изпратете ни запитване</div>
-                    <p>Моля, попълнете формата за запитване и ние ще Ви отговорим в най-кратки срокове</p>
-                </div>
-                <div class="card form-box">
-                    <div class="card-body">
-                        <form method="POST" action="{{ route('inquiry.store') }}">
-                            @csrf
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="form-name">Лице за контакт <span class="required">*</span></label>
-                                    <input name="contact_person" type="text" class="form-control" id="form-name" required>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="form-company">Фирма</label>
-                                    <input name="company" type="text" class="form-control" id="form-company">
-                                </div>
+        <div class="col-lg-5 col-12">
+            <div class="text-center">
+                <div class="h3 title">Изпратете ни запитване</div>
+                <p>Моля, попълнете формата за запитване и ние ще Ви отговорим в най-кратки срокове</p>
+            </div>
+            <div class="card form-box">
+                <div class="card-body">
+                    <form method="POST" action="{{ route('inquiry.store') }}">
+                        @csrf
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="form-name">Лице за контакт <span class="required">*</span></label>
+                                <input name="contact_person" type="text" class="form-control" id="form-name" required>
                             </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="form-phone">Телефон <span class="required">*</span></label>
-                                    <input name="phone" type="text" class="form-control" id="form-phone" required>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="form-email">E-mail <span class="required">*</span></label>
-                                    <input name="email" type="email" class="form-control" id="form-email" required>
-                                </div>
+                            <div class="form-group col-md-6">
+                                <label for="form-company">Фирма</label>
+                                <input name="company" type="text" class="form-control" id="form-company">
                             </div>
-                            <div class="form-group">
-                                <label for="form-subject">Отностно <span class="required">*</span></label>
-                                <select name="subject" id="form-subject" class="form-control" required>
-                                    <option value="" selected disabled hidden>Изберете...</option>
-                                    @foreach($types as $key => $value)
-                                    <option value="{{ $key }}">{{ $value }}</option>
-                                    @endforeach
-                                </select>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="form-phone">Телефон <span class="required">*</span></label>
+                                <input name="phone" type="text" class="form-control" id="form-phone" required>
                             </div>
-                            <div class="form-group">
-                                <label for="form-body">Запитване</label>
-                                <textarea name="body" class="form-control" id="form-body" required></textarea>
+                            <div class="form-group col-md-6">
+                                <label for="form-email">E-mail <span class="required">*</span></label>
+                                <input name="email" type="email" class="form-control" id="form-email" required>
                             </div>
-                            <button type="submit" class="btn btn-primary">Изпращане</button>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-subject">Отностно <span class="required">*</span></label>
+                            <select name="subject" id="form-subject" class="form-control" required>
+                                <option value="" selected disabled hidden>Изберете...</option>
+                                @foreach($types as $key => $value)
+                                <option value="{{ $key }}">{{ $value }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-body">Запитване</label>
+                            <textarea name="body" class="form-control" id="form-body" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Изпращане</button>
+                    </form>
                 </div>
             </div>
         </div>

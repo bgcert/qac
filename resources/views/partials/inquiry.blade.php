@@ -1,3 +1,9 @@
+@php
+
+    $types = \App\Http\Controllers\InquiryController::inquiryTypes();
+
+@endphp
+
 <section class="qac-inquiry" id="inquiry">
     <div class="container">
         <div class="d-flex justify-content-center">

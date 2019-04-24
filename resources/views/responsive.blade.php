@@ -1,28 +1,45 @@
-@extends('layouts.app')
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-@section('content')
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Консултации, обучения, международни стандарти, маркировка CE, aqap, iso9001, iso13485, iso27001, iso14001, iso45001">
+    <meta name="author" content="Qac Ltd.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="container-fluid">
-    <section class="qac-slider">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-lg-7 col-md-12 mb-4">
-                    <h1>Подкрепяме бизнеса по пътя към успешната сертификация</h1>
-                    <div class="divider sm"></div>
-                    <p class="h5">
-                        Повече от 20 години изпълняваме тази мисия чрез нашите консултантски услуги и курсове за обучение
-                    </p>
-                    <p class="mt-4">
-                        <a href="/#services" class="btn btn-lg btn-danger mr-2">Услуги</a>
-                        <a href="/kontakti" class="btn btn-lg btn-outline-light">Контакти</a>
-                    </p>
-                </div>
-                <div class="col-lg-5 col-12 viz">
-                    <img src="/img/vizualizacia_qac-min.png" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>Кю Ей Си ООД - Център за осигуряване на качеството</title>
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css?v=2" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874124-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-138874124-1');
+    </script>
+</head>
+
+<body>
 
     <section class="qac-top-services" id="services">
         <div class="text-center">
@@ -186,7 +203,7 @@
 
         <div class="box ce-mark">
             <div class="row">
-                <div class="col-9 content">
+                <div class="col-lg-9 col-12 content">
                     <div class="h1">Маркировка CE</div>
                     <div class="h5">Как да отговаряте на условията на <strong>(500 милионния) европейския пазар?</strong></div>
                     <ul>
@@ -244,8 +261,11 @@
                 За да успее бизнесът Ви, предлагаме:
             </div>
         </div>
-        <div class="row">
-            <div class="col-6">
+        <div class="row flex-lg-row-reverse">
+            <div class="col-lg-6 col-12">
+                <img src="/img/inspection.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 col-12">
                 <div class="content consultation">
                     <div>
                         <div class="h1">Бизнес консултации</div>
@@ -258,16 +278,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
-                <img src="/img/inspection.jpeg" class="img-fluid" alt="">
-            </div>
         </div>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-12">
                 <img src="/img/meeting.jpg" class="img-fluid" alt="">
             </div>
-            <div class="col-6">
+            <div class="col-lg-6 col-12">
                 <div class="content education">
                     <div>
                         <div class="h1">Практически обучения</div>
@@ -288,7 +305,7 @@
             <div class="h1">Защо да работите с нас?</div>
         </div>
         <div class="d-flex justify-content-center">
-            <div class="text-center col-6">
+            <div class="text-center col-lg-6 col-12">
                 <p>
                     Всички проекти по внедряване на системи за управление, подготовка за сертификация на продукти и обучения,
                     изпълнявани от "Кю Ей Си" ООД се реализират в условията на изградена и сертифицирана система за управление на качеството.
@@ -303,31 +320,33 @@
         </div>
         <div class="d-flex justify-content-center">
             <div class="row col-9 justify-content-center">
-                <div class="col-3 client-item">
+                <div class="col-lg-3 col-12 client-item">
                     <img src="/img/clients/actavis.png" alt="test">
                 </div>
-                <div class="col-3 client-item">
+                <div class="col-lg-3 col-12 client-item">
                     <img src="/img/clients/aec.png" alt="test">
                 </div>
-                <div class="col-3 client-item">
+                <div class="col-lg-3 col-12 client-item">
                     <img src="/img/clients/glassco.png" alt="test">
                 </div>
-                <div class="col-3 client-item">
+                <div class="col-lg-3 col-12 client-item">
                     <img src="/img/clients/kentamed.png" alt="test">
                 </div>
-                <div class="col-3 client-item">
+                <div class="col-lg-3 col-12 client-item">
                     <img src="/img/clients/kontrax.png" alt="test">
                 </div>
-                <div class="col-3 client-item">
+                <div class="col-lg-3 col-12 client-item">
                     <img src="/img/clients/ochna_optika.png" alt="test">
                 </div>
-                <div class="col-3 client-item">
+                <div class="col-lg-3 col-12 client-item">
                     <img src="/img/clients/persi.png" alt="test">
                 </div>
             </div>
         </div>
     </section>
-    @include('partials.inquiry')
-</div>
 
-@endsection
+    @include('partials.inquiry')
+
+</body>
+
+</html>

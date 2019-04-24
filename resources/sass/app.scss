@@ -9,6 +9,9 @@
 // Segments
 @import 'segments';
 
+// Responsive
+@import 'responsive';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
@@ -137,9 +140,11 @@ body { background: #f2f2f2; }
         padding: 10px 0;
         font-size: 1.2em;
         svg {
+          width: 50px;
           color: #ffeb3b;
         }
         .text {
+          flex: 1;
           padding-left: 20px;
         }
       }
@@ -229,6 +234,7 @@ body { background: #f2f2f2; }
 .qac-clients {
   padding: 120px 0;
   .client-item {
+    text-align: center;
     padding: 20px 30px;
   }
 }

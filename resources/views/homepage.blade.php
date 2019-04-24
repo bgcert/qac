@@ -150,7 +150,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-md-12 mb-4">
                     <div class="service-box">
                         <div class="image">
                             <img src="/img/aqap-home.png" alt="">
@@ -230,7 +230,7 @@
                         </ul>
                         <p><a href="/#inquiry" class="btn btn-danger btn-lg">Изпратете запитване</a></p>
                     </div>
-                    <div class="col-3 d-flex align-items-center">
+                    <div class="col-3 d-none d-lg-block">
                         <img src="/img/ce-mark-tr.png" class="img-fluid" alt="Маркировка CE">
                     </div>
                 </div>

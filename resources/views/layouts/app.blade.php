@@ -53,8 +53,8 @@
             <section class="footer">
 
                 <div class="container">
-                    <div class="row">
-                        <div class="col-4">
+                    <div class="row text-lg-left text-center">
+                        <div class="col-lg-4 col-12 mb-4">
                             <div class="h5">Връзки</div>
                             <ul>
                                 <li><a href="/za-nas">За нас</a></li>
@@ -62,7 +62,7 @@
                                 <li><a href="/kontakti">Контакти</a></li>
                             </ul>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-12 mb-4">
                             <div class="h5">Адрес</div>
                             <ul>
                                 <li>София,</li>
@@ -71,7 +71,7 @@
                                 <li>ет. 3, офис 31</li>
                             </ul>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-4 col-12">
                             <div class="h5">Контакти</div>
                             <ul>
                                 <li>

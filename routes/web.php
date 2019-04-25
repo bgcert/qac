@@ -17,7 +17,7 @@ Route::view('/standarti', 'standarti');
 
 Route::view('/za-nas', 'za-nas');
 Route::view('/kontakti', 'contacts');
-Route::view('/markirovka', 'markirovka');
+Route::view('/markirovka-ce', 'markirovka');
 
 Route::get('/', 'PublicController@index')->name('homepage');
 // Route::get('/za-nas', 'PublicController@aboutPage')->name('about');

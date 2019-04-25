@@ -28,9 +28,7 @@
 
 <section class="qac-page-header">
     <div class="text-center">
-        <div class="h1">
-            Внедряване на международни стандарти
-        </div>
+        <h1>Внедряване на международни стандарти</h1>
     </div>
 </section>
 
@@ -41,7 +39,7 @@
         </div>
     </div>
     <div class="benefits">
-        <p class="col-7">
+        <p class="col-lg-7 col-12">
             Реализирането на бизнес в Европа и света почти е невъзможно,
             ако доставчика не е внедрил и сертифицирал своята Система за управление по поне един международен стандарт.
         </p>
@@ -52,9 +50,9 @@
         </div>
     </div>
     <div class="d-flex justify-content-center">
-        <div class="col-8">
+        <div class="col-lg-8">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-12 mb-4">
                     <div class="item">
                         <div class="h4">
                             ISO 9001:2015
@@ -62,7 +60,7 @@
                         Системи за управление на качеството.
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-12 mb-4">
                     <div class="item">
                         <div class="h4">
                             ISO 13485:2016
@@ -70,7 +68,7 @@
                         Медицински изделия. Системи за управление на качеството.
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-12 mb-4">
                     <div class="item">
                         <div class="h4">
                             ISO/IEC 27001:2017
@@ -78,7 +76,7 @@
                         Информационни технологии. Методи за сигурност. Системи за управление на сигурността на информацията.
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-12 mb-4">
                     <div class="item">
                         <div class="h4">
                             ISO 14001:2018
@@ -86,7 +84,7 @@
                         Системи за управление по отношение на околната среда.
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-12 mb-4">
                     <div class="item">
                         <div class="h4">
                             ISO 45001:2018
@@ -103,7 +101,7 @@
         </div>
     </div>
     <div class="benefits">
-        <p class="col-7">
+        <p class="col-lg-7">
             Ние предлагаме комплексни услуги, включващи диагностика и анализ на действащата Ваша Система за управление,
             планиране, разработка на документация, съдействие при внедряване и развитие на процесите,
             изпълнение на одити и периодични прегледи, подготовка и подпомагане на процеса на сертификация,

@@ -46,7 +46,7 @@
                                     <line x1="8" y1="12" x2="16" y2="12"></line>
                                 </svg>
                                 <div>
-                                    Маркировка CE
+                                    <a href="/markirovka-ce">Маркировка CE</a>
                                 </div>
                             </li>
                             <li>
@@ -228,7 +228,10 @@
                                 </div>
                             </li>
                         </ul>
-                        <p><a href="/#inquiry" class="btn btn-danger btn-lg">Изпратете запитване</a></p>
+                        <p>
+                            <a href="/markirovka-ce" class="btn btn-outline-light btn-lg mr-2">Научете повече</a>
+                            <a href="/#inquiry" class="btn btn-danger btn-lg">Изпратете запитване</a>
+                        </p>
                     </div>
                     <div class="col-3 d-none d-lg-block">
                         <img src="/img/ce-mark-tr.png" class="img-fluid" alt="Маркировка CE">

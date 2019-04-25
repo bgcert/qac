@@ -22,4 +22,7 @@
     # www redirect
     RewriteCond %{HTTP_HOST} ^www.qac-bg.com [NC]
     RewriteRule ^(.*)$ https://qac-bg.com/$1 [L,R=301]
+
+    # old url redirect
+    Redirect 301 /course.php?id=79 https://qac.local/markirovka-ce
 </IfModule>

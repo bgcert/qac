@@ -37,7 +37,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-5 d-lg-block d-none mark-logo">
+                    <div class="col-lg-5 d-flex d-none mark-logo">
                         <img src="/img/ce-mark.png" alt="">
                     </div>
                 </div>

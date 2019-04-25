@@ -11,20 +11,23 @@
 |
 */
 
+// Redirects
+Route::redirect('/course.php', '/', 301);
+Route::redirect('/courses.php', '/', 301);
+Route::redirect('/services.php', '/', 301);
+Route::redirect('/standarts.php', '/standarti', 301);
+Route::redirect('/request.php', '/', 301);
+Route::redirect('/news.php', '/', 301);
+
+
+
 Route::view('/responsive', 'responsive');
-
 Route::view('/standarti', 'standarti');
-
 Route::view('/za-nas', 'za-nas');
 Route::view('/kontakti', 'contacts');
 Route::view('/markirovka-ce', 'markirovka');
 
 Route::get('/', 'PublicController@index')->name('homepage');
-// Route::get('/za-nas', 'PublicController@aboutPage')->name('about');
-// Route::get('/kontakti', 'PublicController@contactPage')->name('contact');
-// Route::get('/standarti', 'PublicController@standardsPage')->name('standarti');
-// Route::view('/kontakti', 'contacts');
-// Route::view('/za-nas', 'za-nas');
 
 Auth::routes();
 

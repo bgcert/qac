@@ -1,7 +1,5 @@
 @php
-
-$types = \App\Http\Controllers\InquiryController::inquiryTypes();
-
+    $types = \App\Http\Controllers\InquiryController::inquiryTypes();
 @endphp
 
 <section class="qac-inquiry" id="inquiry">
@@ -49,8 +47,19 @@ $types = \App\Http\Controllers\InquiryController::inquiryTypes();
                             <label for="form-body">Запитване</label>
                             <textarea name="body" class="form-control" id="form-body" required></textarea>
                         </div>
+                        <input type="hidden" name="recaptcha" id="recaptcha">
                         <button type="submit" class="btn btn-primary">Изпращане</button>
                     </form>
+                    <script src="https://www.google.com/recaptcha/api.js?render=6Lc8KqIUAAAAAJnSq1qQ96kRq3rDunC39gN0wNSI"></script>
+                    <script>
+                        grecaptcha.ready(function() {
+                            grecaptcha.execute('6Lc8KqIUAAAAAJnSq1qQ96kRq3rDunC39gN0wNSI', { action: 'inquiry' }).then(function(token) {
+                                if(token) {
+                                    document.getElementById('recaptcha').value = token;
+                                }
+                            });
+                        });
+                    </script>
                 </div>
             </div>
         </div>

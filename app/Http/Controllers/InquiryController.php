@@ -51,13 +51,12 @@ class InquiryController extends Controller
 
     public function sendEmail()
     {
-        $data['title'] = "This is Test Mail Tuts Make";
+        $data['title'] = "Имате ново запитване";
 
         Mail::send('emails.new_inquiry', $data, function ($message) {
 
-            $message->to('info@seminari365.com', 'qac-bg.com inquiry')
-
-                ->subject('Tuts Make Mail');
+            $message->to('office@qac-bg.com', 'qac-bg.com inquiry')
+                ->subject('Ново запитване в qac-bg.com');
         });
 
         if (Mail::failures())

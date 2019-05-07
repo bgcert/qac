@@ -36,3 +36,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 // Inquiry
 Route::view('/inquiry', 'partials.inquiry-sent');
 Route::post('inquiry', ['as' => 'inquiry.store', 'uses' => 'InquiryController@store']);
+Route::post('recaptcha', 'InquiryController@recaptcha');

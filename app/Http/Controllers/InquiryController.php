@@ -19,6 +19,12 @@ class InquiryController extends Controller
     }
     public function store()
     {
+        Inquiry::create(request()->all());
+        return redirect('inquiry');
+    }
+
+    public function recaptcha()
+    {
         $url = 'https://www.google.com/recaptcha/api/siteverify';
         $data = [
             'secret' => '6Lc8KqIUAAAAALiKWRani8Lz8ooP21tqJN7NMX8_',
@@ -38,7 +44,5 @@ class InquiryController extends Controller
         if ($resultJson->success != true) {
             return back()->with('message', 'Captcha error');
         }
-        Inquiry::create(request()->all());
-        return redirect('inquiry');
     }
 }

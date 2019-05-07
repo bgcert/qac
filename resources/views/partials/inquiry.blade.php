@@ -53,7 +53,7 @@
                     <script src="https://www.google.com/recaptcha/api.js?render=6Lc8KqIUAAAAAJnSq1qQ96kRq3rDunC39gN0wNSI"></script>
                     <script>
                         grecaptcha.ready(function() {
-                            grecaptcha.execute('6Lc8KqIUAAAAAJnSq1qQ96kRq3rDunC39gN0wNSI', { action: 'inquiry' }).then(function(token) {
+                            grecaptcha.execute('6Lc8KqIUAAAAAJnSq1qQ96kRq3rDunC39gN0wNSI', { action: 'recaptcha' }).then(function(token) {
                                 if(token) {
                                     document.getElementById('recaptcha').value = token;
                                 }

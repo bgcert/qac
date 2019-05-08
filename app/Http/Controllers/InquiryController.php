@@ -22,7 +22,7 @@ class InquiryController extends Controller
     {
         Inquiry::create(request()->all());
         // Send mail
-        $this->sendEmail();
+        $this->sendEmail(request()->except('_token', 'recaptcha'));
         return redirect('inquiry');
     }
 
@@ -49,10 +49,9 @@ class InquiryController extends Controller
         }
     }
 
-    public function sendEmail()
+    public function sendEmail($data)
     {
-        $data['title'] = "Имате ново запитване";
-
+        $data['subject'] = $this->inquiryTypes()[$data['subject']];
         Mail::send('emails.new_inquiry', $data, function ($message) {
 
             $message->to('office@qac-bg.com', 'qac-bg.com inquiry')

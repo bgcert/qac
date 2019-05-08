@@ -27,6 +27,8 @@ Route::view('/za-nas', 'za-nas');
 Route::view('/kontakti', 'contacts');
 Route::view('/markirovka-ce', 'markirovka');
 
+Route::view('/mail', 'emails.new_inquiry');
+
 Route::get('/', 'PublicController@index')->name('homepage');
 
 Auth::routes();
